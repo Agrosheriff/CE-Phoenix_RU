@@ -16,7 +16,7 @@ Translate to russian from Fred (FFR)  www.oscomm.biz 10.08.2019
 // 'en_GB.UTF-8', 'en_GB.UTF8', 'eng_gb'
 // 'en_AU.UTF-8', 'en_AU.UTF8', 'ena_au'
 
-setlocale(LC_ALL, array(''ru_RU.UTF-8', 'ru_RU.UTF8', 'rur_ru'));
+setlocale(LC_ALL, array('ru_RU.UTF-8', 'ru_RU.UTF8', 'rur_ru'));
 define('DATE_FORMAT_SHORT', '%d/%m/%Y');  // this is used for strftime()
 define('DATE_FORMAT_LONG', '%A %d %B, %Y'); // this is used for strftime()
 define('DATE_FORMAT', 'd/m/Y'); // this is used for date()

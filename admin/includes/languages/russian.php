@@ -44,7 +44,7 @@ define('HTML_PARAMS','dir="ltr" lang="ru"');
 define('CHARSET', 'utf-8');
 
 // page title
-define('TITLE', 'osCommerce Online Merchant Администратор');
+define('TITLE', 'OSCOM CE Phoenix Администратор');
 
 // header text in includes/header.php
 define('HEADER_TITLE_TOP', 'Администрация');
@@ -176,7 +176,6 @@ define('ENTRY_COMPANY', 'Название компании:');
 define('ENTRY_STREET_ADDRESS', 'Адрес (улица):');
 define('ENTRY_STREET_ADDRESS_ERROR', '&nbsp;<span class="errorText">минимум ' . ENTRY_STREET_ADDRESS_MIN_LENGTH . ' символов</span>');
 define('ENTRY_SUBURB', 'Район:');
-
 define('ENTRY_POST_CODE', 'Индекс:');
 define('ENTRY_POST_CODE_ERROR', '&nbsp;<span class="errorText">минимум ' . ENTRY_POSTCODE_MIN_LENGTH . ' символов</span>');
 define('ENTRY_CITY', 'Город:');

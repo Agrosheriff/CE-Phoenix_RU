@@ -35,7 +35,7 @@ define('ENTRY_DATE_TO_TEXT', 'До: ');
 define('ENTRY_DATE', 'Дата');
 define('ENTRY_PRICE', 'Цена');
 
-define('TEXT_SEARCH_HELP_LINK', '<span class="fas fa-info-circle"></span>Советы по поиску');
+define('TEXT_SEARCH_HELP_LINK', '<i class="fas fa-info-circle"></i>Советы по поиску');
 
 define('TEXT_ALL_CATEGORIES', 'Все категории');
 define('TEXT_ALL_MANUFACTURERS', 'Все производители');

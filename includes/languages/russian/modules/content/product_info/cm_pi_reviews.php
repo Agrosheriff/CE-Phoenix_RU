@@ -17,4 +17,5 @@
   const MODULE_CONTENT_PRODUCT_INFO_REVIEWS_TITLE       = 'Отзывы о товаре';
   const MODULE_CONTENT_PRODUCT_INFO_REVIEWS_DESCRIPTION = 'Показывать блок отзывов в карточке товара.';
   
-  const MODULE_CONTENT_PRODUCT_INFO_REVIEWS_TEXT_RATED  = 'Оценка %s от <cite title="%s">%s</cite>';
+  const MODULE_CONTENT_PRODUCT_INFO_REVIEWS_TEXT_TITLE = 'Что говорят наши клиенты...';
+  const MODULE_CONTENT_PRODUCT_INFO_REVIEWS_TEXT_RATED  = 'Оценка %1$s от <cite title="%2$s">%2$s</cite>';

@@ -6,7 +6,8 @@
   http://www.oscommerce.com
 
   Copyright (c) 2013 osCommerce
-Translate to russian from Fred (FFR)  www.oscomm.biz 10.08.2019
+Translate to russian from Fred (FFR)  www.oscomm.biz 10.08.2019 
+Update to Phoenix 1.0.2.1   22.08.2019
   Released under the GNU General Public License
 */
 
@@ -17,7 +18,7 @@ Translate to russian from Fred (FFR)  www.oscomm.biz 10.08.2019
 // 'en_GB.UTF-8', 'en_GB.UTF8', 'eng_gb'
 // 'en_AU.UTF-8', 'en_AU.UTF8', 'ena_au'
 // @setlocale(LC_ALL, array('en_US.UTF-8', 'en_US.UTF8', 'enu_usa'));
-@setlocale(LC_ALL, array('ru_RU.UTF-8', 'ru_RU.UTF8', 'enr_ru'));
+@setlocale(LC_ALL, array('ru_RU.UTF-8', 'ru_RU.UTF8', 'rur_ru'));
 
 define('DATE_FORMAT_SHORT', '%d/%m/%Y');  // this is used for strftime()
 define('DATE_FORMAT_LONG', '%A %d %B, %Y'); // this is used for strftime()
@@ -166,7 +167,6 @@ define('IMAGE_BUTTON_LOGIN', 'Войти на сайт');
 define('IMAGE_BUTTON_IN_CART', 'Добавить в корзину');
 define('IMAGE_BUTTON_SEARCH', 'Искать');
 define('IMAGE_BUTTON_UPDATE', 'Обновить');
-define('IMAGE_BUTTON_WRITE_REVIEW', 'Написать отзыв');
 
 define('SMALL_IMAGE_BUTTON_DELETE', 'Удалить');
 define('SMALL_IMAGE_BUTTON_EDIT', 'Изменить');
@@ -180,9 +180,8 @@ define('TEXT_DESCENDINGLY', 'по убыванию');
 define('TEXT_ASCENDINGLY', 'по возрастанию');
 define('TEXT_BY', 'Автор : '); 
 
-define('TEXT_NO_REVIEWS', 'Еще нет отзывов об этом товаре. Вы можете стать первым.');
-
 define('TEXT_UNKNOWN_TAX_RATE', 'Налоговая ставка неизвестна');
+
 define('TEXT_CCVAL_ERROR_INVALID_DATE', 'Дата истечения срока для кредитной карты недействительна. Пожалуйста проверьте дату и попробуйте снова.');
 define('TEXT_CCVAL_ERROR_INVALID_NUMBER', 'Введенный номер кредитной карты недействителен. Пожалуйста, проверьте номер и попробуйте снова.');
 define('TEXT_CCVAL_ERROR_UNKNOWN_CARD', 'Первые четыре цифры введенного номера: %s. Если этот номер верен, мы не принимаем кредитные карты такого типа. Если это не так, пожалуйста, попробуйте еще раз.');
@@ -199,11 +198,6 @@ define('TEXT_SEARCH_PLACEHOLDER','Поиск');
 define('FORM_REQUIRED_INFORMATION', '<span class="fas fa-asterisk text-danger"></span> Обязательная информация');
 define('FORM_REQUIRED_INPUT', '<span class="form-control-feedback text-danger"><span class="fas fa-asterisk"></span></span>');
 
-// reviews
-define('REVIEWS_TEXT_RATED', 'Оценка %s от <cite title="%s">%s</cite>');
-define('REVIEWS_TEXT_AVERAGE', 'Средняя оценка на основе %s отзывов %s');
-define('REVIEWS_TEXT_TITLE', 'Что говорят наши покупатели...');
-
 // grid/list
 define('TEXT_SORT_BY', 'Сортировать по ');
 // moved from index
@@ -215,7 +209,8 @@ define('TABLE_HEADING_QUANTITY', 'Количество');
 define('TABLE_HEADING_PRICE', 'Цена');
 define('TABLE_HEADING_WEIGHT', 'Вес');
 define('TABLE_HEADING_BUY_NOW', 'Купить!');
-define('TABLE_HEADING_LATEST_ADDED', 'Новинки');
+define('TABLE_HEADING_LATEST_ADDED', 'Поступили в продвжу');
+define('TABLE_HEADING_ORDERED', 'Самые популярные');
 
 // product notifications
 define('PRODUCT_SUBSCRIBED', '%s добавлен в список уведомлений');
@@ -228,3 +223,14 @@ define('MODULE_CONTENT_BOOTSTRAP_ROW_DESCRIPTION', '');
 
 // noscript helper
 define('TEXT_NOSCRIPT', '<p><strong>Скорее всего в вашем браузере отключён JavaScript.</strong></p><p>Вы должны включить JavaScript в вашем браузере, чтобы использовать функциональные возможности этого сайта.<br><a class="alert-link" href="https://www.enable-javascript.com/" target="_blank" rel="nofollow">Нажмите здесь для получения инструкций по включению JavaScript в вашем браузере</a>.</p>');
+
+// sitewide is-product 
+define('IS_PRODUCT_SHOW_PRICE', '%s');
+define('IS_PRODUCT_SHOW_PRICE_SPECIAL', '<del>%s</del> <span class="text-danger">сейчас %s</span>');
+define('IS_PRODUCT_BUTTON_BUY', '<i class="fas fa-shopping-cart"></i>');
+define('IS_PRODUCT_BUTTON_VIEW', '<i class="fas fa-eye"></i> Смотреть');
+
+// sitewide product listing
+define('LISTING_SORT_DOWN', '<i class="fas fa-level-down-alt text-primary"></i>');
+define('LISTING_SORT_UP', '<i class="fas fa-level-up-alt text-primary"></i>');
+define('LISTING_SORT_UNSELECTED', '<i class="fas fa-level-up-alt text-black-50"></i>');

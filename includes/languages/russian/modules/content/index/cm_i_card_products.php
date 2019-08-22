@@ -18,7 +18,3 @@
   const MODULE_CONTENT_CARD_PRODUCTS_DESCRIPTION = 'Показать "Новые продукты" на Index page.';
   
   const MODULE_CONTENT_CARD_PRODUCTS_HEADING     = 'Новинки:';
-  
-  const MODULE_CONTENT_CARD_PRODUCTS_BUTTON_VIEW = '<i class="fas fa-eye"></i> Показать';
-  const MODULE_CONTENT_CARD_PRODUCTS_BUTTON_BUY  = '<i class="fas fa-shopping-cart"></i> Купить';
-  

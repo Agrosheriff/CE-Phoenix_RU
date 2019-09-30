@@ -7,7 +7,7 @@
 
   Copyright (c) 2013 osCommerce
 Translate to russian from Fred (FFR)  www.oscomm.biz 10.08.2019 
-Update to Phoenix 1.0.2.1   22.08.2019
+Update to Phoenix 1.0.2.5   29.09.2019
   Released under the GNU General Public License
 */
 
@@ -167,6 +167,7 @@ define('IMAGE_BUTTON_LOGIN', 'Войти на сайт');
 define('IMAGE_BUTTON_IN_CART', 'Добавить в корзину');
 define('IMAGE_BUTTON_SEARCH', 'Искать');
 define('IMAGE_BUTTON_UPDATE', 'Обновить');
+define('IMAGE_BUTTON_UPDATE_PREFERENCES', 'Обновить настройки');
 
 define('SMALL_IMAGE_BUTTON_DELETE', 'Удалить');
 define('SMALL_IMAGE_BUTTON_EDIT', 'Изменить');
@@ -195,8 +196,8 @@ define('TEXT_VIEW_GRID', ' Ячейки');
 define('TEXT_SEARCH_PLACEHOLDER','Поиск');
 
 // message for required inputs
-define('FORM_REQUIRED_INFORMATION', '<span class="fas fa-asterisk text-danger"></span> Обязательная информация');
-define('FORM_REQUIRED_INPUT', '<span class="form-control-feedback text-danger"><span class="fas fa-asterisk"></span></span>');
+define('FORM_REQUIRED_INFORMATION', '<i class="fas fa-asterisk text-danger"></i> Обязательная информация');
+define('FORM_REQUIRED_INPUT', '<span class="form-control-feedback text-danger"><i class="fas fa-asterisk"></i></span>');
 
 // grid/list
 define('TEXT_SORT_BY', 'Сортировать по ');

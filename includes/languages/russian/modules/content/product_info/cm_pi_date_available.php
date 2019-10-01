@@ -16,4 +16,5 @@
 
   const MODULE_CONTENT_PI_DATE_AVAILABLE_TITLE       = 'Время поступления';
   const MODULE_CONTENT_PI_DATE_AVAILABLE_DESCRIPTION = 'Показать: Будет в продаже на странице продукта.';
+ 
   const MODULE_CONTENT_PI_DATE_AVAILABLE_TEXT        = 'Будет в продаже с: <span class="badge badge-primary badge-pill">%s</span>';

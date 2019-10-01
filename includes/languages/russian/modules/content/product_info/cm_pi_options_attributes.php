@@ -17,6 +17,6 @@
   const MODULE_CONTENT_PI_OA_TITLE = 'Опции и атрибуты';
   const MODULE_CONTENT_PI_OA_DESCRIPTION = 'Показать Опции и атрибуты на странице product_info.';
   
-  const MODULE_CONTENT_PI_OA_HEADING_TITLE = 'Имеющиеся Опции:';
+  const MODULE_CONTENT_PI_OA_HEADING_TITLE = 'Опции и атрибуты:';
   
   const MODULE_CONTENT_PI_OA_ENFORCE_SELECTION = '--- Выберите опцию ---';

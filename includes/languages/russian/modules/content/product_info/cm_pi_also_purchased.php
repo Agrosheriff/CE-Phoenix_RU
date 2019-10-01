@@ -17,5 +17,5 @@
   const MODULE_CONTENT_PRODUCT_INFO_ALSO_PURCHASED_TITLE        = 'Покупают также и эти продукты';
   const MODULE_CONTENT_PRODUCT_INFO_ALSO_PURCHASED_DESCRIPTION  = 'Показать -Также покупают- блок на странице продукта.';
   
-  const MODULE_CONTENT_PRODUCT_INFO_ALSO_PURCHASED_PUBLIC_TITLE = 'Часто заказывают эти изделия:';
+  const MODULE_CONTENT_PRODUCT_INFO_ALSO_PURCHASED_PUBLIC_TITLE = 'Рекомендуем:';
   

@@ -24,4 +24,4 @@
   define('MODULE_CONTENT_SC_TITLE_TITLE', 'Заголовок страницы');
   define('MODULE_CONTENT_SC_TITLE_DESCRIPTION', 'Показать Заголовок страницы.');
   
-  define('MODULE_CONTENT_SC_TITLE_PUBLIC_TITLE', 'Что в моей корзине?');
+  define('MODULE_CONTENT_SC_TITLE_PUBLIC_TITLE', 'Что есть в моей корзине?');

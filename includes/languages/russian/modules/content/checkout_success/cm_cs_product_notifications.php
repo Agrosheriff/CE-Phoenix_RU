@@ -12,5 +12,8 @@
 
   define('MODULE_CONTENT_CHECKOUT_SUCCESS_PRODUCT_NOTIFICATIONS_TITLE', 'Информирование о товарах');
   define('MODULE_CONTENT_CHECKOUT_SUCCESS_PRODUCT_NOTIFICATIONS_DESCRIPTION', 'Добавить оповещение о товаре на страницу успешного оформления заказа');
+  
+  define('MODULE_CONTENT_CHECKOUT_SUCCESS_PRODUCT_NOTIFICATIONS_TEXT_NOTIFY_PRODUCTS_TITLE', 'Уведомления о продукте');
 
-  define('MODULE_CONTENT_CHECKOUT_SUCCESS_PRODUCT_NOTIFICATIONS_TEXT_NOTIFY_PRODUCTS', '<strong>Оповестите меня пожалуйста об обновлениях этих товаров:</strong>');
+  define('MODULE_CONTENT_CHECKOUT_SUCCESS_PRODUCT_NOTIFICATIONS_TEXT_NOTIFY_PRODUCTS', 'Оповестите меня пожалуйста об обновлениях этих товаров:');
+  

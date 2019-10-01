@@ -15,3 +15,5 @@
   define('MODULE_BOXES_PRODUCT_NOTIFICATIONS_BOX_TITLE', 'Уведомления');
   define('MODULE_BOXES_PRODUCT_NOTIFICATIONS_BOX_NOTIFY', 'Уведомить меня об изменениях товара <strong>%s</strong>');
   define('MODULE_BOXES_PRODUCT_NOTIFICATIONS_BOX_NOTIFY_REMOVE', 'Не уведомлять меня об изменениях товара <strong>%s</strong>');
+  
+  define('MODULE_BOXES_PRODUCT_NOTIFICATIONS_VIEW', '<i class="fas fa-eye"></i> Показать все');

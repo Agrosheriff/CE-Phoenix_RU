@@ -13,4 +13,3 @@
   define('MODULE_BOXES_BEST_SELLERS_TITLE', 'Популярное');
   define('MODULE_BOXES_BEST_SELLERS_DESCRIPTION', 'Показывать best sellers в global и category ');
   define('MODULE_BOXES_BEST_SELLERS_BOX_TITLE', 'Популярное');
-?>

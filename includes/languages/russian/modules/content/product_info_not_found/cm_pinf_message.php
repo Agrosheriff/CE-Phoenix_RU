@@ -17,5 +17,5 @@
   const MODULE_CONTENT_PINF_MESSAGE_TITLE = 'Сообщение';
   const MODULE_CONTENT_PINF_MESSAGE_DESCRIPTION = 'Показать сообщение на product_info Page что продукта нет в наличии.';
 
-  const MODULE_CONTENT_PINF_MESSAGE_PRODUCT_NOT_FOUND = 'Этого продукта сейчас нет в наличии!';
+  const MODULE_CONTENT_PINF_MESSAGE_PRODUCT_NOT_FOUND = 'Этого продукта сейчас нет на складе.';
   

@@ -19,10 +19,10 @@
 
   define('MODULE_CONTENT_FOOTER_ACCOUNT_HEADING_TITLE', 'Мой кабинет');
 
-  define('MODULE_CONTENT_FOOTER_ACCOUNT_BOX_ACCOUNT', 'My Account');
-  define('MODULE_CONTENT_FOOTER_ACCOUNT_BOX_ADDRESS_BOOK', 'My Address Book');
-  define('MODULE_CONTENT_FOOTER_ACCOUNT_BOX_ORDER_HISTORY', 'My Order History');
-  define('MODULE_CONTENT_FOOTER_ACCOUNT_BOX_LOGOFF', 'Secure Log Off');
-  define('MODULE_CONTENT_FOOTER_ACCOUNT_BOX_CREATE_ACCOUNT', 'Create Account');
-  define('MODULE_CONTENT_FOOTER_ACCOUNT_BOX_LOGIN', 'Existing Customer? Log In');
+  define('MODULE_CONTENT_FOOTER_ACCOUNT_BOX_ACCOUNT', 'Мой акаунт');
+  define('MODULE_CONTENT_FOOTER_ACCOUNT_BOX_ADDRESS_BOOK', 'Моя адресная книга');
+  define('MODULE_CONTENT_FOOTER_ACCOUNT_BOX_ORDER_HISTORY', 'Моя история заказов');
+  define('MODULE_CONTENT_FOOTER_ACCOUNT_BOX_LOGOFF', 'Безопасный выход');
+  define('MODULE_CONTENT_FOOTER_ACCOUNT_BOX_CREATE_ACCOUNT', 'Создать акаунт');
+  define('MODULE_CONTENT_FOOTER_ACCOUNT_BOX_LOGIN', 'Вы зарегистрированы? Заходите!');
 

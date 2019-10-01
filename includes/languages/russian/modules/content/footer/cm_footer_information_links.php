@@ -20,9 +20,9 @@
   define('MODULE_CONTENT_FOOTER_INFORMATION_HEADING_TITLE', 'Информация');
 
   const MODULE_CONTENT_FOOTER_INFORMATION_DATA = array(
-    'privacy.php' => 'Privacy &amp; Cookie Policy',
-    'conditions.php' => 'Terms &amp; Conditions',
-    'shipping.php' => 'Shipping &amp; Returns',
-    'contact_us.php' => 'Contact Us'
+    'privacy.php' => 'Безопасность и использование Cookie',
+    'conditions.php' => 'Условия использования',
+    'shipping.php' => 'Доставка и возврат',
+    'contact_us.php' => 'Контакты'
   );
 

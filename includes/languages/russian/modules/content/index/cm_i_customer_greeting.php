@@ -17,5 +17,5 @@
   const MODULE_CONTENT_CUSTOMER_GREETING_TITLE       = 'Приветствие клиентов';
   const MODULE_CONTENT_CUSTOMER_GREETING_DESCRIPTION = 'Показать модуль "Приветствие клиентов" на главной странице.';
 
-  const MODULE_CONTENT_CUSTOMER_GREETING_PERSONAL    = '<h3 class="alert-heading">Добро пожаловать! <strong>%s!</h3> Вы хотите увидеть какие <a class="alert-link" href="%s">новые продукты</a> поступили в продажу?';
+  const MODULE_CONTENT_CUSTOMER_GREETING_PERSONAL    = '<h4 class="alert-heading">Добро пожаловать! <strong>%s!</h4> Вы хотите увидеть какие <a class="alert-link" href="%s">новые продукты</a> поступили в продажу?';
   const MODULE_CONTENT_CUSTOMER_GREETING_GUEST       = '<h4 class="alert-heading">Добро пожаловать на сайт уважаемый гость!</h4> Вы хотели бы <a class="alert-link" href="%s">Войти на сайт</a> или вы бы предпочли <a class="alert-link" href="%s">создать аккаунт</a>';

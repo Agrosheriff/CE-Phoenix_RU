@@ -10,32 +10,32 @@
   Released under the GNU General Public License
 */
 
-  define('MODULE_PAYMENT_PAYPAL_PRO_PAYFLOW_DP_TEXT_TITLE', 'PayPal Payments Pro (Payflow Edition)');
-  define('MODULE_PAYMENT_PAYPAL_PRO_PAYFLOW_DP_TEXT_PUBLIC_TITLE', 'Credit or Debit Card');
-  define('MODULE_PAYMENT_PAYPAL_PRO_PAYFLOW_DP_TEXT_DESCRIPTION', '<img src="images/icon_info.gif" border="0" />&nbsp;<a href="http://library.oscommerce.com/Package&en&paypal&oscom23&payments_pro_payflow" target="_blank" rel="noopener" style="text-decoration: underline; font-weight: bold;">View Online Documentation</a><br /><br /><img src="images/icon_popup.gif" border="0" />&nbsp;<a href="https://www.paypal.com" target="_blank" rel="noopener" style="text-decoration: underline; font-weight: bold;">Visit PayPal Website</a>');
+  define('MODULE_PAYMENT_PAYPAL_PRO_PAYFLOW_DP_TEXT_TITLE', 'PayPal Платежи Pro (Payflow Edition)');
+  define('MODULE_PAYMENT_PAYPAL_PRO_PAYFLOW_DP_TEXT_PUBLIC_TITLE', 'Кредитная или дебитная карта');
+  define('MODULE_PAYMENT_PAYPAL_PRO_PAYFLOW_DP_TEXT_DESCRIPTION', '<img src="images/icon_info.gif" border="0" />&nbsp;<a href="http://library.oscommerce.com/Package&en&paypal&oscom23&payments_pro_payflow" target="_blank" rel="noopener" style="text-decoration: underline; font-weight: bold;">Посмотреть документацию</a><br /><br /><img src="images/icon_popup.gif" border="0" />&nbsp;<a href="https://www.paypal.com" target="_blank" rel="noopener" style="text-decoration: underline; font-weight: bold;">Посетить сайт PayPal</a>');
 
-  define('MODULE_PAYMENT_PAYPAL_PRO_PAYFLOW_DP_ERROR_EXPRESS_MODULE', 'PayPal mandates the PayPal Express Checkout (Payflow Edition) payment module be enabled if this module is to be activated. This module will not load until the PayPal Express Checkout (Payflow Edition) module has been installed.');
-  define('MODULE_PAYMENT_PAYPAL_PRO_PAYFLOW_DP_ERROR_ADMIN_CURL', 'This module requires cURL to be enabled in PHP and will not load until it has been enabled on this webserver.');
-  define('MODULE_PAYMENT_PAYPAL_PRO_PAYFLOW_DP_ERROR_ADMIN_CONFIGURATION', 'This module will not load until the Vendor and Password parameters have been configured. Please edit and configure the settings of this module.');
+  define('MODULE_PAYMENT_PAYPAL_PRO_PAYFLOW_DP_ERROR_EXPRESS_MODULE', 'PayPal требует, чтобы модуль оплаты PayPal Express Checkout (Payflow Edition) был включен, если этот модуль должен быть активирован. Этот модуль не будет загружаться до тех пор, пока PayPal Express Checkout (Payflow Edition) модуль не был установлен.');
+  define('MODULE_PAYMENT_PAYPAL_PRO_PAYFLOW_DP_ERROR_ADMIN_CURL', 'Этот модуль требует, чтобы cURL был включен в PHP и не будет загружаться, пока он не будет включен на этом веб-сервере.');
+  define('MODULE_PAYMENT_PAYPAL_PRO_PAYFLOW_DP_ERROR_ADMIN_CONFIGURATION', 'Этот модуль не будет загружаться, пока не будут настроены параметры Vendor и Password. Пожалуйста, отредактируйте и настройте параметры этого модуля.');
 
-  define('MODULE_PAYMENT_PAYPAL_PRO_PAYFLOW_DP_CARD_OWNER_FIRSTNAME', 'Card Owner First Name:');
-  define('MODULE_PAYMENT_PAYPAL_PRO_PAYFLOW_DP_CARD_OWNER_LASTNAME', 'Card Owner Last Name:');
-  define('MODULE_PAYMENT_PAYPAL_PRO_PAYFLOW_DP_CARD_NUMBER', 'Card Number:');
-  define('MODULE_PAYMENT_PAYPAL_PRO_PAYFLOW_DP_CARD_EXPIRES', 'Card Expiry Date:');
-  define('MODULE_PAYMENT_PAYPAL_PRO_PAYFLOW_DP_CARD_CVC', 'Card Security Code (CVV2):');
-  define('MODULE_PAYMENT_PAYPAL_PRO_PAYFLOW_DP_ERROR_ALL_FIELDS_REQUIRED', 'Error: All payment information fields are required.');
-  define('MODULE_PAYMENT_PAYPAL_PRO_PAYFLOW_DP_ERROR_GENERAL', 'Error: A general problem has occurred with the transaction. Please try again.');
-  define('MODULE_PAYMENT_PAYPAL_PRO_PAYFLOW_DP_ERROR_CFG_ERROR', 'Error: Payment module configuration error. Please verify the login credentials.');
-  define('MODULE_PAYMENT_PAYPAL_PRO_PAYFLOW_DP_ERROR_ADDRESS', 'Error: A match of the Shipping Address City, State, and Postal Code failed. Please try again.');
-  define('MODULE_PAYMENT_PAYPAL_PRO_PAYFLOW_DP_ERROR_DECLINED', 'Error: This transaction has been declined. Please try again.');
-  define('MODULE_PAYMENT_PAYPAL_PRO_PAYFLOW_DP_ERROR_INVALID_CREDIT_CARD', 'Error: The provided credit card information is invalid. Please try again.');
+  define('MODULE_PAYMENT_PAYPAL_PRO_PAYFLOW_DP_CARD_OWNER_FIRSTNAME', 'Имя владельца карты:');
+  define('MODULE_PAYMENT_PAYPAL_PRO_PAYFLOW_DP_CARD_OWNER_LASTNAME', 'Фамилия владельца карты:');
+  define('MODULE_PAYMENT_PAYPAL_PRO_PAYFLOW_DP_CARD_NUMBER', 'Номер карты:');
+  define('MODULE_PAYMENT_PAYPAL_PRO_PAYFLOW_DP_CARD_EXPIRES', 'Карта действительна до:');
+  define('MODULE_PAYMENT_PAYPAL_PRO_PAYFLOW_DP_CARD_CVC', 'Секретный код карты (CVV2):');
+  define('MODULE_PAYMENT_PAYPAL_PRO_PAYFLOW_DP_ERROR_ALL_FIELDS_REQUIRED', 'Ошибка: все поля информации о платеже обязательны для заполнения.');
+  define('MODULE_PAYMENT_PAYPAL_PRO_PAYFLOW_DP_ERROR_GENERAL', 'Ошибка: общая проблема произошла с транзакцией. Пожалуйста, попробуйте еще раз.');
+  define('MODULE_PAYMENT_PAYPAL_PRO_PAYFLOW_DP_ERROR_CFG_ERROR', 'Ошибка: ошибка конфигурации платежного модуля. Пожалуйста, проверьте учетные данные для входа.');
+  define('MODULE_PAYMENT_PAYPAL_PRO_PAYFLOW_DP_ERROR_ADDRESS', 'Ошибка: не удалось найти адрес доставки, город, штат и почтовый индекс. Пожалуйста, попробуйте еще раз.');
+  define('MODULE_PAYMENT_PAYPAL_PRO_PAYFLOW_DP_ERROR_DECLINED', 'Ошибка: эта транзакция была отклонена. Пожалуйста, попробуйте еще раз.');
+  define('MODULE_PAYMENT_PAYPAL_PRO_PAYFLOW_DP_ERROR_INVALID_CREDIT_CARD', 'Ошибка: предоставленная информация о кредитной карте недействительна. Пожалуйста, попробуйте еще раз.');
 
-  define('MODULE_PAYMENT_PAYPAL_PRO_PAYFLOW_DP_DIALOG_CONNECTION_LINK_TITLE', 'Test API Server Connection');
-  define('MODULE_PAYMENT_PAYPAL_PRO_PAYFLOW_DP_DIALOG_CONNECTION_TITLE', 'API Server Connection Test');
-  define('MODULE_PAYMENT_PAYPAL_PRO_PAYFLOW_DP_DIALOG_CONNECTION_GENERAL_TEXT', 'Testing connection to server..');
-  define('MODULE_PAYMENT_PAYPAL_PRO_PAYFLOW_DP_DIALOG_CONNECTION_BUTTON_CLOSE', 'Close');
-  define('MODULE_PAYMENT_PAYPAL_PRO_PAYFLOW_DP_DIALOG_CONNECTION_TIME', 'Connection Time:');
-  define('MODULE_PAYMENT_PAYPAL_PRO_PAYFLOW_DP_DIALOG_CONNECTION_SUCCESS', 'Success!');
-  define('MODULE_PAYMENT_PAYPAL_PRO_PAYFLOW_DP_DIALOG_CONNECTION_FAILED', 'Failed! Please review the Verify SSL Certificate settings and try again.');
-  define('MODULE_PAYMENT_PAYPAL_PRO_PAYFLOW_DP_DIALOG_CONNECTION_ERROR', 'An error occurred. Please refresh the page, review your settings, and try again.');
+  define('MODULE_PAYMENT_PAYPAL_PRO_PAYFLOW_DP_DIALOG_CONNECTION_LINK_TITLE', 'Тест API Server Connection');
+  define('MODULE_PAYMENT_PAYPAL_PRO_PAYFLOW_DP_DIALOG_CONNECTION_TITLE', 'API Server Connection Тест');
+  define('MODULE_PAYMENT_PAYPAL_PRO_PAYFLOW_DP_DIALOG_CONNECTION_GENERAL_TEXT', 'Тестирование подключения к серверу..');
+  define('MODULE_PAYMENT_PAYPAL_PRO_PAYFLOW_DP_DIALOG_CONNECTION_BUTTON_CLOSE', 'Закрыть');
+  define('MODULE_PAYMENT_PAYPAL_PRO_PAYFLOW_DP_DIALOG_CONNECTION_TIME', 'Время соединения:');
+  define('MODULE_PAYMENT_PAYPAL_PRO_PAYFLOW_DP_DIALOG_CONNECTION_SUCCESS', 'Успешно!');
+  define('MODULE_PAYMENT_PAYPAL_PRO_PAYFLOW_DP_DIALOG_CONNECTION_FAILED', 'Не удалось! Пожалуйста, просмотрите параметры проверки SSL-сертификата и попробуйте снова.');
+  define('MODULE_PAYMENT_PAYPAL_PRO_PAYFLOW_DP_DIALOG_CONNECTION_ERROR', 'Произошла ошибка. Пожалуйста, обновите страницу, проверьте настройки и попробуйте снова.');
 ?>

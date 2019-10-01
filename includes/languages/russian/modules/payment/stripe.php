@@ -12,7 +12,7 @@
 
   define('MODULE_PAYMENT_STRIPE_TEXT_TITLE', 'Stripe');
   define('MODULE_PAYMENT_STRIPE_TEXT_PUBLIC_TITLE', 'Кредитная карта');
-  define('MODULE_PAYMENT_STRIPE_TEXT_DESCRIPTION', '<img src="images/icon_info.gif" border="0" />&nbsp;<a href="http://library.oscommerce.com/Package&en&stripe&oscom23&stripe_js" target="_blank" rel="noopener" style="text-decoration: underline; font-weight: bold;">View Online Documentation</a><br /><br /><img src="images/icon_popup.gif" border="0">&nbsp;<a href="https://www.stripe.com" target="_blank" rel="noopener" style="text-decoration: underline; font-weight: bold;">Visit Stripe Website</a>');
+  define('MODULE_PAYMENT_STRIPE_TEXT_DESCRIPTION', '<img src="images/icon_info.gif" border="0" />&nbsp;<a href="http://library.oscommerce.com/Package&en&stripe&oscom23&stripe_js" target="_blank" rel="noopener" style="text-decoration: underline; font-weight: bold;">Посмотреть документацию</a><br /><br /><img src="images/icon_popup.gif" border="0">&nbsp;<a href="https://www.stripe.com" target="_blank" rel="noopener" style="text-decoration: underline; font-weight: bold;">Посетить Stripe Website</a>');
 
   define('MODULE_PAYMENT_STRIPE_ERROR_ADMIN_CURL', 'Этот модуль требует, чтобы cURL был включен в PHP и не будет загружаться, пока он не будет включен на этом веб-сервере.');
   define('MODULE_PAYMENT_STRIPE_ERROR_ADMIN_CONFIGURATION', 'Этот модуль не будет загружаться до тех пор, пока не будут настроены параметры публикуемого ключа и секретного ключа. Пожалуйста, отредактируйте и настройте параметры этого модуля.');

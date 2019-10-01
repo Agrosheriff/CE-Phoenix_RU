@@ -16,4 +16,3 @@ define('MODULE_ADMIN_DASHBOARD_VERSION_CHECK_DATE', 'Последняя пров
 define('MODULE_ADMIN_DASHBOARD_VERSION_CHECK_CHECK_NOW', 'Проверить снова');
 define('MODULE_ADMIN_DASHBOARD_VERSION_CHECK_NEVER', 'Никогда');
 define('MODULE_ADMIN_DASHBOARD_VERSION_CHECK_UPDATE_AVAILABLE', 'Имеются Обновления для osCommerce Online Merchant!');
-?>

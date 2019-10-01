@@ -11,5 +11,5 @@
 */
 
   define('MODULE_ACTION_RECORDER_RESET_PASSWORD_TITLE', 'Смена пароля посетителя');
-  define('MODULE_ACTION_RECORDER_RESET_PASSWORD_DESCRIPTION', 'Запись о customer password resets.');
+  define('MODULE_ACTION_RECORDER_RESET_PASSWORD_DESCRIPTION', 'Запись о смене пароля пользователя.');
 ?>

@@ -17,6 +17,7 @@ dialog_void_title = Недействительный платеж
 dialog_void_body = Вы действительно хотите аннулировать авторизованный платеж?
 dialog_void_button_void = Недействительный платеж
 dialog_void_button_cancel = Отмена
+
 dialog_refund_title = Возврат платежа (Возмещение).
 dialog_refund_body = Выберите платеж который идет на возврат для выполнения:
 dialog_refund_payment_title = Возмещение: сумма для клиента.

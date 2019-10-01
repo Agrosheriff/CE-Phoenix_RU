@@ -12,5 +12,6 @@
 
   define('MODULE_HEADER_TAGS_CATEGORY_TITLE_TITLE', 'Категории');
   define('MODULE_HEADER_TAGS_CATEGORY_TITLE_DESCRIPTION', 'Добавить заголовок категории на страницу');
+
   define('MODULE_HEADER_TAGS_CATEGORY_SEO_SEPARATOR', ' | ');
   

@@ -17,5 +17,5 @@
   define('MODULE_NAVBAR_HOME_TITLE', 'Главная');
   define('MODULE_NAVBAR_HOME_DESCRIPTION', 'Показать Home Link in Navbar. <div class="secWarning">Если вы хотите иметь кнопку Home постоянно отображается (даже тогда, когда остальная часть меню свернута, например, в CSS видового экрана) вы могли бы использовать модуль вместо Бренд.</div>');
   
-  define('MODULE_NAVBAR_HOME_PUBLIC_TEXT', '<i class="fas fa-home"></i> Главная');
+  define('MODULE_NAVBAR_HOME_PUBLIC_TEXT', '<i title="Главная" class="fas fa-home"></i><span class="d-inline d-sm-none d-md-inline"> Главная</span>');
   

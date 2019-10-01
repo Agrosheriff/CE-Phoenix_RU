@@ -17,5 +17,5 @@
   define('MODULE_NAVBAR_TESTIMONIALS_TITLE', 'Рекомендации'); 
   define('MODULE_NAVBAR_TESTIMONIALS_DESCRIPTION', 'Показать Рекомендации в Navbar.');
   
-  define('MODULE_NAVBAR_TESTIMONIALS_PUBLIC_TEXT', '<a class="nav-link" href="' . tep_href_link('testimonials.php') . '"><i class="far fa-fw fa-edit"></i>Рекомендации</a>');
+  define('MODULE_NAVBAR_TESTIMONIALS_PUBLIC_TEXT', '<i title="Рекомендации" class="fas fa-fw fa-user-edit"></i><span class="d-inline d-sm-none d-md-inline"> Рекомендации</span>');
   

@@ -17,7 +17,7 @@
   define('MODULE_NAVBAR_ACCOUNT_TITLE', 'Акаунт');
   define('MODULE_NAVBAR_ACCOUNT_DESCRIPTION', 'Показать Акаунт клиента в Navbar.');
   
-  define('MODULE_NAVBAR_ACCOUNT_LOGGED_OUT', '<i class="fas fa-user fa-fw"></i> Мой акаунт<span class="caret"></span>');
+  define('MODULE_NAVBAR_ACCOUNT_LOGGED_OUT', '<i title="Мой акаунт" class="fas fa-user fa-fw"></i><span class="d-inline d-sm-none d-md-inline"> Мой акаунт</span><span class="caret"></span>');
   define('MODULE_NAVBAR_ACCOUNT_LOGGED_IN', '<i class="fas fa-user fa-fw"></i> %s <span class="caret"></span>');
   define('MODULE_NAVBAR_ACCOUNT_LOGIN', '<i class="fas fa-sign-in-alt fa-fw"></i> Войти');
   define('MODULE_NAVBAR_ACCOUNT_LOGOFF', '<i class="fas fa-sign-out-alt fa-fw"></i> Выйти');

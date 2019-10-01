@@ -17,7 +17,7 @@
   define('MODULE_NAVBAR_SHOPPING_CART_TITLE', 'Корзина');
   define('MODULE_NAVBAR_SHOPPING_CART_DESCRIPTION', 'Показать Корзину в Navbar');
   
-  define('MODULE_NAVBAR_SHOPPING_CART_CONTENTS', '<i class="fas fa-shopping-cart fa-fw"></i> %s штук <span class="caret"></span>');
+  define('MODULE_NAVBAR_SHOPPING_CART_CONTENTS', '<i title="Корзина" class="fas fa-shopping-cart fa-fw"></i><span class="d-inline d-sm-none d-md-inline"> %1$s item(s)</span> <span class="caret"></span>');
   define('MODULE_NAVBAR_SHOPPING_CART_NO_CONTENTS', '<i class="fas fa-shopping-cart fa-fw"></i> Корзина пуста');
   define('MODULE_NAVBAR_SHOPPING_CART_HAS_CONTENTS', '%s штук, %s');
   define('MODULE_NAVBAR_SHOPPING_CART_VIEW_CART', 'Показать корзину');

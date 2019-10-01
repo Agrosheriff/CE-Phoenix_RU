@@ -17,5 +17,5 @@
   define('MODULE_NAVBAR_NEW_PRODUCTS_TITLE', 'Новый продукт');
   define('MODULE_NAVBAR_NEW_PRODUCTS_DESCRIPTION', 'Показать ссылку на Новый продукт в Navbar.');
   
-  define('MODULE_NAVBAR_NEW_PRODUCTS_PUBLIC_TEXT', '<i class="fas fa-certificate fa-fw"></i> Новый продукт');
+  define('MODULE_NAVBAR_NEW_PRODUCTS_PUBLIC_TEXT', '<i title="Новый продукт" class="fas fa-list fa-fw"></i><span class="d-inline d-sm-none d-md-inline"> Новый продукт</span>');
   

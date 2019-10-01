@@ -15,7 +15,7 @@
 */
 
   define('MODULE_NAVBAR_HAMBURGER_BUTTON_TITLE', 'Гамбургер кнопки');
-  define('MODULE_NAVBAR_HAMBURGER_BUTTON_DESCRIPTION', 'Показать Гамбургер кнопки в Navbar.  <div class="secWarning">Это специальная кнопка, которая показывает, когда видовой экран меньше. <br> <br> Он открывает и закрывает меню Main навигационной панели. Вы <b> ДОЛЖНЫ </ b> установить это.</div>');
+  define('MODULE_NAVBAR_HAMBURGER_BUTTON_DESCRIPTION', 'Показать Гамбургер кнопки в Navbar.  <div class="secWarning">Это специальная кнопка, которая показывает, когда экран меньше. <br> <br> Она открывает и закрывает меню Main навигационной панели. Вы <b> ДОЛЖНЫ </ b> установить это.</div>');
   
   define('MODULE_NAVBAR_HAMBURGER_BUTTON_PUBLIC_SCREENREADER_TEXT', 'Переключатель навигации');
   define('MODULE_NAVBAR_HAMBURGER_BUTTON_PUBLIC_BUTTON_TEXT', '<span class="navbar-toggler-icon"></span>');

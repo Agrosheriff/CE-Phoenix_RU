@@ -17,4 +17,4 @@
   define('MODULE_NAVBAR_CURRENCIES_TITLE', 'Валюты');
   define('MODULE_NAVBAR_CURRENCIES_DESCRIPTION', 'Показать валюты в Navbar. <div class="secWarning">Если у вас есть только одна валюта в вашем магазине, нет никакого смысла установки этого модуля.</div>');
   
-  define('MODULE_NAVBAR_CURRENCIES_SELECTED_CURRENCY', '<abbr title="Выбрать валюту:">ВАЛЮТА:</abbr> %s <span class="caret"></span>');
+  define('MODULE_NAVBAR_CURRENCIES_SELECTED_CURRENCY', '<i title="Выбрать валюту: %1$s" class="fas fa-comments-dollar"></i><span class="d-inline d-sm-none d-md-inline"> %1$s</span> <span class="caret"></span>');

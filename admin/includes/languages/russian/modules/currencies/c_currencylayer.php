@@ -18,25 +18,25 @@ define('MODULE_ADMIN_CURRENCIES_CURRENCYLAYER_TITLE', 'Currency Layer');
 define('MODULE_ADMIN_CURRENCIES_CURRENCYLAYER_DESCRIPTION', 'Update Currencies via the CurrencyLayer API.<div class="secWarning">Requires an API key from https://currencylayer.com</div>');
 
 // good
-define('MODULE_ADMIN_CURRENCIES_CURRENCYLAYER_CURRENCIES_UPDATED', 'The exchange rate for %s was updated successfully via Currency Layer.');
+define('MODULE_ADMIN_CURRENCIES_CURRENCYLAYER_CURRENCIES_UPDATED', 'Курс валюты для %s успешно обновлен через Currency Layer.');
 
 // error codes
-define('CURRENCYLAYER_ERROR_404', 'Requested a resource which does not exist.');
-define('CURRENCYLAYER_ERROR_101', 'Did not supply an access key or an invalid access key.');
-define('CURRENCYLAYER_ERROR_103', 'Requested a non-existent API function.');
-define('CURRENCYLAYER_ERROR_104', 'Reached or exceeded subscription plan.');
-define('CURRENCYLAYER_ERROR_105', 'Subscription plan does not support the requested API Function.');
-define('CURRENCYLAYER_ERROR_106', 'Query did not return any results.');
-define('CURRENCYLAYER_ERROR_102', 'Account is not active. Please get in touch with CurrencyLayer Customer Support.');
-define('CURRENCYLAYER_ERROR_201', 'Entered an invalid Source Currency.');
-define('CURRENCYLAYER_ERROR_202', 'Entered one or more invalid currency codes.');
-define('CURRENCYLAYER_ERROR_301', 'Did not specify a date.[historical]');
-define('CURRENCYLAYER_ERROR_302', 'Entered an invalid date. [historical, convert]');
-define('CURRENCYLAYER_ERROR_401', 'Entered an invalid \'from\' property. [convert]');
-define('CURRENCYLAYER_ERROR_402', 'Entered an invalid \'to\' property. [convert]');
-define('CURRENCYLAYER_ERROR_403', 'Entered no or an invalid \'amount\' property. [convert]');
-define('CURRENCYLAYER_ERROR_501', 'Did not specify a Time-Frame [timeframe, change].');
-define('CURRENCYLAYER_ERROR_502', 'Entered an invalid \'start_date\' property. [timeframe, change]');
-define('CURRENCYLAYER_ERROR_503', 'Entered an invalid \'end_date\' property. [timeframe, change]');
-define('CURRENCYLAYER_ERROR_504', 'Entered an invalid Time-Frame. [timeframe, change]');
-define('CURRENCYLAYER_ERROR_505', 'Time-Frame specified by the user is too long - exceeding 365 days');
+define('CURRENCYLAYER_ERROR_404', 'Запрошен ресурс, который не существует.');
+define('CURRENCYLAYER_ERROR_101', 'Не предоставлен ключ доступа или неверный ключ доступа.');
+define('CURRENCYLAYER_ERROR_103', 'Запрошена несуществующая функция API.');
+define('CURRENCYLAYER_ERROR_104', 'Достигнут или превышен тарифный план.');
+define('CURRENCYLAYER_ERROR_105', 'План подписки не поддерживает запрошенную функцию API.');
+define('CURRENCYLAYER_ERROR_106', 'Запрос не дал никаких результатов.');
+define('CURRENCYLAYER_ERROR_102', 'Аккаунт не активен. Пожалуйста, свяжитесь со службой поддержки CurrencyLayer.');
+define('CURRENCYLAYER_ERROR_201', 'Введена неверная исходная валюта.');
+define('CURRENCYLAYER_ERROR_202', 'Введен один или несколько недействительных кодов валют.');
+define('CURRENCYLAYER_ERROR_301', 'Не указали дату.[historical]');
+define('CURRENCYLAYER_ERROR_302', 'Введена неверная дата. [historical, convert]');
+define('CURRENCYLAYER_ERROR_401', 'Введены неверно \'от\' свойства. [convert]');
+define('CURRENCYLAYER_ERROR_402', 'Введены неверно \'до\' свойства. [convert]');
+define('CURRENCYLAYER_ERROR_403', 'Введено недопустимое \'количество\' или свойство. [convert]');
+define('CURRENCYLAYER_ERROR_501', 'Не указано время [timeframe, change].');
+define('CURRENCYLAYER_ERROR_502', 'Введены неверно \'start_date\' свойство. [timeframe, change]');
+define('CURRENCYLAYER_ERROR_503', 'Введены неверно \'end_date\' свойство. [timeframe, change]');
+define('CURRENCYLAYER_ERROR_504', 'Введены неверно Time-Frame. [timeframe, change]');
+define('CURRENCYLAYER_ERROR_505', 'Срок, указанный пользователем, слишком длинный - превышает 365 дней.');

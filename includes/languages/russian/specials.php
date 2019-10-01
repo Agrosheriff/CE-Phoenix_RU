@@ -13,7 +13,7 @@
 define('NAVBAR_TITLE', 'Скидки');
 define('HEADING_TITLE', 'Скидки! Успейте купить товар по особым скидкам!');
 
-define('TEXT_NO_PRODUCTS', 'Здесь нет специальных предложений.');
+define('TEXT_NO_PRODUCTS', 'Сегодня нет специальных предложений.');
 
 // seo
 define('META_SEO_TITLE', 'Страница специальных предложений');

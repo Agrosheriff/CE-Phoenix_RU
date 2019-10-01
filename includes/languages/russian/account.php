@@ -11,7 +11,6 @@
 */
 
 define('NAVBAR_TITLE', 'Мой акаунт');
-define('HEADING_TITLE', 'Мой акаунт');
 
 define('OVERVIEW_TITLE', 'Обзор');
 define('OVERVIEW_SHOW_ALL_ORDERS', '(Показать все заказы)');

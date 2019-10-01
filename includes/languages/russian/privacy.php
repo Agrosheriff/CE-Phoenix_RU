@@ -13,5 +13,5 @@
 define('NAVBAR_TITLE', 'Конфиденциальность');
 define('HEADING_TITLE', 'Конфиденциальность');
 
-define('TEXT_INFORMATION', 'Введите сюда свою информацию.');
+define('TEXT_INFORMATION', 'Введите сюда свою информацию о конфиденциональности сайта.');
 ?>

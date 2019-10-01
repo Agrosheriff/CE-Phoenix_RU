@@ -23,10 +23,10 @@ define('TEXT_ALL_MANUFACTURERS', 'Все производители');
 // seo
 if ( ($category_depth == 'top') && (!isset($_GET['manufacturers_id'])) ) {
   define('META_SEO_TITLE', 'Название главной страницы');
-  define('META_SEO_DESCRIPTION', 'This is the description of your site to be used in the META Description Element');
+  define('META_SEO_DESCRIPTION', 'Это описание вашего сайта для использования описания в META элементе');
   /*
-  keywords are USELESS unless you are selling into China and want to be listed in Baidu Search Engine
+  ключевые слова бесполезны, если вы не продаете в Китай и хотите быть в списке поисковой системы Baidu
   */
-  define('META_SEO_KEYWORDS', 'these, are, the, comma, separated, keywords, used in the META keywords Element');
+  define('META_SEO_KEYWORDS', 'это ключевые слова разделенные запятыми, используемые в элементе META ключевых слов');
 }
 

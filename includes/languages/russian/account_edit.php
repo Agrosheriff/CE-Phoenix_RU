@@ -12,6 +12,8 @@
 
 define('NAVBAR_TITLE_1', 'Мои данные');
 define('NAVBAR_TITLE_2', 'Редактирование');
+
 define('HEADING_TITLE', 'Мои настройки');
+
 define('SUCCESS_ACCOUNT_UPDATED', 'Ваш профиль обновлен.');
 

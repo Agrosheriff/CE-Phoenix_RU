@@ -12,7 +12,7 @@
 
 define('HEADING_TITLE', 'Напишите письмо в отдел обслуживания магазина:');
 define('NAVBAR_TITLE', 'Напишите нам пожалуйста ');
-define('TEXT_SUCCESS', 'Ваше сообщение было успешно отправлено в отдел обслуживания магазина <strong>' . STORE_NAME . '</strong>.');
+define('TEXT_SUCCESS', 'Ваше сообщение было успешно отправлено в дирекцию <strong>' . STORE_NAME . '</strong>.');
 define('EMAIL_SUBJECT', 'Сообщение от   ' . STORE_NAME);
 
 define('ENTRY_NAME', 'Ваше имя:');

@@ -10,6 +10,7 @@ paypal_live_merchant_id_desc = Идентификатор продавца The M
 paypal_live_email_address = PayPal E-Mail адрес
 paypal_live_primary_email_address = Основной E-Mail адрес
 paypal_live_primary_email_address_desc = Основной адрес электронной почты нужно только ввести, если она отличается от электронной почты адрес, указанный выше. Это должно быть адрес электронной почты счета отмеченного в качестве основного в настройках аккаунта PayPal.
+
 paypal_sandbox_title = Sandbox Учетные данные
 paypal_sandbox_api_username = API Имя пользователя
 paypal_sandbox_api_password = API Пароль
@@ -19,6 +20,7 @@ paypal_sandbox_merchant_id_desc = Идентификатор продавца Me
 paypal_sandbox_email_address = PayPal E-Mail адрес
 paypal_sandbox_primary_email_address = Основной E-Mail адрес
 paypal_sandbox_primary_email_address_desc = Основной адрес электронной почты нужно только ввести, если она отличается от электронной почты адрес, указанный выше. Это должно быть адрес электронной почты счета отмеченного в качестве основного в настройках аккаунта PayPal.
+
 payflow_live_title = Текущие учетные данные
 payflow_live_partner = Partner
 payflow_live_merchant_login = Вход в Merchant
@@ -30,4 +32,5 @@ payflow_sandbox_partner = Partner
 payflow_sandbox_merchant_login = Вход в Merchant
 payflow_sandbox_user = Пользователь
 payflow_sandbox_password = Пароль
+
 alert_credentials_saved_success = Учетные данные были успешно сохранены.

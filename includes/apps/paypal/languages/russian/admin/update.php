@@ -3,6 +3,7 @@ button_applying_updates_progress = Применить обновление &hell
 button_check_for_updates = Проверить наличие обновлений
 button_retrieving_progress = Получение &hellip;
 button_visit_app_page = Посетите приложения на osCommerce
+
 retrieving_update_list = Получить список доступных обновлений &hellip;
 manual_update_available = v:версия доступна в качестве обновления! Она может быть загружена и установлена вручную с сайта интернет-магазина Apps.
 no_updates_available = Нет обновлений.
@@ -18,8 +19,10 @@ error_applying_start = Не удалось запустить процедуру
 error_heading = ОШИБКА!
 error_download_start = Не удалось начать процедуру загрузки v:version. Пожалуйста, попробуйте еще раз.
 no_updates_found = Нет версии обнаруженной и не удалось обновить до последней. Пожалуйста, попробуйте еще раз.
+
 error_saving_download = Не удалось загрузить пакет обновления по следующему адресу. Пожалуйста, удалите этот файл, если он существует, и повторите попытку.<br /><br />:filepath
 error_download_directory_permissions = Необходимые разрешения на следующий каталог не установлены правильно. Необходимо обновить разрешения, чтобы разрешить доступ на запись.<br /><br />:filepath
+
 log_update_started = #### ОБНОВЛЕНИЕ ДО v:version СТАРТОВАЛО
 log_updated_file = Обновлено: :filepath
 log_update_success = #### ОБНОВЛЕНИЕ ДО v:version ЗАВЕРШЕНО

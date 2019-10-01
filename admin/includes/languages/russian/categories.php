@@ -91,9 +91,11 @@ define('TEXT_PRODUCTS_PRICE_GROSS', 'Цена (С налогом):');
 define('TEXT_PRODUCTS_WEIGHT', 'Вес товара:');
 
 define('EMPTY_CATEGORY', 'Пустая Категория');
+
 define('TEXT_HOW_TO_COPY', 'Метод Копирования:');
 define('TEXT_COPY_AS_LINK', 'Ссылка на товар');
 define('TEXT_COPY_AS_DUPLICATE', 'Дублировать товар');
+
 define('ERROR_CANNOT_LINK_TO_SAME_CATEGORY', 'Ошибка: Нельзя делать ссылку на товар в той же категории.');
 define('ERROR_CATALOG_IMAGE_DIRECTORY_NOT_WRITEABLE', 'Ошибка: Каталог с картинками имеет неверные права доступа: ' . DIR_FS_CATALOG_IMAGES);
 define('ERROR_CATALOG_IMAGE_DIRECTORY_DOES_NOT_EXIST', 'Ошибка: Каталог с картинками отсутствует: ' . DIR_FS_CATALOG_IMAGES);
@@ -105,23 +107,12 @@ define('TEXT_EDIT_CATEGORIES_DESCRIPTION', 'Редактировать опис�
 define('TEXT_CATEGORIES_SEO_DESCRIPTION', 'Категории. Meta Description для SEO:<br><small>Добавить &lt;описание&gt; Meta Element.</small>');
 define('TEXT_EDIT_CATEGORIES_SEO_DESCRIPTION', 'Редактировать Категории Meta Description для SEO:<br><small>Изменить &lt;описание&gt; Meta Element.</small>');
 define('TEXT_CATEGORIES_SEO_KEYWORDS', 'Категории.  Meta Keywords for SEO:<br><small>Add a &lt;ключевые слова&gt; Meta Element.<br>Слова ввести через запятую.</small>');
+define('TEXT_EDIT_CATEGORIES_SEO_KEYWORDS', 'Измените мета-ключевые слова категории для SEO:<br><small>Измените &lt;keyword&gt; Meta Element.<br>Разделите запятыми слова.</small>');
  
 const TEXT_PRODUCTS_GTIN = 'Products <abbr title="GTIN должен храниться как 14 цифр. Любой номер GTIN меньше этого значения будет дополнен нулями в соответствии со спецификациями GTIN.">GTIN</abbr>:<br><small>1 из UPC, EAN, ISBN так далее</small>';
 const TEXT_PRODUCTS_SEO_DESCRIPTION = 'Продукт Meta Description для SEO:<br><small>Добавить &lt;description&gt; Meta Element.<br>HTML не допускается.</small>';
 const TEXT_PRODUCTS_SEO_KEYWORDS = 'Продукт Meta Keywords для SEO:<br><small>Добавить &lt;keyword&gt; Meta Element или Search Engine.<br>Через запятую. HTML не допускается.</small>';
-define('TEXT_EDIT_CATEGORIES_SEO_KEYWORDS', 'Редактировать Категории Meta Keywords для SEO:<br><small>Изменить &lt;ключевые слова&gt; Meta Element.<br>>Слова ввести через запятую.</small>');
-define('TEXT_EDIT_CATEGORIES_HEADING_TITLE', 'Название подробно:');
-define('TEXT_CATEGORIES_DESCRIPTION', 'Описание категории:<br><small>показано на странице категорий</small>');
-define('TEXT_EDIT_CATEGORIES_DESCRIPTION', 'Редактировать описание категорий:');
-const TEXT_PRODUCTS_SEO_TITLE = 'Продукт Title для SEO:<br><small>Заменяет имя продукта в &lt;title&gt; Meta Element<br>и опционно в Breadcrumb Trail.<br>Оставьте пустым значение по умолчанию для названия продукта.</small>';
-const TEXT_CATEGORIES_SEO_TITLE = 'Категория Title для SEO:<br><small>Заменить название категории в &lt;title&gt; Meta Element.<br>Оставьте пустым значение по умолчанию для названия категории.</small>';
-const TEXT_EDIT_CATEGORIES_SEO_TITLE = 'Редактировать категория Title для SEO:<br><small>Заменить название категории в &lt;title&gt; Meta Element<br>и необязательно в Хлебной крошке Breadcrumb Trail.<br>Оставьте пустым значение по умолчанию для названия категории.</small>';
-define('TEXT_PRODUCTS_INFO', 'Краткое описание:');
-define('TEXT_PRODUCTS_GTIN', 'Штрих-код продукта: ЦИФРА');
-define('TEXT_PRODUCTS_PAGE_TITLE', 'Meta Title:');
-define('TEXT_PRODUCTS_HEADER_DESCRIPTION', 'Meta Description:');
-define('TEXT_PRODUCTS_KEYWORDS', 'Meta Keywords:');
-define('TEXT_EDIT_CATEGORIES_SEO_KEYWORDS', 'Редактировать Категории Meta Keywords для SEO:<br><small>Изменить &lt;ключевые слова&gt; Meta Element.<br>>Слова ввести через запятую.</small>');
-define('TEXT_EDIT_CATEGORIES_HEADING_TITLE', 'Название подробно:');
-define('TEXT_CATEGORIES_DESCRIPTION', 'Описание категории:<br><small>показано на странице категорий</small>');
-define('TEXT_EDIT_CATEGORIES_DESCRIPTION', 'Редактировать описание категорий:');
+const TEXT_PRODUCTS_SEO_TITLE = 'Название продукта для SEO:<br><small>Измените название продукта в &lt;title&gt; Meta Element<br>и опционально в Breadcrumb Trail.<br>Оставьте значение пустым для по умолчанию - название продукта.</small>';
+const TEXT_CATEGORIES_SEO_TITLE = 'Название категории для SEO:<br><small>Измените название категории в &lt;title&gt; Meta Element.<br>Оставьте пустым для сохранения названия категории по умолчанию.</small>';
+const TEXT_EDIT_CATEGORIES_SEO_TITLE = 'Редактировать Название категории для SEO:<br><small>Измените название категории в &lt;title&gt; Meta Element<br>и опционально в Breadcrumb Trail.<br>Оставьте пустым для сохранения названия категории по умолчанию.</small>';
+

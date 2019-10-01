@@ -26,7 +26,7 @@ define('TEXT_INFO_CLASS_TITLE', 'Тип налога:');
 define('TEXT_INFO_COUNTRY_NAME', 'Страна:');
 define('TEXT_INFO_ZONE_NAME', 'Налоговая зона:');
 define('TEXT_INFO_TAX_RATE', 'Процентная ставка (%):');
-define('TEXT_INFO_TAX_RATE_PRIORITY', 'Приоритет:');
+define('TEXT_INFO_TAX_RATE_PRIORITY', 'Налоговые ставки с одинаковым приоритетом добавляются, другие составляются.<br /><br /> Приоритет:');
 define('TEXT_INFO_RATE_DESCRIPTION', 'Описание:');
 define('TEXT_INFO_INSERT_INTRO', 'Пожалуйста, внесите требуемую информацию для новой ставки налога');
 define('TEXT_INFO_DELETE_INTRO', 'Вы действительно хотите удалить ставку налога?');

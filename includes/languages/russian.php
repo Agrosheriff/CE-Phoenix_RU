@@ -5,9 +5,9 @@
   osCommerce, Open Source E-Commerce Solutions
   http://www.oscommerce.com
 
-  Copyright (c) 2013 osCommerce
+  Copyright (c) 2019 osCommerce
 Translate to russian from Fred (FFR)  www.oscomm.biz 10.08.2019 
-Update to Phoenix 1.0.2.5   29.09.2019
+Update to Phoenix 1.0.4.1   07.01.2020
   Released under the GNU General Public License
 */
 
@@ -59,8 +59,8 @@ define('HEADER_TITLE_TOP', '<i class="fas fa-home"></i><span class="sr-only"> Г
 define('HEADER_TITLE_CATALOG', 'Каталог');
 
 // text for gender
-define('MALE', 'М<span class="hidden-xs">ужской</span>');
-define('FEMALE', 'Ж<span class="hidden-xs">енский</span>');
+define('MALE', 'Мужской');
+define('FEMALE', 'Женский');
 
 // checkout procedure text
 define('CHECKOUT_BAR_DELIVERY', 'Адрес доставки');
@@ -71,11 +71,11 @@ define('CHECKOUT_BAR_CONFIRMATION', 'Подтверждение');
 define('PULL_DOWN_DEFAULT', 'Выберите');
 
 // javascript messages
-define('JS_ERROR', 'Ошибки при заполнении формы!\n\nИсправьте пожалуйста:\n\n');
+define('JS_ERROR', 'Ошибки при заполнении формы.\n\nИсправьте пожалуйста ошибки:\n\n');
 
 define('JS_ERROR_NO_PAYMENT_MODULE_SELECTED', '* Выберите метод оплаты для Вашего заказа.\n');
 
-define('ERROR_NO_PAYMENT_MODULE_SELECTED', '* Выберите, пожалуйста, метод оплаты для Вашего заказа.');
+define('ERROR_NO_PAYMENT_MODULE_SELECTED', 'Выберите пожалуйста метод оплаты для Вашего заказа.');
 
 define('ENTRY_COMPANY', 'Название компании:'); 
 define('ENTRY_COMPANY_TEXT', '');
@@ -89,14 +89,14 @@ define('ENTRY_LAST_NAME', 'Ваша Фамилия:');
 define('ENTRY_LAST_NAME_ERROR', 'Ваша Фамилия должна содержать не менее ' . ENTRY_LAST_NAME_MIN_LENGTH . ' букв.');
 define('ENTRY_LAST_NAME_TEXT', '');
 define('ENTRY_DATE_OF_BIRTH', 'Дата рождения:');
-define('ENTRY_DATE_OF_BIRTH_ERROR', 'Дату рождения необходимо вводить в следующем формате: DD/MM/YYYY (пример: 05/21/1970)');
-define('ENTRY_DATE_OF_BIRTH_TEXT', '* (например: 05/21/1970)');
+define('ENTRY_DATE_OF_BIRTH_ERROR', 'Дату рождения необходимо вводить в следующем формате: DD/MM/YYYY (пример: 25/01/1970)');
+define('ENTRY_DATE_OF_BIRTH_TEXT', 'например: 21/03/1970');
 define('ENTRY_EMAIL_ADDRESS', 'E-Mail адрес');
 define('ENTRY_EMAIL_ADDRESS_ERROR', 'Ваш E-Mail адрес должен содержать как минимум ' . ENTRY_EMAIL_ADDRESS_MIN_LENGTH . ' символов.');
 define('ENTRY_EMAIL_ADDRESS_CHECK_ERROR', 'Ваш E-Mail адрес указан неверно, попробуйте ещё раз, пожалуйста.'); 
-define('ENTRY_EMAIL_ADDRESS_ERROR_EXISTS', 'Введённый Вами E-Mail уже зарегистрирован на сайте. Попробуйте войти в магазин используя этот адрес или создайте новый акаунт с другим E-Mail адресом.'); 
+define('ENTRY_EMAIL_ADDRESS_ERROR_EXISTS', 'Введённый Вами E-Mail уже зарегистрирован на сайте. Попробуйте войти в магазин используя этот адрес или создайте новый аккаунт с другим E-Mail адресом.'); 
 define('ENTRY_EMAIL_ADDRESS_TEXT', '');
-define('ENTRY_STREET_ADDRESS', 'Улица, номер дома:');
+define('ENTRY_STREET_ADDRESS', 'Название улицы, номер дома, номер квартиры:');
 define('ENTRY_STREET_ADDRESS_ERROR', 'Название Улицы должно содержать не менее ' . ENTRY_STREET_ADDRESS_MIN_LENGTH . ' символов.');
 define('ENTRY_STREET_ADDRESS_TEXT', '');
 define('ENTRY_SUBURB', 'Район:');
@@ -115,10 +115,10 @@ define('ENTRY_STATE_TEXT', '');
 define('ENTRY_COUNTRY', 'Страна:');
 define('ENTRY_COUNTRY_ERROR', 'Выберите Вашу страну из выпадающего списка стран.');
 define('ENTRY_COUNTRY_TEXT', '');
-define('ENTRY_TELEPHONE_NUMBER', 'Телефон:');
+define('ENTRY_TELEPHONE_NUMBER', 'Номер телефона:');
 define('ENTRY_TELEPHONE_NUMBER_ERROR', 'Номер Телефона должен содержать не менее ' . ENTRY_TELEPHONE_MIN_LENGTH . ' цифр.');
 define('ENTRY_TELEPHONE_NUMBER_TEXT', '');
-define('ENTRY_FAX_NUMBER', 'Телефон (альтернативный или факс):'); 
+define('ENTRY_FAX_NUMBER', 'Дополнительный номер телефона или факс:'); 
 define('ENTRY_FAX_NUMBER_TEXT', '');
 define('ENTRY_NEWSLETTER', 'Новости магазина:');
 define('ENTRY_NEWSLETTER_TEXT', '');
@@ -141,7 +141,6 @@ define('ENTRY_PASSWORD_NEW_ERROR_NOT_MATCHING', 'Подтверждение не
 // constants for use in tep_prev_next_display function
 define('TEXT_RESULT_PAGE', 'Страницы:');
 define('TEXT_DISPLAY_NUMBER_OF_PRODUCTS', 'Показано  <strong>%d</strong> - <strong>%d</strong> (всего  <strong>%d</strong> позиций)');
-define('TEXT_DISPLAY_NUMBER_OF_REVIEWS', 'Показано  <strong>%d</strong> - <strong>%d</strong> (всего  <strong>%d</strong> отзывов)');
 
 define('PREVNEXT_TITLE_FIRST_PAGE', 'Первая страница');
 define('PREVNEXT_TITLE_PREVIOUS_PAGE', 'Предыдущая '); 
@@ -185,10 +184,10 @@ define('TEXT_UNKNOWN_TAX_RATE', 'Налоговая ставка неизвес�
 
 define('TEXT_CCVAL_ERROR_INVALID_DATE', 'Дата истечения срока для кредитной карты недействительна. Пожалуйста проверьте дату и попробуйте снова.');
 define('TEXT_CCVAL_ERROR_INVALID_NUMBER', 'Введенный номер кредитной карты недействителен. Пожалуйста, проверьте номер и попробуйте снова.');
-define('TEXT_CCVAL_ERROR_UNKNOWN_CARD', 'Первые четыре цифры введенного номера: %s. Если этот номер верен, мы не принимаем кредитные карты такого типа. Если это не так, пожалуйста, попробуйте еще раз.');
+define('TEXT_CCVAL_ERROR_UNKNOWN_CARD', 'Первые четыре цифры введенного номера: %s. Если этот номер верен, мы не принимаем кредитные карты такого типа. Если это не так попробуйте пожалуйста еще раз.');
 
 // category views
-define('TEXT_VIEW', 'Вид: ');
+define('TEXT_VIEW', 'Вид страницы: ');
 define('TEXT_VIEW_LIST', ' Список');
 define('TEXT_VIEW_GRID', ' Ячейки');
 
@@ -202,7 +201,7 @@ define('FORM_REQUIRED_INPUT', '<span class="form-control-feedback text-danger"><
 // grid/list
 define('TEXT_SORT_BY', 'Сортировать по ');
 // moved from index
-define('TABLE_HEADING_IMAGE', '');
+define('TABLE_HEADING_IMAGE', 'Фото');
 define('TABLE_HEADING_MODEL', 'Модель');
 define('TABLE_HEADING_PRODUCTS', 'Наименование');
 define('TABLE_HEADING_MANUFACTURER', 'Производитель');
@@ -235,3 +234,20 @@ define('IS_PRODUCT_BUTTON_VIEW', '<i class="fas fa-eye"></i> Смотреть');
 define('LISTING_SORT_DOWN', '<i class="fas fa-level-down-alt text-primary"></i>');
 define('LISTING_SORT_UP', '<i class="fas fa-level-up-alt text-primary"></i>');
 define('LISTING_SORT_UNSELECTED', '<i class="fas fa-level-up-alt text-black-50"></i>');
+// for new style internal pages
+define('LINK_TEXT_EDIT', '<small><a class="%s" href="' . tep_href_link('%s', '', 'SSL') . '">Редактировать</a></small>');
+define('SHIPPING_FA_ICON', '<i class="fas fa-shipping-fast fa-fw fa-3x float-right text-black-50"></i>');
+define('PAYMENT_FA_ICON', '<i class="fas fa-file-invoice-dollar fa-fw fa-3x float-right text-black-50"></i>');
+
+define('ENTRY_COMMENTS', 'Вы хотите сообщить свое мнение?');
+define('ENTRY_COMMENTS_PLACEHOLDER', 'Напишите комментарий здесь...');
+define('TABLE_HEADING_OR', '-или-');
+
+// Poll Box Text 
+define('_RESULTS', 'Результаты'); 
+define('_POLLS','Опросы'); 
+define('_VOTE', 'VOTE'); 
+define('_VOTES', 'Голоса'); 
+define('_NOPOLLS','Нет подходящих опросов'); 
+define('_NOPOLLSCONTENT','Нет опросов в которых Вы можете голосовать, однако вы все равно можете просмотреть результаты других опросов<br><br><a href="pollbooth.php">['._POLLS.']');  
+

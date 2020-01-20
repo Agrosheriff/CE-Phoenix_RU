@@ -5,12 +5,15 @@
   osCommerce, Open Source E-Commerce Solutions
   http://www.oscommerce.com
 
-  Copyright (c) 2002 osCommerce
-
+  Copyright (c) 2020 osCommerce
+  Translation to RU from Fredi. Updated 7/01/2020
   Released under the GNU General Public License
 */
 
 define('HEADING_TITLE', 'Информация о Сервере');
+
+define('TABLE_HEADING_KEY', 'Ключ');
+define('TABLE_HEADING_VALUE', 'Значение');
 
 define('TITLE_SERVER_HOST', 'Хост:');
 define('TITLE_SERVER_OS', 'Операционная Система:');
@@ -29,4 +32,5 @@ define('TEXT_EXPORT_INFO', 'Экспорт информации о сервер�
 define('SUCCESS_INFO_SUBMIT', 'Ваша информация была ​​успешно представлена.');
 define('ERROR_INFO_SUBMIT', 'Не удалось подключиться к сайту osCommerce  чтобы отправить конфигурацию. Пожалуйста, повторите попытку позже.');
 
-?>
+define('BUTTON_SAVE_TO_DISK', 'Сохранить на вашем жестком диске');
+define('BUTTON_SEND_TO_OSCOMMERCE', 'Отправить на osCommerce');

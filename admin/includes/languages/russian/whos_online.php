@@ -5,8 +5,8 @@
   osCommerce, Open Source E-Commerce Solutions
   http://www.oscommerce.com
 
-  Copyright (c) 2002 osCommerce
-
+  Copyright (c) 2020 osCommerce
+  Translation to RU from Fredi. Updated 17/01/2020
   Released under the GNU General Public License
 */
 
@@ -21,6 +21,9 @@ define('TABLE_HEADING_LAST_CLICK', 'Последний Клик');
 define('TABLE_HEADING_LAST_PAGE_URL', 'Последний URL');
 define('TABLE_HEADING_ACTION', 'Действие');
 define('TABLE_HEADING_SHOPPING_CART', 'Корзина пользователя');
-define('TEXT_SHOPPING_CART_SUBTOTAL', 'Стоимость товара');
-define('TEXT_NUMBER_OF_CUSTOMERS', 'На данный момент в магазине клиентов: %s');
-?>
+
+define('TEXT_SHOPPING_CART_ITEM', '%s x %s');
+define('TEXT_SHOPPING_CART_SUBTOTAL', 'Стоимость выбранного товара: %s');
+define('TEXT_SHOPPING_CART_NA', 'Нет');
+
+define('TEXT_NUMBER_OF_CUSTOMERS', 'На данный момент в магазине %s покупателей.');

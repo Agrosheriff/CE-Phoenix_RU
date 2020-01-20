@@ -6,7 +6,7 @@
   http://www.oscommerce.com
 
   Copyright (c) 2003 osCommerce
-
+  Translation to RU from Fredi. Updated 7/01/2020
   Released under the GNU General Public License
 */
 
@@ -17,7 +17,7 @@ define('TABLE_HEADING_CURRENCY_CODES', 'Код');
 define('TABLE_HEADING_CURRENCY_VALUE', 'Величина');
 define('TABLE_HEADING_ACTION', 'Действие');
 
-define('TEXT_INFO_EDIT_INTRO', 'Пожалуйста, внесите необходимые изменения');
+define('TEXT_INFO_EDIT_INTRO', 'Внесите необходимые изменения');
 define('TEXT_INFO_COMMON_CURRENCIES', '-- Общие валюты --');
 define('TEXT_INFO_CURRENCY_TITLE', 'Название:');
 define('TEXT_INFO_CURRENCY_CODE', 'Код:');
@@ -29,7 +29,7 @@ define('TEXT_INFO_CURRENCY_DECIMAL_PLACES', 'Десятичные порядки
 define('TEXT_INFO_CURRENCY_LAST_UPDATED', 'Последний раз скорректировано:');
 define('TEXT_INFO_CURRENCY_VALUE', 'Величина:');
 define('TEXT_INFO_CURRENCY_EXAMPLE', 'Пример:');
-define('TEXT_INFO_INSERT_INTRO', 'Пожалуйста, введите данные для новой валюты');
+define('TEXT_INFO_INSERT_INTRO', 'Введите данные для новой валюты');
 define('TEXT_INFO_DELETE_INTRO', 'Вы действительно хотите удалить эту валюту?');
 define('TEXT_INFO_HEADING_NEW_CURRENCY', 'Новая Валюта');
 define('TEXT_INFO_HEADING_EDIT_CURRENCY', 'Изменить Валюту');

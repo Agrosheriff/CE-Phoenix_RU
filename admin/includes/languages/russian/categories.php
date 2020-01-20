@@ -4,26 +4,31 @@
 
   osCommerce, Open Source E-Commerce Solutions
   http://www.oscommerce.com
-
   Copyright (c) 2002 osCommerce
-
+  Translation to RU from Fredi. Updated 7/01/2020
   Released under the GNU General Public License
 */
 
-define('HEADING_TITLE', 'Категории / Товары');
+define('HEADING_TITLE', 'Категории/Товары');
 define('HEADING_TITLE_SEARCH', 'Поиск:');
 define('HEADING_TITLE_GOTO', 'Перейти в:');
 
+define('SECTION_HEADING_GENERAL', 'Языки');
+define('SECTION_HEADING_DATA', 'Спецификация товара');
+define('SECTION_HEADING_IMAGES', 'Картинки товара');
+
 define('TABLE_HEADING_ID', 'ID');
-define('TABLE_HEADING_CATEGORIES_PRODUCTS', 'Категории / Товары');
+define('TABLE_HEADING_CATEGORIES_PRODUCTS', 'Категории/Товары');
 define('TABLE_HEADING_ACTION', 'Действие');
 define('TABLE_HEADING_STATUS', 'Каталог');
 
 define('TEXT_NEW_PRODUCT', 'Новый Товар в &quot;%s&quot;');
+define('TEXT_EXISTING_PRODUCT', 'Редактировать товар в категории &quot;%s&quot;');
+
 define('TEXT_CATEGORIES', 'Категории:');
 define('TEXT_SUBCATEGORIES', 'Субкатегории:');
 define('TEXT_PRODUCTS', 'Товаров на странице:');
-define('TEXT_PRODUCTS_PRICE_INFO', 'Цена:');
+define('TEXT_PRODUCTS_PRICE_INFO', 'Стоимость товара:');
 define('TEXT_PRODUCTS_TAX_CLASS', 'Класс Налогов:');
 define('TEXT_PRODUCTS_AVERAGE_RATING', 'Средняя Оценка:');
 define('TEXT_PRODUCTS_QUANTITY_INFO', 'Количество:');
@@ -51,7 +56,7 @@ define('TEXT_INFO_HEADING_DELETE_CATEGORY', 'Удалить Категорию')
 define('TEXT_INFO_HEADING_MOVE_CATEGORY', 'Перенести Категорию');
 define('TEXT_INFO_HEADING_DELETE_PRODUCT', 'Удалить Товар');
 define('TEXT_INFO_HEADING_MOVE_PRODUCT', 'Перенести Товар');
-define('TEXT_INFO_HEADING_COPY_TO', 'Копировать В');
+define('TEXT_INFO_HEADING_COPY_TO', 'Копировать в');
 
 define('TEXT_DELETE_CATEGORY_INTRO', 'Вы действительно хотите удалить эту категорию?');
 define('TEXT_DELETE_PRODUCT_INTRO', 'Вы действительно хотите удалить этот товар?');
@@ -110,9 +115,22 @@ define('TEXT_CATEGORIES_SEO_KEYWORDS', 'Категории.  Meta Keywords for S
 define('TEXT_EDIT_CATEGORIES_SEO_KEYWORDS', 'Измените мета-ключевые слова категории для SEO:<br><small>Измените &lt;keyword&gt; Meta Element.<br>Разделите запятыми слова.</small>');
  
 const TEXT_PRODUCTS_GTIN = 'Products <abbr title="GTIN должен храниться как 14 цифр. Любой номер GTIN меньше этого значения будет дополнен нулями в соответствии со спецификациями GTIN.">GTIN</abbr>:<br><small>1 из UPC, EAN, ISBN так далее</small>';
-const TEXT_PRODUCTS_SEO_DESCRIPTION = 'Продукт Meta Description для SEO:<br><small>Добавить &lt;description&gt; Meta Element.<br>HTML не допускается.</small>';
-const TEXT_PRODUCTS_SEO_KEYWORDS = 'Продукт Meta Keywords для SEO:<br><small>Добавить &lt;keyword&gt; Meta Element или Search Engine.<br>Через запятую. HTML не допускается.</small>';
-const TEXT_PRODUCTS_SEO_TITLE = 'Название продукта для SEO:<br><small>Измените название продукта в &lt;title&gt; Meta Element<br>и опционально в Breadcrumb Trail.<br>Оставьте значение пустым для по умолчанию - название продукта.</small>';
+const TEXT_PRODUCTS_SEO_DESCRIPTION = 'Товар Meta Description для SEO:<br><small>Добавить &lt;description&gt; Meta Element.<br>HTML не допускается.</small>';
+const TEXT_PRODUCTS_SEO_KEYWORDS = 'Товар Meta Keywords для SEO:<br><small>Добавить &lt;keyword&gt; Meta Element или Search Engine.<br>Через запятую. HTML не допускается.</small>';
+const TEXT_PRODUCTS_SEO_TITLE = 'Название товара для SEO:<br><small>Измените название товара в &lt;title&gt; Meta Element<br>и опционально в Breadcrumb Trail.<br>Оставьте значение пустым для по умолчанию - название товара.</small>';
 const TEXT_CATEGORIES_SEO_TITLE = 'Название категории для SEO:<br><small>Измените название категории в &lt;title&gt; Meta Element.<br>Оставьте пустым для сохранения названия категории по умолчанию.</small>';
 const TEXT_EDIT_CATEGORIES_SEO_TITLE = 'Редактировать Название категории для SEO:<br><small>Измените название категории в &lt;title&gt; Meta Element<br>и опционально в Breadcrumb Trail.<br>Оставьте пустым для сохранения названия категории по умолчанию.</small>';
+
+
+//BOF Select Product Image Directory
+define('TEXT_PRODUCTS_DIRECTORY_DONT_EXIST_1', 'ОШИБКА - Категория \'images\' directory ');
+define('TEXT_PRODUCTS_DIRECTORY_DONT_EXIST_2', ' отсутствует на сервере!!.');
+define('TEXT_PRODUCTS_IMAGE_DIRECTORY', 'Директроя картинок:');
+define('TEXT_PRODUCTS_IMAGE_ROOT_DIRECTORY', 'Папка по умолчанию');
+define('TEXT_PRODUCTS_IMAGE_NEW_FOLDER', 'Новая папка: ');
+define('TEXT_PRODUCTS_UPDATE_PRODUCT', 'Обновить');
+define('TEXT_PRODUCTS_INSERT_PRODUCT', 'Добавить');
+define('TEXT_PRODUCTS_WITHOUT_PREVIEW', ' без предпросмотра ');
+define('SUCCESS_CREATED_DIRECTORY', 'Папка  %s создана в %s.', 'успешно');
+//EOF Select Product Image Directory
 

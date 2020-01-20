@@ -5,20 +5,15 @@
   osCommerce, Open Source E-Commerce Solutions
   http://www.oscommerce.com
 
-  Copyright (c) 2002 osCommerce
-
+  Copyright (c) 2019 osCommerce
+  Translation to RU from Fredi. Updated 7/01/2020
   Released under the GNU General Public License
 */
 
 define('HEADING_TITLE', 'Языковые файлы');
-
 define('TABLE_HEADING_FILES', 'Файлы');
 define('TABLE_HEADING_WRITABLE', 'Доступен на запись');
 define('TABLE_HEADING_LAST_MODIFIED', 'Последние изменения');
-
-define('TEXT_EDIT_NOTE', '<strong>редактирование определений</strong><br /><br />Каждое определение для языка устанавливается с помощью PHP <a href="http://www.php.net/define" target="_blank">определить()</a> функцию следующим образом:<br /><br /><nobr>определить(\'TEXT_MAIN\', \'<span style="background-color: #FFFF99;">этот текст редактируется. Это действительно легко сделать!</span>\');</nobr><br /><br />Выделенный текст может быть отредактирован. Если определение использует одинарные кавычки, содержащиеся в тексте, то одинарные кавычки в тексте определения должны быть с обратной косой чертой (например так: It\\\'s).');
-
-define('TEXT_FILE_DOES_NOT_EXIST', 'Файл отсутствует.');
-
+define('TEXT_EDIT_NOTE', '<p class="lead">Редактирование языковых определений</p><p>Каждое определение для языка устанавливается с помощью PHP <a href="http://www.php.net/define" target="_blank">определить()</a> функцию следующим образом:</p><p><pre>определить(\'TEXT_MAIN\', \'<span style="background-color: #FFFF99;">этот текст редактируется. Это действительно легко сделать!</span>\');</pre></p><p>Выделенный текст может быть отредактирован. Если определение использует одинарные кавычки, содержащиеся в тексте, то одинарные кавычки в тексте определения должны быть заблокированы обратной косой чертой (например так: It\\\'s).</p>');
+define('TEXT_FILE_DOES_NOT_EXIST', 'Этого Файла нет.');
 define('ERROR_FILE_NOT_WRITEABLE', 'Ошибка: неверные права доступа к файлу, измените права доступа к %s');
-?>

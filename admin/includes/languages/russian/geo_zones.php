@@ -5,12 +5,12 @@
   osCommerce, Open Source E-Commerce Solutions
   http://www.oscommerce.com
 
-  Copyright (c) 2002 osCommerce
-
+  Copyright (c) 2019 osCommerce
+  Translation to RU from Fredi. Updated 7/01/2020
   Released under the GNU General Public License
 */
 
-define('HEADING_TITLE', 'Географические зоны');
+define('HEADING_TITLE', 'Налоговые зоны');
 
 define('TABLE_HEADING_COUNTRY', 'Страна');
 define('TABLE_HEADING_COUNTRY_ZONE', 'Зона');

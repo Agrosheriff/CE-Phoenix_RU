@@ -6,7 +6,7 @@
   http://www.oscommerce.com
 
   Copyright (c) 2002 osCommerce
-
+  Translation to RU from Fredi. Updated 7/01/2020
   Released under the GNU General Public License
 */
 
@@ -15,11 +15,11 @@ define('HEADING_TITLE_SEARCH', 'Поиск по ID заказа');
 define('HEADING_TITLE_STATUS', 'Состояние:');
 
 define('TAB_TITLE_SUMMARY','Резюме');
-define('TAB_TITLE_PRODUCTS','Продукты');
+define('TAB_TITLE_PRODUCTS','Товары');
 define('TAB_TITLE_STATUS_HISTORY','Статус истории');
 
 define('TABLE_HEADING_COMMENTS', 'Комментарий');
-define('TABLE_HEADING_CUSTOMERS', 'Клиенты');
+define('TABLE_HEADING_CUSTOMERS', 'Покупатели');
 define('TABLE_HEADING_ORDER_TOTAL', 'Заказ итого');
 define('TABLE_HEADING_DATE_PURCHASED', 'Дата покупки');
 define('TABLE_HEADING_STATUS', 'Состояние');
@@ -34,13 +34,13 @@ define('TABLE_HEADING_PRICE_INCLUDING_TAX', 'Цена');
 define('TABLE_HEADING_TOTAL_EXCLUDING_TAX', 'Общая (не включая налог)');
 define('TABLE_HEADING_TOTAL_INCLUDING_TAX', 'Всего');
 
-define('TABLE_HEADING_CUSTOMER_NOTIFIED', 'Клиент уведомлён');
+define('TABLE_HEADING_CUSTOMER_NOTIFIED', 'Покупатель уведомлён');
 define('TABLE_HEADING_DATE_ADDED', 'Дата добавления');
 
-define('ENTRY_CUSTOMER', 'Клиент:');
-define('ENTRY_SOLD_TO', 'ПОКУПАТЕЛЬ:');
-define('ENTRY_DELIVERY_TO', 'Адрес:');
-define('ENTRY_SHIP_TO', 'АДРЕС ДОСТАВКИ:');
+define('ENTRY_CUSTOMER', 'Покупатель:');
+define('ENTRY_SOLD_TO', 'ПРОДАНО ПОКУПАТЕЛЮ:');
+define('ENTRY_DELIVERY_TO', 'Доставка для:');
+define('ENTRY_SHIP_TO', 'АДРЕС ПОЛУЧАТЕЛЯ:');
 define('ENTRY_SHIPPING_ADDRESS', 'Адрес Доставки:');
 define('ENTRY_BILLING_ADDRESS', 'Адрес Покупателя:');
 define('ENTRY_PAYMENT_METHOD', 'Способ оплаты:');
@@ -51,11 +51,11 @@ define('ENTRY_CREDIT_CARD_EXPIRES', 'Срок окончания действи�
 define('ENTRY_SUB_TOTAL', 'Предварительный Итог:');
 define('ENTRY_TAX', 'Налог:');
 define('ENTRY_SHIPPING', 'Доставка:');
-define('ENTRY_TOTAL', 'Всего:');
+define('ENTRY_TOTAL', 'Итого:');
 define('ENTRY_DATE_PURCHASED', 'Дата Покупки:');
-define('ENTRY_STATUS', 'Состояние:');
+define('ENTRY_STATUS', 'Статус:');
 define('ENTRY_DATE_LAST_UPDATED', 'Последнее изменение:');
-define('ENTRY_NOTIFY_CUSTOMER', 'Уведомить Клиента:'); 
+define('ENTRY_NOTIFY_CUSTOMER', 'Уведомить покупателя:'); 
 define('ENTRY_NOTIFY_COMMENTS', 'Добавить комментарии:');
 define('ENTRY_PRINTABLE', 'Напечатать счёт');
 

@@ -5,13 +5,13 @@
   osCommerce, Open Source E-Commerce Solutions
   http://www.oscommerce.com
 
-  Copyright (c) 2002 osCommerce
-
+  Copyright (c) 2019 osCommerce
+  Translation to RU from Fredi. Updated 7/01/2020
   Released under the GNU General Public License
 */
 
-define('NAVBAR_TITLE', 'Скидки');
-define('HEADING_TITLE', 'Скидки! Успейте купить товар по особым скидкам!');
+define('NAVBAR_TITLE', 'Специальные предложения');
+define('HEADING_TITLE', 'Специальные предложения! Успейте купить товар по особым ценам!');
 
 define('TEXT_NO_PRODUCTS', 'Сегодня нет специальных предложений.');
 

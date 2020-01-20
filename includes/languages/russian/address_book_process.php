@@ -5,12 +5,12 @@
   osCommerce, Open Source E-Commerce Solutions
   http://www.oscommerce.com
 
-  Copyright (c) 2003 osCommerce
-
+  Copyright (c) 2019 osCommerce
+  Translation to RU from Fredi. Updated 7/01/2020
   Released under the GNU General Public License
 */
 
-define('NAVBAR_TITLE_1', 'Мои данные');
+define('NAVBAR_TITLE_1', 'Мой Кабинет');
 define('NAVBAR_TITLE_2', 'Адресная книга');
 
 define('NAVBAR_TITLE_ADD_ENTRY', 'Новая запись');
@@ -18,7 +18,7 @@ define('NAVBAR_TITLE_MODIFY_ENTRY', 'Изменить запись');
 define('NAVBAR_TITLE_DELETE_ENTRY', 'Удалить запись');
 
 define('HEADING_TITLE_ADD_ENTRY', 'Добавить новый адрес в адресную книгу');
-define('HEADING_TITLE_MODIFY_ENTRY', 'Изменить запись адреса');
+define('HEADING_TITLE_MODIFY_ENTRY', 'Изменить адрес');
 define('HEADING_TITLE_DELETE_ENTRY', 'Удалить запись в адресной книге');
 
 define('DELETE_ADDRESS_TITLE', 'Удалить адрес');

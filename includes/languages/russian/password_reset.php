@@ -5,8 +5,8 @@
   osCommerce, Open Source E-Commerce Solutions
   http://www.oscommerce.com
 
-  Copyright (c) 2012 osCommerce
-
+  Copyright (c) 2019 osCommerce
+  Translation to RU from Fredi. Updated 7/01/2020
   Released under the GNU General Public License
 */
 
@@ -20,5 +20,5 @@ define('TEXT_MAIN', 'Введите новый пароль.');
 define('TEXT_NO_RESET_LINK_FOUND', 'Ошибка: Ссылка на смену пароля не найдена в нашей базе, попробуйте ещё раз запросить смену пароля.');
 define('TEXT_NO_EMAIL_ADDRESS_FOUND', 'Ошибка: Указанный емейл адрес не найден в нашей базе. Попробуйте ещё раз.');
 
-define('SUCCESS_PASSWORD_RESET', 'Ваш пароль успешно изменён. Пожалуйста войдите в свой аккаунт с новым паролем.');
+define('SUCCESS_PASSWORD_RESET', 'Ваш пароль успешно изменён. Пожалуйста войдите в свой Кабинет с новым паролем.');
 ?>

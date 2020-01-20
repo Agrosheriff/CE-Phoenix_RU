@@ -5,15 +5,15 @@
   osCommerce, Open Source E-Commerce Solutions
   http://www.oscommerce.com
 
-  Copyright (c) 2018 osCommerce
-
+  Copyright (c) 2019 osCommerce
+  Translation to RU from Fredi. Updated 7/01/2020
   Released under the GNU General Public License
 */
 
 define('NAVBAR_TITLE_1', 'Оформление заказа');
 define('NAVBAR_TITLE_2', 'Подтвердить');
 
-define('HEADING_TITLE', 'Подтверждение заказа!');
+define('HEADING_TITLE', 'Подтверждение заказа');
 
 define('HEADING_SHIPPING_INFORMATION', 'Информация о доставке');
 define('HEADING_DELIVERY_ADDRESS', 'Адрес доставки');
@@ -33,3 +33,5 @@ define('IMAGE_BUTTON_FINALISE_ORDER', 'Завершить и оплатить м
 
 define('HEADING_QTY', 'Кол-во');
 
+define('LIST_PRODUCTS', 'Товары');
+define('ORDER_DETAILS', 'Детали заказа');

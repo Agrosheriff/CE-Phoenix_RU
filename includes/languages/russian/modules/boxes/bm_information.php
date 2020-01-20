@@ -6,11 +6,11 @@
   http://www.oscommerce.com
 
   Copyright (c) 2018 osCommerce
-
+  Translation to RU from Fredi. Updated 7/01/2020
   Released under the GNU General Public License
 */
 
-  define('MODULE_BOXES_INFORMATION_TITLE', 'ИНФОРМАЦИЯ');
+  define('MODULE_BOXES_INFORMATION_TITLE', 'Информация');
   define('MODULE_BOXES_INFORMATION_DESCRIPTION', 'Показать линки на страницы');
    define('MODULE_BOXES_INFORMATION_BOX_TITLE', 'Информация');
   

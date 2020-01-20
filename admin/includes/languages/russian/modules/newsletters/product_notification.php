@@ -5,8 +5,8 @@
   osCommerce, Open Source E-Commerce Solutions
   http://www.oscommerce.com
 
-  Copyright (c) 2002 osCommerce
-
+  Copyright (c) 2019 osCommerce
+  Translation to RU from Fredi. Updated 7/01/2020
   Released under the GNU General Public License
 */
 
@@ -14,7 +14,7 @@ define('TEXT_COUNT_CUSTOMERS', 'Клиенты, получающие рассы�
 define('TEXT_PRODUCTS', 'Товары');
 define('TEXT_SELECTED_PRODUCTS', 'Выбранные Товары');
 
-define('JS_PLEASE_SELECT_PRODUCTS', 'Пожалуйста, выберите товары.');
+define('JS_PLEASE_SELECT_PRODUCTS', 'Пожалуйста, выберите нужные товары.');
 
 define('BUTTON_GLOBAL', 'Глобально');
 define('BUTTON_SELECT', '>>>');

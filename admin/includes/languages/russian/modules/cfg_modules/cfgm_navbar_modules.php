@@ -5,9 +5,9 @@
   osCommerce, Open Source E-Commerce Solutions
   http://www.oscommerce.com
 
-  Copyright (c) 2016 osCommerce
-
+  Copyright (c) 2019 osCommerce
+  Translation to RU from Fredi. Updated 7/01/2020
   Released under the GNU General Public License
 */
 
-define('MODULE_CFG_MODULE_CONTENT_NAVBAR_TITLE', 'Модули навиг. пан.');
+define('MODULE_CFG_MODULE_CONTENT_NAVBAR_TITLE', 'Панель навигации');

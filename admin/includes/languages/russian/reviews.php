@@ -38,7 +38,7 @@ define('TEXT_INFO_REVIEW_STATUS', 'Статус:');
 define('TEXT_INFO_PRODUCTS_AVERAGE_RATING', 'Средний Рейтинг:');
 
 define('TEXT_REVIEW_PUBLISHED', 'Опубликовано');
-define('TEXT_REVIEW_NOT_PUBLISHED', 'Неопубликовано');
+define('TEXT_REVIEW_NOT_PUBLISHED', 'Не опубликовано');
 
 define('TEXT_OF_5_STARS', '%s из 5 Звёзд!');
 define('TEXT_GOOD', '<small><font color="#ff0000"><b>ХОРОШО</b></font></small>');

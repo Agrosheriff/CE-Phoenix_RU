@@ -22,7 +22,7 @@ define('ENTRY_PRODUCT', 'Товар:');
 define('ENTRY_FROM', 'От:');
 define('ENTRY_DATE', 'Дата:');
 define('ENTRY_REVIEW', 'Отзыв:');
-define('ENTRY_REVIEW_TEXT', '<small><font color="#ff0000"><b>ЗАМЕЧАНИЕ:</b></font></small>&nbsp;HTML не поддерживается!&nbsp;');
+define('ENTRY_REVIEW_TEXT', '<small><font color="#ff0000"><b>ПРИМЕЧАНИЕ:</b></font></small>&nbsp;HTML не поддерживается!&nbsp;');
 define('ENTRY_RATING', 'Рейтинг:');
 
 define('TEXT_INFO_DELETE_REVIEW_INTRO', 'Вы действительно хотите удалить этот отзыв?');

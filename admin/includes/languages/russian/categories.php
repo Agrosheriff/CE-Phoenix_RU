@@ -115,10 +115,10 @@ define('TEXT_CATEGORIES_SEO_KEYWORDS', 'Категории.  Meta Keywords for S
 define('TEXT_EDIT_CATEGORIES_SEO_KEYWORDS', 'Измените мета-ключевые слова категории для SEO:<br><small>Измените &lt;keyword&gt; Meta Element.<br>Разделите запятыми слова.</small>');
  
 const TEXT_PRODUCTS_GTIN = 'Products <abbr title="GTIN должен храниться как 14 цифр. Любой номер GTIN меньше этого значения будет дополнен нулями в соответствии со спецификациями GTIN.">GTIN</abbr>:<br><small>1 из UPC, EAN, ISBN так далее</small>';
-const TEXT_PRODUCTS_SEO_DESCRIPTION = 'Товар Meta Description для SEO:<br><small>Добавить &lt;description&gt; Meta Element.<br>HTML не допускается.</small>';
-const TEXT_PRODUCTS_SEO_KEYWORDS = 'Товар Meta Keywords для SEO:<br><small>Добавить &lt;keyword&gt; Meta Element или Search Engine.<br>Через запятую. HTML не допускается.</small>';
-const TEXT_PRODUCTS_SEO_TITLE = 'Название товара для SEO:<br><small>Измените название товара в &lt;title&gt; Meta Element<br>и опционально в Breadcrumb Trail.<br>Оставьте значение пустым для по умолчанию - название товара.</small>';
-const TEXT_CATEGORIES_SEO_TITLE = 'Название категории для SEO:<br><small>Измените название категории в &lt;title&gt; Meta Element.<br>Оставьте пустым для сохранения названия категории по умолчанию.</small>';
+const TEXT_PRODUCTS_SEO_DESCRIPTION = 'Product Meta Description для SEO:<br><small>Добавить &lt;description&gt; Meta Element.<br>HTML не допускается.</small>';
+const TEXT_PRODUCTS_SEO_KEYWORDS = 'Product Meta Keywords для SEO:<br><small>Добавить &lt;keyword&gt; Meta Element или Search Engine.<br>Через запятую. HTML не допускается.</small>';
+const TEXT_PRODUCTS_SEO_TITLE = 'Название товара для SEO:<br><small>Измените название товара в &lt;title&gt; Meta Element<br>и опционально в Breadcrumb Trail.<br>Пустое значение по умолчанию отображает название товара.</small>';
+const TEXT_CATEGORIES_SEO_TITLE = 'Название категории для SEO:<br><small>Измените название категории в &lt;title&gt; Meta Element.<br>Пустое значение по умолчанию отображает название категории.</small>';
 const TEXT_EDIT_CATEGORIES_SEO_TITLE = 'Редактировать Название категории для SEO:<br><small>Измените название категории в &lt;title&gt; Meta Element<br>и опционально в Breadcrumb Trail.<br>Оставьте пустым для сохранения названия категории по умолчанию.</small>';
 
 

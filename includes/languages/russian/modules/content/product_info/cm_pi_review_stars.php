@@ -10,7 +10,6 @@
   Released under the GNU General Public License
 */
 
-
 define('MODULE_CONTENT_PI_REVIEW_STARS_TITLE', 'Ссылка / Обзор Звезд');
 define('MODULE_CONTENT_PI_REVIEW_STARS_DESCRIPTION', 'Показать звезды, количество отзывов и ссылку для написания отзыва на странице product_info');
 

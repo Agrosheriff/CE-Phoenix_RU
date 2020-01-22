@@ -19,7 +19,7 @@
  // const MODULE_CONTENT_PI_REVIEW_BUTTON_TEXT = 'Reviews';
  // const MODULE_CONTENT_PRODUCT_INFO_REVIEWS_TEXT_RATED  = 'Rated %s by <cite title="%s">%s</cite>';
   
-  const MODULE_CONTENT_PI_DESCRIPTION_TABS_SELECT_TEXT1       = 'Информация о продукте';
+  const MODULE_CONTENT_PI_DESCRIPTION_TABS_SELECT_TEXT1       = 'Информация о товаре';
   const MODULE_CONTENT_PI_DESCRIPTION_TABS_SELECT_TEXT2       = 'Параметры';
   const MODULE_CONTENT_PI_DESCRIPTION_TABS_SELECT_TEXT3       = 'В наличии';
   const MODULE_CONTENT_PI_DESCRIPTION_TABS_SELECT_TEXT4       = 'Штрихкод';
@@ -31,7 +31,7 @@
   const MODULE_CONTENT_PI_DESCRIPTION_TABS_SELECT_TEXT9      = 'Видео';
   const MODULE_CONTENT_PI_DESCRIPTION_TABS_SELECT_TEXT10      = 'Больше картинок';
   const MODULE_CONTENT_PI_DESCRIPTION_TABS_SELECT_TEXTp       = 'Agrosheriff Ltd. понимает, что мы несем ответственность за защиту и уважение вашей конфиденциальности и заботу о ваших личных данных. В данном Уведомлении о конфиденциальности, включая наши Общие условия обслуживания, объясняется, какие личные данные мы собираем, как мы используем ваши личные данные, причины, по которым нам может потребоваться раскрыть ваши личные данные другим лицам, и как мы храним ваши личные данные в безопасности. Закон об охране данных GDPRData вступил в силу 25 мая 2018 года. В этом уведомлении о конфиденциальности изложены ваши права в соответствии с новыми законами.';
-  const MODULE_CONTENT_PI_DESCRIPTION_TABS_SELECT_TEXTs       = 'Shipping & Returns text';
+  const MODULE_CONTENT_PI_DESCRIPTION_TABS_SELECT_TEXTs       = 'Доставка и возврат (Ваш текст)';
   const MODULE_CONTENT_PI_DESCRIPTION_TABS_SELECT_PDF1        = 'Руководство пользователя';
   const MODULE_CONTENT_PI_DESCRIPTION_TABS_SELECT_PDF2        = 'Руководство по монтажу и установке';
   const MODULE_CONTENT_PI_DESCRIPTION_TABS_SELECT_VID1        = '';

@@ -11,7 +11,7 @@
 */
 
   const MODULE_CONTENT_IP_CATEGORY_IMAGES_TITLE        = 'Категории. Изображения';
-  const MODULE_CONTENT_IP_CATEGORY_IMAGES_DESCRIPTION  = 'Показать модуль "Категории. Изображения" на ваших страницах продуктов.';
+  const MODULE_CONTENT_IP_CATEGORY_IMAGES_DESCRIPTION  = 'Показать модуль "Категории. Изображения" на ваших страницах товаров.';
   const MODULE_CONTENT_IP_CATEGORY_IMAGES_HEADING      = 'ТОВАРЫ ПО КАТЕГОРИЯМ';
   const MODULE_CONTENT_IP_CATEGORY_IMAGES_SEE_MORE     = '(смотреть более)';
   

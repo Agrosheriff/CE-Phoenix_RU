@@ -10,4 +10,4 @@
   Released under the GNU General Public License
 */
 
-  define('MODULES_ADMIN_MENU_CATALOG_PRODUCTS_ATTRIBUTES', 'Атрибуты продуктов');
+  define('MODULES_ADMIN_MENU_CATALOG_PRODUCTS_ATTRIBUTES', 'Атрибуты товаров');

@@ -11,7 +11,7 @@
 */
 
   define('MODULE_BOXES_REVIEWS_TITLE', 'Отзывы');
-  define('MODULE_BOXES_REVIEWS_DESCRIPTION', 'Показать отзывы о товарах');
+  define('MODULE_BOXES_REVIEWS_DESCRIPTION', 'Показать модуль Отзывы');
   
   define('MODULE_BOXES_REVIEWS_BOX_TITLE', 'Отзывы');
 

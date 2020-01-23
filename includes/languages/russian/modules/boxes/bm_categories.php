@@ -11,5 +11,5 @@
 */
 
   define('MODULE_BOXES_CATEGORIES_TITLE', 'Категории товаров');
-  define('MODULE_BOXES_CATEGORIES_DESCRIPTION', 'Показывать блок Категории в панели навигации');
+  define('MODULE_BOXES_CATEGORIES_DESCRIPTION', 'Показывать модуль"Категории товаров" в панели навигации');
   define('MODULE_BOXES_CATEGORIES_BOX_TITLE', 'Категории товаров:');

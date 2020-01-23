@@ -10,7 +10,7 @@
   Released under the GNU General Public License
 */
 
-  define('MODULE_HEADER_TAGS_PRODUCT_TITLE_TITLE', 'Заголовок товара');
+  define('MODULE_HEADER_TAGS_PRODUCT_TITLE_TITLE', 'Наименование товара');
   define('MODULE_HEADER_TAGS_PRODUCT_TITLE_DESCRIPTION', 'Добавьте заголовок (тайтл) этого товара');
 
   define('MODULE_HEADER_TAGS_PRODUCT_SEO_SEPARATOR', ' | ');

@@ -10,4 +10,4 @@
   Released under the GNU General Public License
 */
 
-  define('MODULES_ADMIN_MENU_TAXES_ZONES', 'Налоговые зоны');
+  define('MODULES_ADMIN_MENU_TAXES_ZONES', 'Список регионов');

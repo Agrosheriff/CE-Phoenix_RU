@@ -21,4 +21,4 @@ define('TABLE_HEADING_PAYMENT_METHOD', 'Способ оплаты');
 
 define('TEXT_ENTER_PAYMENT_INFORMATION', 'В настоящее время это единственный способ оплаты, доступный для использования в этом заказе.');
 
-define('TITLE_CONTINUE_CHECKOUT_PROCEDURE', 'Продолжить оформление заказа');
+define('BUTTON_CONTINUE_CHECKOUT_PROCEDURE', 'Продолжить оформление заказа');

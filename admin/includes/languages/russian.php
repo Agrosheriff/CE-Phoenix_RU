@@ -65,8 +65,8 @@ define('DOB_FORMAT_STRING', 'dd/mm/yyyy');
 // javascript messages
 define('JS_ERROR', 'При заполнении формы Вы допустили ошибку!\nСделайте, пожалуйста, следующие исправления:\n\n');
 
-define('JS_OPTIONS_VALUE_PRICE', '* Новый атрибут товара дожен иметь цену\n');
-define('JS_OPTIONS_VALUE_PRICE_PREFIX', '* Новый атрибут товара дожен иметь ценовой префикс\n');
+define('JS_OPTIONS_VALUE_PRICE', '* Новый атрибут товара должен иметь цену\n');
+define('JS_OPTIONS_VALUE_PRICE_PREFIX', '* Новый атрибут товара должен иметь ценовой префикс\n');
 
 define('JS_PRODUCTS_NAME', '* Для нового товара должно быть указано наименование\n');
 define('JS_PRODUCTS_DESCRIPTION', '* Для нового товара должно быть указано описание\n');
@@ -88,7 +88,7 @@ define('JS_POST_CODE', '* \'Индекс\' должен содержать не 
 define('JS_CITY', '* \'Город\' должен содержать не менее ' . ENTRY_CITY_MIN_LENGTH . ' символов.\n');
 define('JS_STATE', '* \'Регион\' необходимо выбрать.\n');
 define('JS_STATE_SELECT', '-- Выберите выше --');
-define('JS_ZONE', '* \'Регион\' должен соответствовать выбраной стране.');
+define('JS_ZONE', '* \'Регион\' должен соответствовать выбранной стране.');
 define('JS_COUNTRY', '* \'Страна\' должна быть выбрана.\n');
 define('JS_TELEPHONE', '* \'Телефон\' должен содержать не менее ' . ENTRY_TELEPHONE_MIN_LENGTH . ' символов.\n');
 define('JS_PASSWORD', '* \'Пароль\' и \'Подтверждение\' должны совпадать и содержать не менее ' . ENTRY_PASSWORD_MIN_LENGTH . ' символов.\n');
@@ -125,8 +125,8 @@ define('ENTRY_STATE', 'Регион:');
 define('ENTRY_STATE_ERROR', '&nbsp;<span class="errorText">обязательно</span>');
 define('ENTRY_COUNTRY', 'Страна:');
 define('ENTRY_COUNTRY_ERROR', 'Вы должны выбрать страну из списка.');
-define('ENTRY_TELEPHONE_NUMBER', 'Телефон:');
-define('ENTRY_TELEPHONE_NUMBER_ERROR', '&nbsp;<span class="errorText">минимум ' . ENTRY_TELEPHONE_MIN_LENGTH . ' символов</span>');
+define('ENTRY_TELEPHONE_NUMBER', 'Номер телефона:');
+define('ENTRY_TELEPHONE_NUMBER_ERROR', '&nbsp;<span class="errorText">минимум ' . ENTRY_TELEPHONE_MIN_LENGTH . ' цифр</span>');
 define('ENTRY_FAX_NUMBER', 'Факс:');
 define('ENTRY_NEWSLETTER', 'Получать рассылку:');
 define('ENTRY_NEWSLETTER_YES', 'Подписан');
@@ -204,7 +204,7 @@ define('TEXT_RESULT_PAGE', 'Страница с %s по %d');
 define('TEXT_DISPLAY_NUMBER_OF_COUNTRIES', 'Показано <b>%d</b> - <b>%d</b> (всего <b>%d</b> стран)');
 define('TEXT_DISPLAY_NUMBER_OF_CUSTOMERS', 'Показано <b>%d</b> - <b>%d</b> (всего <b>%d</b> клиентов)');
 define('TEXT_DISPLAY_NUMBER_OF_CURRENCIES', 'Показано <b>%d</b> - <b>%d</b> (всего <b>%d</b> валют)');
-define('TEXT_DISPLAY_NUMBER_OF_ENTRIES', 'Показано <strong>%d</strong> - <strong>%d</strong> (всего <strong>%d</strong> заходов)');
+define('TEXT_DISPLAY_NUMBER_OF_ENTRIES', 'Показано <b>%d</b> - <b>%d</b> (всего <b>%d</b> заходов)');
 define('TEXT_DISPLAY_NUMBER_OF_LANGUAGES', 'Показано <b>%d</b> - <b>%d</b> (всего <b>%d</b> языковых модулей)');
 define('TEXT_DISPLAY_NUMBER_OF_MANUFACTURERS', 'Показано <b>%d</b> - <b>%d</b> (всего <b>%d</b> производителей)');
 define('TEXT_DISPLAY_NUMBER_OF_NEWSLETTERS', 'Показано <b>%d</b> - <b>%d</b> (всего <b>%d</b> рассылок)');

@@ -27,7 +27,7 @@ define('DELETE_ADDRESS_DESCRIPTION', 'Вы действительно хотит
 define('NEW_ADDRESS_TITLE', 'Добавить новый адрес');
 
 define('SELECTED_ADDRESS', 'Выбранный адрес');
-define('SET_AS_PRIMARY', 'Сделать главным (по умолчанию).');
+define('SET_AS_PRIMARY', 'Если этот адрес является вашим основным адресом, сделайте его адресом по умолчанию.<br/><span class="text-danger"><b>Сделать главным адресом.</b></span>(Поставить галочку!)');
 
 define('SUCCESS_ADDRESS_BOOK_ENTRY_DELETED', 'Выбранный адрес удален из адресной книги.');
 define('SUCCESS_ADDRESS_BOOK_ENTRY_UPDATED', 'Ваша адресная книга обновлена.');

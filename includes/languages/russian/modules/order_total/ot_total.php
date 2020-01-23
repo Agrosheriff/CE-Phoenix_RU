@@ -10,6 +10,6 @@
   Released under the GNU General Public License
 */
 
-  define('MODULE_ORDER_TOTAL_TOTAL_TITLE', 'Всего ');
-  define('MODULE_ORDER_TOTAL_TOTAL_DESCRIPTION', 'Всего заказано');
+  define('MODULE_ORDER_TOTAL_TOTAL_TITLE', 'Итого ');
+  define('MODULE_ORDER_TOTAL_TOTAL_DESCRIPTION', 'Итого заказано');
 ?>

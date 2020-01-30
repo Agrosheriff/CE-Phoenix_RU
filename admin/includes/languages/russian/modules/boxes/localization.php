@@ -10,5 +10,5 @@
   Released under the GNU General Public License
 */
 
-define('BOX_HEADING_LOCALIZATION', '<i class="fas fa-language fa-fw mr-1"></i> Местонахождение');
+define('BOX_HEADING_LOCALIZATION', '<i class="fas fa-language fa-fw mr-1"></i> Локализация');
 

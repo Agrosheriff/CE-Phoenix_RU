@@ -10,5 +10,5 @@
   Released under the GNU General Public License
 */
 
-define('ERROR_NO_DEFAULT_LANGUAGE_DEFINED', 'ОШИБКА: Нет языка по умолчанию. Установите его: Админ Инструменты->Местонахождение->Языки');
+define('ERROR_NO_DEFAULT_LANGUAGE_DEFINED', 'ОШИБКА: Нет языка по умолчанию. Установите его: Админ Инструменты->Локализация->Языки');
 ?>

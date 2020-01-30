@@ -16,7 +16,7 @@ define('TABLE_CERTIFIED_ADDONS_OWNER', 'Автор');
 define('TABLE_CERTIFIED_ADDONS_RATING', 'Рейтинг');
 define('TABLE_CERTIFIED_ADDONS_DATE', 'Дата создания');
 
-define('TEXT_CERTIFIED_ADDONS', '<p class="m-0 lead">Все дополнения, перечисленные здесь, были <b>сертифицированы</b> членами основной команды Phoenix.</p><hr class="my-2"><p class="m-0">If you would like to have your addon certified and added to this list please contact <a class="text-primary text-decoration-none" href="https://forums.oscommerce.com/profile/69-burt/" target="_blank"><span class="border-bottom border-primary">@burt</span></a> on the osCommerce forum.</p>');
+define('TEXT_CERTIFIED_ADDONS', '<p class="m-0 lead">Все дополнения, перечисленные здесь, были <b>сертифицированы</b> членами основной команды Феникс.</p><hr class="my-2"><p class="m-0">Если вы хотите, чтобы ваш аддон был сертифицирован и добавлен в этот список, пожалуйста, свяжитесь с <a class="text-primary text-decoration-none" href="https://forums.oscommerce.com/profile/69-burt/" target="_blank"><span class="border-bottom border-primary">@burt</span></a> на форуме osCommerce.</p>');
 define('NUM_CERTIFIED_ADDONS', 'Есть в настоящее время <b>%s</b> сертифицирован.');
 
 define('TEXT_CERTIFIED_SEARCH_PLACEHOLDER', 'Поиск дополнений - введите текст...');

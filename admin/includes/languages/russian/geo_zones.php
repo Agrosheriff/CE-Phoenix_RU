@@ -43,6 +43,6 @@ define('TEXT_INFO_ZONE_DESCRIPTION', 'Описание:');
 define('TEXT_INFO_COUNTRY', 'Страна:');
 define('TEXT_INFO_COUNTRY_ZONE', 'Регион:');
 define('TYPE_BELOW', 'Все зоны');
-define('PLEASE_SELECT', 'Выбрать зону');
+define('PLEASE_SELECT', 'Выберите зону');
 define('TEXT_ALL_COUNTRIES', 'Все страны');    
 ?>

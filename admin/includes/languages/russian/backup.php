@@ -24,9 +24,9 @@ define('TEXT_INFO_UNPACK', '<br /><br />(после распаковки фай�
 define('TEXT_INFO_RESTORE', 'Не прерывайте процесс восстановления.<br /><br />Большая база данных, более долгий процесс!<br /><br />Если возможно, используйте shell команды.<br /><br />Например:<br /><br /><b>mysql -h' . DB_SERVER . ' -u' . DB_SERVER_USERNAME . ' -p ' . DB_DATABASE . ' < %s </b> %s');
 define('TEXT_INFO_RESTORE_LOCAL', 'Не прерывайте процесс восстановления.<br /><br />Большая база данных, более долгий процесс!');
 define('TEXT_INFO_RESTORE_LOCAL_RAW_FILE', 'Загруженный файл должен быть текстовым файлом sql.');
-define('TEXT_INFO_DATE', 'Дата:');
-define('TEXT_INFO_SIZE', 'Размер:');
-define('TEXT_INFO_COMPRESSION', 'Сжатие:');
+define('TEXT_INFO_DATE', 'Дата: %s');
+define('TEXT_INFO_SIZE', 'Размер: %s');
+define('TEXT_INFO_COMPRESSION', 'Сжатие: %s');
 define('TEXT_INFO_USE_GZIP', 'Использовать GZIP');
 define('TEXT_INFO_USE_ZIP', 'Использовать ZIP');
 define('TEXT_INFO_USE_NO_COMPRESSION', 'Без сжатия (Просто SQL)');

@@ -5,12 +5,13 @@
   osCommerce, Open Source E-Commerce Solutions
   http://www.oscommerce.com
 
-  Copyright (c) 2002 osCommerce
-  Translation to RU from Fredi. Updated 25/01/2020
+  Copyright (c) 2020 osCommerce
+  Translation to RU from Fredi. Updated 31/01/2020
   Released under the GNU General Public License
 */
 
 define('TABLE_HEADING_COMMENTS', 'Комментарии');
+define('TABLE_HEADING_QTY', 'Количество');
 define('TABLE_HEADING_PRODUCTS_MODEL', 'Модель товара');
 define('TABLE_HEADING_PRODUCTS', 'Товары');
 define('TABLE_HEADING_TAX', 'Налог');
@@ -27,4 +28,7 @@ define('ENTRY_SUB_TOTAL', 'Предварительная Сумма:');
 define('ENTRY_TAX', 'Налог:');
 define('ENTRY_SHIPPING', 'Доставка:');
 define('ENTRY_TOTAL', 'Итого:');
+define('ENTRY_INVOICE_NUMBER', 'Инвойс: %s');
+define('ENTRY_INVOICE_DATE', 'Дата: %s');
+
 ?>

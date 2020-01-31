@@ -5,14 +5,15 @@
   osCommerce, Open Source E-Commerce Solutions
   http://www.oscommerce.com
 
-  Copyright (c) 2002 osCommerce
-  Translation to RU from Fredi. Updated 7/01/2020
+  Copyright (c) 2020 osCommerce
+  Translation to RU from Fredi. Updated 31/01/2020
   Released under the GNU General Public License
 */
 
 define('HEADING_TITLE', 'Менеджер почтовых рассылок');
 
 define('TABLE_HEADING_NEWSLETTERS', 'Письма');
+define('TABLE_HEADING_DATE_ADDED', 'Дата добавления');
 define('TABLE_HEADING_SIZE', 'Размер');
 define('TABLE_HEADING_MODULE', 'Модуль');
 define('TABLE_HEADING_SENT', 'Отправить');
@@ -28,7 +29,7 @@ define('TEXT_NEWSLETTER_DATE_SENT', 'Дата Отправки:');
 
 define('TEXT_INFO_DELETE_INTRO', 'Вы действительно хотите удалить это письмо?');
 
-define('TEXT_PLEASE_WAIT', 'Пожалуйста, подождите .. письма отправляются  ..<br><br>Не прерывайте этот процесс пожалуйста!');
+define('TEXT_PLEASE_WAIT', 'Пожалуйста, подождите .. письма отправляются  ..<br /><br />Не прерывайте этот процесс пожалуйста!');
 define('TEXT_FINISHED_SENDING_EMAILS', 'Отправка писем успешно завершена!');
 
 define('ERROR_NEWSLETTER_TITLE', 'Ошибка: Тема обязательна');
@@ -39,3 +40,5 @@ define('ERROR_SEND_UNLOCKED_NEWSLETTER', 'Ошибка: Заблокируйте
 
 define('ERROR_NEWSLETTER_MODULE_NOT_EXISTS', 'Ошибка: этот модуль отсутствует.');
 define('TEXT_COUNT_CUSTOMERS_RECEIVE', 'Покупатели, получающие рассылку:');
+define('TEXT_TITLE', 'Заголовок:');
+define('TEXT_CONTENT', 'Содержание:');

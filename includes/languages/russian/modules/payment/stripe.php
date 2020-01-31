@@ -5,8 +5,8 @@
   osCommerce, Open Source E-Commerce Solutions
   http://www.oscommerce.com
 
-  Copyright (c) 2014 osCommerce
-  Translation to RU from Fredi. Updated 7/01/2020
+  Copyright (c) 2020 osCommerce
+  Translation to RU from Fredi. Updated 31/01/2020
   Released under the GNU General Public License
 */
 
@@ -23,7 +23,6 @@
   define('MODULE_PAYMENT_STRIPE_CREDITCARD_EXPIRY', 'Действительна до:');
   define('MODULE_PAYMENT_STRIPE_CREDITCARD_CVC', 'Секретный код:');
   define('MODULE_PAYMENT_STRIPE_CREDITCARD_SAVE', 'Сохранить карту для следующих покупок?');
-
   define('MODULE_PAYMENT_STRIPE_ERROR_TITLE', 'Произошла ошибка при обработке вашей кредитной карты');
   define('MODULE_PAYMENT_STRIPE_ERROR_GENERAL', 'Пожалуйста, попробуйте еще раз, и если проблемы не устранены, попробуйте другой способ оплаты.');
   define('MODULE_PAYMENT_STRIPE_ERROR_CARDSTORED', 'Сохраненная карта не найдена. Пожалуйста, попробуйте еще раз, и если проблемы не устранены, попробуйте другой способ оплаты.');

@@ -8,6 +8,6 @@ Translation to RU from Fredi. Updated 7/01/2020
 Released under the GNU General Public License
 */
 
-define('MODULE_CONTENT_HEADER_MESSAGESTACK_TITLE', 'Уведомления стейка сообщений');
-define('MODULE_CONTENT_HEADER_MESSAGESTACK_DESCRIPTION', 'Показывать Уведомления стейка сообщений на вашем сайте.');
+define('MODULE_CONTENT_HEADER_MESSAGESTACK_TITLE', 'Уведомления');
+define('MODULE_CONTENT_HEADER_MESSAGESTACK_DESCRIPTION', 'Текст уведомления');
 

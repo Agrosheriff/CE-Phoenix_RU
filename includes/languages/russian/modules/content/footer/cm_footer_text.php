@@ -11,8 +11,8 @@ Released under the GNU General Public License
 define('MODULE_CONTENT_FOOTER_TEXT_TITLE', 'Текстовый блок');
 define('MODULE_CONTENT_FOOTER_TEXT_DESCRIPTION', 'Добавить Текстовый блок в футер');
 
-define('MODULE_CONTENT_FOOTER_TEXT_HEADING_TITLE', 'О нас');
+define('MODULE_CONTENT_FOOTER_TEXT_HEADING_TITLE', 'Текст');
 
 
-define('MODULE_CONTENT_FOOTER_TEXT_TEXT', '<p>--- Введите необходимый вам текст.</p>');
+define('MODULE_CONTENT_FOOTER_TEXT_TEXT', '<p>--- Введите необходимый вам текст в файл \includes\languages\russian\modules\content\footer\cm_footer_text.php.</p>');
 

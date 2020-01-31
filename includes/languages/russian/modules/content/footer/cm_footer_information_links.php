@@ -8,7 +8,7 @@ Translation to RU from Fredi. Updated 7/01/2020
 Released under the GNU General Public License
 */
 
-  define('MODULE_CONTENT_FOOTER_INFORMATION_TITLE', 'Блок информационных ссылок');
+  define('MODULE_CONTENT_FOOTER_INFORMATION_TITLE', 'Информация');
   define('MODULE_CONTENT_FOOTER_INFORMATION_DESCRIPTION', 'Добавить блок информационных ссылок в футер сайта');
 
   define('MODULE_CONTENT_FOOTER_INFORMATION_HEADING_TITLE', 'Информация');

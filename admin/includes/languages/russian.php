@@ -162,7 +162,7 @@ define('IMAGE_NEW_FILE', 'Новый файл');
 define('IMAGE_NEW_FOLDER', 'Новая папка');
 define('IMAGE_NEW_LANGUAGE', 'Новый язык');
 define('IMAGE_NEW_NEWSLETTER', 'Новое письмо новостей');
-define('IMAGE_NEW_PRODUCT', 'Новый товар');
+define('IMAGE_NEW_PRODUCT', 'Новые товары');
 define('IMAGE_NEW_TAX_CLASS', 'Новый налог'); 
 define('IMAGE_NEW_TAX_RATE', 'Новая ставка налога');
 define('IMAGE_NEW_TAX_ZONE', 'Новая налоговая зона');

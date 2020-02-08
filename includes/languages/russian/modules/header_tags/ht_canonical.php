@@ -11,5 +11,5 @@
 */
 
   define('MODULE_HEADER_TAGS_CANONICAL_TITLE', 'Канонические ссылки');
-  define('MODULE_HEADER_TAGS_CANONICAL_DESCRIPTION', 'Добавить канонические ссылки для страниц category/product.  <div class="secWarning">Обратите внимание, что атрибуты hreflang в этом модуле не поддерживаются, что повлияет на вас, если в вашем магазине более одного языка.<br><br>Вам следует обратиться за советом к хорошему консультанту по SEO. (обратитесь к Jack_mcs на форуме поддержки osCommerce).</div>');
+  define('MODULE_HEADER_TAGS_CANONICAL_DESCRIPTION', 'Добавить канонические ссылки для страниц category/product.  <div class="secWarning">Обратите внимание, что атрибуты hreflang в этом модуле не поддерживаются, что создаст большую проблему, если в вашем магазине более одного языка.<br><br>Вам следует обратиться за советом к хорошему консультанту по SEO.</div>');
   

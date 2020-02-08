@@ -7,7 +7,7 @@
 */
 
 define('MODULE_ADMIN_CURRENCIES_EXCHANGERATESAPI_TITLE', 'API курсов валют');
-define('MODULE_ADMIN_CURRENCIES_EXCHANGERATESAPI_DESCRIPTION', 'Обновление валют через API курсов валют.<div class=\'secWarning\'>Uses https://exchangeratesapi.io/ в качестве источника данных.</div>');
+define('MODULE_ADMIN_CURRENCIES_EXCHANGERATESAPI_DESCRIPTION', 'Обновление валют через API курсов валют.<div class=\'secWarning\'>Используйте https://exchangeratesapi.io/ в качестве источника данных.</div>');
 
 // good
 define('MODULE_ADMIN_CURRENCIES_EXCHANGERATESAPI_CURRENCIES_UPDATED', 'Обменный курс для %s был успешно обновлен с помощью API курсов валют.');

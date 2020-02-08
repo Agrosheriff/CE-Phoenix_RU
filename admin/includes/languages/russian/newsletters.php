@@ -24,8 +24,8 @@ define('TEXT_NEWSLETTER_MODULE', 'Модуль:');
 define('TEXT_NEWSLETTER_TITLE', 'Тема:');
 define('TEXT_NEWSLETTER_CONTENT', 'Содержание:');
 
-define('TEXT_NEWSLETTER_DATE_ADDED', 'Дата Добавления:');
-define('TEXT_NEWSLETTER_DATE_SENT', 'Дата Отправки:');
+define('TEXT_NEWSLETTER_DATE_ADDED', 'Дата Добавления: %s');
+define('TEXT_NEWSLETTER_DATE_SENT', 'Дата Отправки: %s');
 
 define('TEXT_INFO_DELETE_INTRO', 'Вы действительно хотите удалить это письмо?');
 
@@ -39,6 +39,6 @@ define('ERROR_EDIT_UNLOCKED_NEWSLETTER', 'Ошибка: Заблокируйте
 define('ERROR_SEND_UNLOCKED_NEWSLETTER', 'Ошибка: Заблокируйте информационное письмо перед его отправкой.');
 
 define('ERROR_NEWSLETTER_MODULE_NOT_EXISTS', 'Ошибка: этот модуль отсутствует.');
-define('TEXT_COUNT_CUSTOMERS_RECEIVE', 'Покупатели, получающие рассылку:');
+
 define('TEXT_TITLE', 'Заголовок:');
 define('TEXT_CONTENT', 'Содержание:');

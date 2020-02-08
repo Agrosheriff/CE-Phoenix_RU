@@ -10,7 +10,7 @@
   Released under the GNU General Public License
 */
 
-define('HEADING_TITLE', 'Хуки');
+define('HEADING_TITLE', 'Хуки (Крючки)');
 
 define('TABLE_HEADING_LOCATION', '<span class="text-uppercase">%s</span>');
 define('TABLE_HEADING_GROUP', 'Группа');

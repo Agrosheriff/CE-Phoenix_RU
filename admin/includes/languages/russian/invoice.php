@@ -23,7 +23,7 @@ define('TABLE_HEADING_TOTAL_INCLUDING_TAX', 'Общая (включая нало
 
 define('ENTRY_SOLD_TO', 'Инвойс. Адрес:');
 define('ENTRY_SHIP_TO', 'Адрес доставки:');
-define('ENTRY_PAYMENT_METHOD', 'Способ оплаты:');
+define('ENTRY_PAYMENT_METHOD', 'Способ оплаты: %s');
 define('ENTRY_SUB_TOTAL', 'Предварительная Сумма:');
 define('ENTRY_TAX', 'Налог:');
 define('ENTRY_SHIPPING', 'Доставка:');

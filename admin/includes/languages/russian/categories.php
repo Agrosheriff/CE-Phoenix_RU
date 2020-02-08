@@ -22,7 +22,7 @@ define('TABLE_HEADING_CATEGORIES_PRODUCTS', 'Категории/Товары');
 define('TABLE_HEADING_ACTION', 'Действие');
 define('TABLE_HEADING_STATUS', 'Каталог');
 
-define('TEXT_NEW_PRODUCT', 'Новый Товар в &quot;%s&quot;');
+define('TEXT_NEW_PRODUCT', 'Новые Товары в &quot;%s&quot;');
 define('TEXT_EXISTING_PRODUCT', 'Редактировать товар в категории &quot;%s&quot;');
 
 define('TEXT_CATEGORIES', 'Категории:');

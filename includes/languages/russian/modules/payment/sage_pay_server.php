@@ -16,6 +16,7 @@
 
   define('MODULE_PAYMENT_SAGE_PAY_SERVER_ERROR_ADMIN_CURL', 'Этот модуль требует, чтобы cURL был включен в PHP и не будет загружаться, пока он не будет включен на этом веб-сервере.');
   define('MODULE_PAYMENT_SAGE_PAY_SERVER_ERROR_ADMIN_CONFIGURATION', 'Этот модуль не будет загружаться, пока не будет настроен параметр «Имя для входа в систему». Пожалуйста, отредактируйте и настройте параметры этого модуля.');
+
   define('MODULE_PAYMENT_SAGE_PAY_SERVER_ERROR_TITLE', 'При обработке транзакции заказа произошла ошибка');
   define('MODULE_PAYMENT_SAGE_PAY_SERVER_ERROR_GENERAL', 'Пожалуйста, попробуйте еще раз, и если проблемы не устранены, попробуйте другой способ оплаты.');
 

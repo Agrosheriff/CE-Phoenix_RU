@@ -15,7 +15,6 @@ define('MODULE_ADMIN_DASHBOARD_PHOENIX_ADDONS_DESCRIPTION', 'Последние 
 
 define('MODULE_ADMIN_DASHBOARD_PHOENIX_ADDONS_OWNER', 'От');
 define('MODULE_ADMIN_DASHBOARD_PHOENIX_ADDONS_RATING', 'Рейтинг');
-define('MODULE_ADMIN_DASHBOARD_PHOENIX_ADDONS_DATE', 'Дата');
 
 define('MODULE_ADMIN_DASHBOARD_PHOENIX_JOIN_CLUB', 'Стать членом Клуба');
 define('MODULE_ADMIN_DASHBOARD_PHOENIX_VIEW_ALL', 'Посмотреть полный список сертифицированных дополнений');

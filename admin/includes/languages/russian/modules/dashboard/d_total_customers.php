@@ -10,6 +10,6 @@ OSCOM CE PhoenixOSCOM CE Phoenix
   Released under the GNU General Public License
 */
 
-define('MODULE_ADMIN_DASHBOARD_TOTAL_CUSTOMERS_TITLE', 'Общий график активности Покупателей');
+define('MODULE_ADMIN_DASHBOARD_TOTAL_CUSTOMERS_TITLE', 'График активности Покупателей');
 define('MODULE_ADMIN_DASHBOARD_TOTAL_CUSTOMERS_DESCRIPTION', 'Показать график активности Покупателей за последние Х дней');
-define('MODULE_ADMIN_DASHBOARD_TOTAL_CUSTOMERS_CHART_LINK', 'Всего Покупателей');
+define('MODULE_ADMIN_DASHBOARD_TOTAL_CUSTOMERS_CHART_LINK', 'Всего активных Покупателей:');

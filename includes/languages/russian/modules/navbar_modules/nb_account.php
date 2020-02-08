@@ -8,7 +8,7 @@ Translation to RU from Fredi. Updated 7/01/2020
 Released under the GNU General Public License
 */
 
-  define('MODULE_NAVBAR_ACCOUNT_TITLE', 'Аккаунт');
+  define('MODULE_NAVBAR_ACCOUNT_TITLE', 'Мой Аккаунт');
   define('MODULE_NAVBAR_ACCOUNT_DESCRIPTION', 'Показать Аккаунт клиента в Панели навигации.');
   
   define('MODULE_NAVBAR_ACCOUNT_LOGGED_OUT', '<i title="Мой аккаунт" class="fas fa-user fa-fw"></i><span class="d-inline d-sm-none d-md-inline"> Мой аккаунт</span><span class="caret"></span>');

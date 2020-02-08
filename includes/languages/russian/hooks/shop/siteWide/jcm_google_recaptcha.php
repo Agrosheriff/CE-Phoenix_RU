@@ -13,5 +13,5 @@
 
 //google
 define('MODULE_CONTENT_RECAPTCHA_ERROR','Извините, вы должны доказать, что вы человек, а не робот. Заполните пожалуйста Google Captcha');
-define('MODULE_CONTENT_RECAPTCHA_SITEKEY','--- Вставить публичный ключ');
-define('MODULE_CONTENT_RECAPTCHA_SECRETKEY','--- вставить секретный ключ');
+define('MODULE_CONTENT_RECAPTCHA_SITEKEY','--- Вставить ваш публичный ключ');
+define('MODULE_CONTENT_RECAPTCHA_SECRETKEY','--- вставить ваш секретный ключ');

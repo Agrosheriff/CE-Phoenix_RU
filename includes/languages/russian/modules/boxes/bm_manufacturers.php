@@ -11,5 +11,5 @@
 */
 
   define('MODULE_BOXES_MANUFACTURERS_TITLE', 'Производители');
-  define('MODULE_BOXES_MANUFACTURERS_DESCRIPTION', 'Показывать модуль производителей');
+  define('MODULE_BOXES_MANUFACTURERS_DESCRIPTION', 'Показывать список производителей');
   define('MODULE_BOXES_MANUFACTURERS_BOX_TITLE', 'Производители');

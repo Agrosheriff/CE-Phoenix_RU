@@ -11,6 +11,6 @@
 */
 
   define('MODULE_BOXES_WHATS_NEW_TITLE', 'Что новенького?');
-  define('MODULE_BOXES_WHATS_NEW_DESCRIPTION', 'Показать модуль Что новенького');
+  define('MODULE_BOXES_WHATS_NEW_DESCRIPTION', 'Показать новые товары');
   
   define('MODULE_BOXES_WHATS_NEW_BOX_TITLE', '<a href="%s">Что новенького?</a>');

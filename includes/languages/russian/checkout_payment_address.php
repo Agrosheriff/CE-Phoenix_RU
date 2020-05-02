@@ -5,8 +5,8 @@
   osCommerce, Open Source E-Commerce Solutions
   http://www.oscommerce.com
 
-  Copyright (c) 2019 osCommerce
-  Translation to RU from Fredi. Updated 7/01/2020
+  Copyright (c) 2020 osCommerce
+  Translation to RU from Fredi. Updated 24/02/2020
   Released under the GNU General Public License
 */
 
@@ -19,7 +19,8 @@ define('TABLE_HEADING_PAYMENT_ADDRESS', 'Адрес покупателя');
 
 define('TABLE_HEADING_ADDRESS_BOOK_ENTRIES', 'Выберите нужный сохраненный адрес');
 
-define('TABLE_HEADING_NEW_PAYMENT_ADDRESS', 'Сохраните новый адрес');
+define('TABLE_HEADING_NEW_PAYMENT_ADDRESS', 'Или используйте новый адрес');
 define('TEXT_CREATE_NEW_PAYMENT_ADDRESS', 'Используйте следующую форму, чтобы создать и сохранить новый адрес для использования в этом заказе.');
 
-define('BUTTON_CONTINUE_CHECKOUT_PROCEDURE', 'Обновить мой адрес');
+define('BUTTON_SELECT_ADDRESS', 'Использовать этот адрес');
+define('BUTTON_ADD_NEW_ADDRESS', 'Добавить и использовать этот адрес');

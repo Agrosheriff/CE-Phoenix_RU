@@ -5,8 +5,8 @@
   osCommerce, Open Source E-Commerce Solutions
   http://www.oscommerce.com
 
-  Copyright (c) 2019 osCommerce
-  Translation to RU from Fredi. Updated 7/01/2020
+  Copyright (c) 2020 osCommerce
+Translation to RU from Fredi. Updated 24/02/2020
   Released under the GNU General Public License
 */
 
@@ -19,7 +19,8 @@ define('TABLE_HEADING_SHIPPING_ADDRESS', 'Выберите адрес для д�
 
 define('TABLE_HEADING_ADDRESS_BOOK_ENTRIES', 'Выберите адрес в адресной книге');
 
-define('TABLE_HEADING_NEW_SHIPPING_ADDRESS', 'Добавить новый адрес'); 
+define('TABLE_HEADING_NEW_SHIPPING_ADDRESS', 'Или используйте новый адрес'); 
 define('TEXT_CREATE_NEW_SHIPPING_ADDRESS', 'Заполните пожалуйста эту форму, чтобы создать новый адрес для доставки вашего заказа.');
 
-define('BUTTON_CONTINUE_CHECKOUT_PROCEDURE', 'Обновить мой адрес для доставки');
+define('BUTTON_SELECT_ADDRESS', 'Использовать этот адрес');
+define('BUTTON_ADD_NEW_ADDRESS', 'Добавить и использовать этот адрес');

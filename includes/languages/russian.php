@@ -17,8 +17,8 @@ Update to Phoenix 1.0.4.1   07.01.2020
 // 'en_US.UTF-8', 'en_US.UTF8', 'enu_usa'
 // 'en_GB.UTF-8', 'en_GB.UTF8', 'eng_gb'
 // 'en_AU.UTF-8', 'en_AU.UTF8', 'ena_au'
-// @setlocale(LC_ALL, array('en_US.UTF-8', 'en_US.UTF8', 'enu_usa'));
-@setlocale(LC_ALL, array('ru_RU.UTF-8', 'ru_RU.UTF8', 'rur_ru'));
+/// @setlocale(LC_ALL, ['en_US.UTF-8', 'en_US.UTF8', 'enu_usa']);
+@setlocale(LC_ALL, ['ru_RU.UTF-8', 'ru_RU.UTF8', 'ru_ru']);
 
 define('DATE_FORMAT_SHORT', '%d/%m/%Y');  // this is used for strftime()
 define('DATE_FORMAT_LONG', '%A %d %B, %Y'); // this is used for strftime()
@@ -58,10 +58,6 @@ define('HEADER_TITLE_MY_ACCOUNT', 'Мой Кабинет');
 define('HEADER_TITLE_TOP', '<i class="fas fa-home"></i><span class="sr-only"> Главная</span>');
 define('HEADER_TITLE_CATALOG', 'Каталог');
 
-// text for gender
-define('MALE', 'Мужской');
-define('FEMALE', 'Женский');
-
 // checkout procedure text
 define('CHECKOUT_BAR_DELIVERY', 'Адрес доставки');
 define('CHECKOUT_BAR_PAYMENT', 'Способ оплаты');
@@ -76,67 +72,6 @@ define('JS_ERROR', 'Ошибки при заполнении формы.\n\nИс
 define('JS_ERROR_NO_PAYMENT_MODULE_SELECTED', '* Выберите метод оплаты для Вашего заказа.\n');
 
 define('ERROR_NO_PAYMENT_MODULE_SELECTED', 'Выберите пожалуйста метод оплаты для Вашего заказа.');
-
-define('ENTRY_COMPANY', 'Название компании:'); 
-define('ENTRY_COMPANY_TEXT', '');
-define('ENTRY_GENDER', 'Ваш пол:'); 
-define('ENTRY_GENDER_ERROR', 'Укажите Ваш пол, пожалуйста.'); 
-define('ENTRY_GENDER_TEXT', '');
-define('ENTRY_FIRST_NAME', 'Ваше Имя:');
-define('ENTRY_FIRST_NAME_ERROR', 'Ваше Имя должно содержать не менее ' . ENTRY_FIRST_NAME_MIN_LENGTH . ' букв.');
-define('ENTRY_FIRST_NAME_TEXT', '');
-define('ENTRY_LAST_NAME', 'Ваша Фамилия:');
-define('ENTRY_LAST_NAME_ERROR', 'Ваша Фамилия должна содержать не менее ' . ENTRY_LAST_NAME_MIN_LENGTH . ' букв.');
-define('ENTRY_LAST_NAME_TEXT', '');
-define('ENTRY_DATE_OF_BIRTH', 'Дата рождения:');
-define('ENTRY_DATE_OF_BIRTH_ERROR', 'Дату рождения необходимо вводить в следующем формате: DD/MM/YYYY (пример: 25/01/1970)');
-define('ENTRY_DATE_OF_BIRTH_TEXT', 'например: 21/03/1970');
-define('ENTRY_EMAIL_ADDRESS', 'E-Mail адрес');
-define('ENTRY_EMAIL_ADDRESS_ERROR', 'Ваш E-Mail адрес должен содержать как минимум ' . ENTRY_EMAIL_ADDRESS_MIN_LENGTH . ' символов.');
-define('ENTRY_EMAIL_ADDRESS_CHECK_ERROR', 'Ваш E-Mail адрес указан неверно, попробуйте ещё раз, пожалуйста.'); 
-define('ENTRY_EMAIL_ADDRESS_ERROR_EXISTS', 'Введённый Вами E-Mail уже зарегистрирован на сайте. Попробуйте войти в магазин используя этот адрес или создайте новый аккаунт с другим E-Mail адресом.'); 
-define('ENTRY_EMAIL_ADDRESS_TEXT', '');
-define('ENTRY_STREET_ADDRESS', 'Название улицы, номер дома, номер квартиры:');
-define('ENTRY_STREET_ADDRESS_ERROR', 'Название Улицы должно содержать не менее ' . ENTRY_STREET_ADDRESS_MIN_LENGTH . ' символов.');
-define('ENTRY_STREET_ADDRESS_TEXT', '');
-define('ENTRY_SUBURB', 'Район:');
-define('ENTRY_SUBURB_TEXT', '');
-define('ENTRY_POST_CODE', 'Почтовый индекс:');
-define('ENTRY_POST_CODE_ERROR', 'Почтовый индекс должен содержать не менее ' . ENTRY_POSTCODE_MIN_LENGTH . ' цифр.');
-define('ENTRY_POST_CODE_TEXT', '');
-define('ENTRY_CITY', 'Город, поселок, село:');
-define('ENTRY_CITY_ERROR', 'Название Города должно содержать не менее ' . ENTRY_CITY_MIN_LENGTH . ' букв.');
-define('ENTRY_CITY_TEXT', '');
-define('ENTRY_NAME_TEXT', '');
-define('ENTRY_STATE', 'Область, край, регион:');
-define('ENTRY_STATE_ERROR', 'Название Области должно содержать не менее ' . ENTRY_STATE_MIN_LENGTH . ' букв.');
-define('ENTRY_STATE_ERROR_SELECT', 'Пожалуйста выберите Ваш край, область или регион из выпадающего списка.');
-define('ENTRY_STATE_TEXT', '');
-define('ENTRY_COUNTRY', 'Страна:');
-define('ENTRY_COUNTRY_ERROR', 'Выберите Вашу страну из выпадающего списка стран.');
-define('ENTRY_COUNTRY_TEXT', '');
-define('ENTRY_TELEPHONE_NUMBER', 'Номер телефона:');
-define('ENTRY_TELEPHONE_NUMBER_ERROR', 'Номер Телефона должен содержать не менее ' . ENTRY_TELEPHONE_MIN_LENGTH . ' цифр.');
-define('ENTRY_TELEPHONE_NUMBER_TEXT', '');
-define('ENTRY_FAX_NUMBER', 'Дополнительный номер телефона или факс:'); 
-define('ENTRY_FAX_NUMBER_TEXT', '');
-define('ENTRY_NEWSLETTER', 'Новости магазина:');
-define('ENTRY_NEWSLETTER_TEXT', '');
-define('ENTRY_NEWSLETTER_YES', 'Подписаться');
-define('ENTRY_NEWSLETTER_NO', 'Отказаться от подписки');
-define('ENTRY_PASSWORD', 'Пароль:');
-define('ENTRY_PASSWORD_ERROR', 'Ваш пароль должен содержать как минимум ' . ENTRY_PASSWORD_MIN_LENGTH . ' символов.');
-define('ENTRY_PASSWORD_ERROR_NOT_MATCHING', 'Подтверждение не совпадает с паролем.');
-define('ENTRY_PASSWORD_TEXT', ' Пароль');
-define('ENTRY_PASSWORD_CONFIRMATION', 'Подтвердите пароль:');
-define('ENTRY_PASSWORD_CONFIRMATION_TEXT', '');
-define('ENTRY_PASSWORD_CURRENT', 'Текущий пароль:');
-define('ENTRY_PASSWORD_CURRENT_TEXT', '');
-define('ENTRY_PASSWORD_CURRENT_ERROR', 'Пароль должен содержать минимум ' . ENTRY_PASSWORD_MIN_LENGTH . ' символов.');
-define('ENTRY_PASSWORD_NEW', 'Новый пароль:');
-define('ENTRY_PASSWORD_NEW_TEXT', '');
-define('ENTRY_PASSWORD_NEW_ERROR', 'Ваш новый пароль должен содержать минимум ' . ENTRY_PASSWORD_MIN_LENGTH . ' символов.');
-define('ENTRY_PASSWORD_NEW_ERROR_NOT_MATCHING', 'Подтверждение не совпадает с новым паролем.');
 
 // constants for use in tep_prev_next_display function
 define('TEXT_RESULT_PAGE', 'Страницы:');
@@ -222,7 +157,11 @@ define('PRODUCT_REMOVED', '%s удален из вашей корзины');
 define('MODULE_CONTENT_BOOTSTRAP_ROW_DESCRIPTION', '');
 
 // noscript helper
-define('TEXT_NOSCRIPT', '<p><strong>Скорее всего в вашем браузере отключён JavaScript.</strong></p><p>Вы должны включить JavaScript в вашем браузере, чтобы использовать функциональные возможности этого сайта.<br><a class="alert-link" href="https://www.enable-javascript.com/" target="_blank" rel="nofollow">Нажмите здесь для получения инструкций по включению JavaScript в вашем браузере</a>.</p>');
+const TEXT_NOSCRIPT = <<<'EOT'
+<p><b>Скорее всего в вашем браузере отключён JavaScript.</b></p>
+<p>Вы должны включить JavaScript в вашем браузере, чтобы использовать функциональные возможности этого сайта.<br>
+<a class="alert-link" href="https://www.enable-javascript.com/" target="_blank" rel="nofollow">Нажмите здесь для получения инструкций по включению JavaScript в вашем браузере</a>.</p>
+EOT;
 
 // sitewide is-product 
 define('IS_PRODUCT_SHOW_PRICE', '%s');
@@ -235,7 +174,7 @@ define('LISTING_SORT_DOWN', '<i class="fas fa-level-down-alt text-primary"></i>'
 define('LISTING_SORT_UP', '<i class="fas fa-level-up-alt text-primary"></i>');
 define('LISTING_SORT_UNSELECTED', '<i class="fas fa-level-up-alt text-black-50"></i>');
 // for new style internal pages
-define('LINK_TEXT_EDIT', '<small><a class="%s" href="' . tep_href_link('%s', '', 'SSL') . '">Редактировать</a></small>');
+define('LINK_TEXT_EDIT', '<small><a class="%s" href="%s">Редактировать</a></small>');
 define('SHIPPING_FA_ICON', '<i class="fas fa-shipping-fast fa-fw fa-3x float-right text-black-50"></i>');
 define('PAYMENT_FA_ICON', '<i class="fas fa-file-invoice-dollar fa-fw fa-3x float-right text-black-50"></i>');
 

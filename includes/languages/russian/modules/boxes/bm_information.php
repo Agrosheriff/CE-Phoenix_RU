@@ -12,7 +12,7 @@
 
   define('MODULE_BOXES_INFORMATION_TITLE', 'Информация');
   define('MODULE_BOXES_INFORMATION_DESCRIPTION', 'Показать линки на страницы');
-   define('MODULE_BOXES_INFORMATION_BOX_TITLE', 'Информация');
+define('MODULE_BOXES_INFORMATION_BOX_TITLE', 'Информация');
   
     const MODULE_BOXES_INFORMATION_BOX_DATA = array(
     'privacy.php' => 'Безопасность',
@@ -20,4 +20,3 @@
     'shipping.php' => 'Доставка',
     'contact_us.php' => 'Контакты'
   );
-  

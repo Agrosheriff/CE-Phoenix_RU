@@ -12,7 +12,7 @@
 
   define('MODULE_PAYMENT_PAYPAL_PRO_PAYFLOW_DP_TEXT_TITLE', 'PayPal Платежи Pro (Payflow Edition)');
   define('MODULE_PAYMENT_PAYPAL_PRO_PAYFLOW_DP_TEXT_PUBLIC_TITLE', 'Кредитная или дебитная карта');
-  define('MODULE_PAYMENT_PAYPAL_PRO_PAYFLOW_DP_TEXT_DESCRIPTION', '<img src="images/icon_info.gif" border="0" />&nbsp;<a href="http://library.oscommerce.com/Package&en&paypal&oscom23&payments_pro_payflow" target="_blank" rel="noopener" style="text-decoration: underline; font-weight: bold;">Посмотреть документацию</a><br /><br /><img src="images/icon_popup.gif" border="0" />&nbsp;<a href="https://www.paypal.com" target="_blank" rel="noopener" style="text-decoration: underline; font-weight: bold;">Посетить сайт PayPal</a>');
+  define('MODULE_PAYMENT_PAYPAL_PRO_PAYFLOW_DP_TEXT_DESCRIPTION', '<i class="fas fa-info-circle"></i>&nbsp;<a href="http://library.oscommerce.com/Package&en&paypal&oscom23&payments_pro_payflow" target="_blank" rel="noopener" style="text-decoration: underline; font-weight: bold;">Посмотреть документацию</a><br><br><i class="fas fa-external-link-alt"></i>&nbsp;<a href="https://www.paypal.com" target="_blank" rel="noopener" style="text-decoration: underline; font-weight: bold;">Посетить сайт PayPal</a>');
 
   define('MODULE_PAYMENT_PAYPAL_PRO_PAYFLOW_DP_ERROR_EXPRESS_MODULE', 'PayPal требует, чтобы модуль оплаты PayPal Express Checkout (Payflow Edition) был включен, если этот модуль должен быть активирован. Этот модуль не будет загружаться до тех пор, пока PayPal Express Checkout (Payflow Edition) модуль не был установлен.');
   define('MODULE_PAYMENT_PAYPAL_PRO_PAYFLOW_DP_ERROR_ADMIN_CURL', 'Этот модуль требует, чтобы cURL был включен в PHP и не будет загружаться, пока он не будет включен на этом веб-сервере.');

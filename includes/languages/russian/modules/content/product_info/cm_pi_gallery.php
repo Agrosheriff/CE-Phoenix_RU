@@ -9,5 +9,7 @@ Released under the GNU General Public License
 */
 
 const MODULE_CONTENT_PI_GALLERY_TITLE = 'Галерея';
-const MODULE_CONTENT_PI_GALLERY_DESCRIPTION = 'Показать картинки товара на странице товара';
+  const MODULE_CONTENT_PI_GALLERY_DESCRIPTION = 'Показывает изображения продукта на странице product_info, прикрепленной к модальной карусели. Если изображение имеет «htmlcontent», оно будет отображаться как наложение.';
 
+const MODULE_CONTENT_PI_GALLERY_ALBUM_NAME = 'Альбом для %s';
+const MODULE_CONTENT_PI_GALLERY_ALBUM_CLOSE = 'Закрыть';

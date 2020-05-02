@@ -14,4 +14,3 @@
   const MODULE_CONTENT_CATEGORY_IMAGES_DESCRIPTION  = 'Показать "Картинки категорий" на главной странице.';  
   const MODULE_CONTENT_CATEGORY_IMAGES_HEADING      = 'ТОВАРЫ ПО КАТЕГОРИЯМ'; 
   const MODULE_CONTENT_CATEGORY_IMAGES_SEE_MORE     = '(посмотреть больше)';
-  

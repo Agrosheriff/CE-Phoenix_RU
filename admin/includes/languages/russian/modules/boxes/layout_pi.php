@@ -5,9 +5,10 @@
   osCommerce, Open Source E-Commerce Solutions
   http://www.oscommerce.com
 
-  Copyright (c) 2019 osCommerce
+  Copyright (c) 2020 osCommerce
 
   Released under the GNU General Public License
 */
 
-  define('MODULES_ADMIN_MENU_CONFIGURATION_ADMINISTRATORS', 'Administrators');
+  define('MODULES_ADMIN_MENU_LAYOUT_PI', 'Product Info');
+  

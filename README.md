@@ -1,4 +1,4 @@
-# CE-Phoenix-1.0.4.4_RU UPDATE to CE-Phoenix-1.0.5.0_RU
+# CE-Phoenix-1.0.4.4_RU UPDATE to CE-Phoenix-1.0.5.9_RU
 Russian language Phoenix
 OsCommerce-CE-Phoenix-Russian-language
 A correct full version of the Russian language for Phoenix based on old versions of the translation for OsCommerce. The package includes all files in Russian that are fully consistent with the English version of Phoenix 1.0.5.0. Includes language pack for PayPal. My thanks to the whole community who took part in a lot of work for translating language files from previous versions of OsCommerce.

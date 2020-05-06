@@ -6,7 +6,7 @@
   http://www.oscommerce.com
 
   Copyright (c) 2019 osCommerce
-  Translation to RU from Fredi. Updated 7/01/2020
+  Translation to RU from Fredi. Updated 1/05/2020
   Released under the GNU General Public License
 */
 
@@ -20,6 +20,6 @@ define('HEADING_NEW_LOGO', 'Загрузить новый Логотип');
 define('TEXT_LOGO_IMAGE', 'Новый Логотип');
 define('TEXT_FORMAT_AND_LOCATION', 'Логотип Магазина должен быть в формате .png, .jpg, .gif, .svg Будет перезаписан существующий логотип');
 
-define('SUCCESS_LOGO_UPDATED', 'Логотип магазина успешно обновлен!');
+define('SUCCESS_LOGO_UPDATED', '<b>Логотип</b> магазина успешно обновлен!');
 
-define('ERROR_IMAGES_DIRECTORY_NOT_WRITEABLE', 'Ошибка: изображения не могут быть загружены в Каталог. (<a href="%s">Нажмите здесь, чтобы пересмотреть разрешения для каталога</a>)');
+define('ERROR_IMAGES_DIRECTORY_NOT_WRITEABLE', '<b>Ошибка:</b> изображения не могут быть загружены в Каталог. (<a href="%s">Нажмите здесь, чтобы пересмотреть разрешения для каталога</a>)');

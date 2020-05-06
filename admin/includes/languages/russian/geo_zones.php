@@ -5,8 +5,8 @@
   osCommerce, Open Source E-Commerce Solutions
   http://www.oscommerce.com
 
-  Copyright (c) 2019 osCommerce
-  Translation to RU from Fredi. Updated 7/01/2020
+  Copyright (c) 2020 osCommerce
+
   Released under the GNU General Public License
 */
 
@@ -35,14 +35,13 @@ define('TEXT_INFO_EDIT_SUB_ZONE_INTRO', 'Сделайте необходимые
 define('TEXT_INFO_HEADING_DELETE_SUB_ZONE', 'Удалить суб зону');
 define('TEXT_INFO_DELETE_SUB_ZONE_INTRO', 'Вы действительно хотите удалить эту суб зону?');
 
-define('TEXT_INFO_DATE_ADDED', 'Дата добавления:');
-define('TEXT_INFO_LAST_MODIFIED', 'Последние изменения:'); 
-define('TEXT_INFO_ZONE_NAME', 'Название зоны:');
-define('TEXT_INFO_NUMBER_ZONES', 'Количество зон:');
-define('TEXT_INFO_ZONE_DESCRIPTION', 'Описание:');
+define('TEXT_INFO_DATE_ADDED', 'Дата добавления: %s');
+define('TEXT_INFO_LAST_MODIFIED', 'Последние изменения: %s'); 
+define('TEXT_INFO_ZONE_NAME', 'Название зоны: %s');
+define('TEXT_INFO_NUMBER_ZONES', 'Количество зон: %s');
+define('TEXT_INFO_ZONE_DESCRIPTION', 'Описание: %s');
 define('TEXT_INFO_COUNTRY', 'Страна:');
 define('TEXT_INFO_COUNTRY_ZONE', 'Регион:');
 define('TYPE_BELOW', 'Все зоны');
 define('PLEASE_SELECT', 'Выберите зону');
 define('TEXT_ALL_COUNTRIES', 'Все страны');    
-?>

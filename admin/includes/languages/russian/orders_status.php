@@ -5,8 +5,8 @@
   osCommerce, Open Source E-Commerce Solutions
   http://www.oscommerce.com
 
-  Copyright (c) 2007 osCommerce
-  Translation to RU from Fredi. Updated 7/01/2020
+  Copyright (c) 2020 osCommerce
+  Translation to RU from Fredi. Updated 1/05/2020
   Released under the GNU General Public License
 */
 
@@ -28,7 +28,7 @@ define('TEXT_INFO_HEADING_DELETE_ORDERS_STATUS', 'Удалить статус з
 define('TEXT_SET_PUBLIC_STATUS', 'Показать заказ товаров покупателю на этом уровне статуса заказа');
 define('TEXT_SET_DOWNLOADS_STATUS', 'Разрешить загрузку виртуальных (дигитальных) продуктов на этом уровне статуса заказа');
 
-define('ERROR_REMOVE_DEFAULT_ORDER_STATUS', 'Ошибка: Статус заказа по умолчанию не может быть удален, измените статус и попробуйте снова.');
-define('ERROR_STATUS_USED_IN_ORDERS', 'Ошибка: Есть заказы с данным статусом, удалить данный статус нельзя, сначала удалите заказы с данным статусом.');
-define('ERROR_STATUS_USED_IN_HISTORY', 'Ошибка: Есть заказы с данным статусом, удалить данный статус нельзя, сначала удалите заказы с данным статусом.');
+define('ERROR_REMOVE_DEFAULT_ORDER_STATUS', '<bОшибка:</b> Статус заказа по умолчанию не может быть удален, измените статус и попробуйте снова.');
+define('ERROR_STATUS_USED_IN_ORDERS', '<bОшибка:</b> Есть заказы с данным статусом, удалить данный статус нельзя, сначала удалите заказы с данным статусом.');
+define('ERROR_STATUS_USED_IN_HISTORY', '<bОшибка:</b> Есть заказы с данным статусом, удалить данный статус нельзя, сначала удалите заказы с данным статусом.');
 ?>

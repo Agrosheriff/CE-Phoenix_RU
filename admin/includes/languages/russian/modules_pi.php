@@ -6,22 +6,22 @@
   http://www.oscommerce.com
 
   Copyright (c) 2020 osCommerce
-
+  Translation to RU from Fredi. Updated 27/03/2020
   Released under the GNU General Public License
 */
 
-define('HEADING_TITLE', '&pi; Modules');
+define('HEADING_TITLE', '&pi; Модули');
 
-define('TABLE_HEADING_MODULES', 'Modules');
-define('TABLE_HEADING_GROUP', 'Group');
-define('TABLE_HEADING_SORT_ORDER', 'Sort Order');
-define('TABLE_HEADING_ENABLED', 'Enabled');
-define('TABLE_HEADING_ACTION', 'Action');
-define('TABLE_HEADING_WIDTH', 'Width');
+define('TABLE_HEADING_MODULES', 'Модули');
+define('TABLE_HEADING_GROUP', 'Группа');
+define('TABLE_HEADING_SORT_ORDER', 'Сортировать');
+define('TABLE_HEADING_ENABLED', 'Включен');
+define('TABLE_HEADING_ACTION', 'Действия');
+define('TABLE_HEADING_WIDTH', 'Ширина');
 
-define('TEXT_INFO_VERSION', 'Version:');
-define('TEXT_INFO_ONLINE_STATUS', 'online status');
-define('TEXT_INFO_API_VERSION', 'API Version:');
+define('TEXT_INFO_VERSION', 'Версия:');
+define('TEXT_INFO_ONLINE_STATUS', 'онлайн статус');
+define('TEXT_INFO_API_VERSION', 'API Версия:');
 
-define('TEXT_MODULE_DIRECTORY', 'Module Directory:');
-define('SORT_ORDER_WARNING', 'ALL Sort Order numbers <u>MUST be UNIQUE</u>.<br>Any Group with no active module(s) will <u>NOT display</u>.');
+define('TEXT_MODULE_DIRECTORY', 'Директория модулей:');
+define('SORT_ORDER_WARNING', 'Сортировка всех номеров заказов <u>Должно быть уникальным</u>.<br>Любая группа без активных модулей не будет отображаться</u>.');

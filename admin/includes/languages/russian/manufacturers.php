@@ -6,7 +6,7 @@
   http://www.oscommerce.com
 
   Copyright (c) 2020 osCommerce
-  Translation to RU from Fredi. Updated 7/01/2020
+  Translation to RU from Fredi. Updated 1/05/2020
   Released under the GNU General Public License
 */
 
@@ -32,13 +32,13 @@ define('TEXT_MANUFACTURERS_NAME', 'Название или имя Произво
 define('TEXT_MANUFACTURERS_IMAGE', 'Логотип Производителя:');
 define('TEXT_MANUFACTURERS_URL', 'Сайт Производителя:');
 
-define('TEXT_DELETE_INTRO', 'Вы действительно хотите удалить этого производителя?'); 
+define('TEXT_DELETE_INTRO', 'Вы действительно хотите удалить этого производителя?');
 define('TEXT_DELETE_IMAGE', 'Удалить Картинку производителя?');
 define('TEXT_DELETE_PRODUCTS', 'Удалить товары этого производителя? (включая отзывы, специальные предложения и предстоящие поступления)');
-define('TEXT_DELETE_WARNING_PRODUCTS', '<b>ПРЕДУПРЕЖДЕНИЕ:</b> %s наименований товара связаны с данным производителем!');  
+define('TEXT_DELETE_WARNING_PRODUCTS', '<b>ПРЕДУПРЕЖДЕНИЕ:</b> %s наименований товара связаны с данным производителем!');
 
-define('ERROR_DIRECTORY_NOT_WRITEABLE', 'Ошибка: Неверные права доступа к директории. Пожалуйста, установите права доступа правильно в: %s');
-define('ERROR_DIRECTORY_DOES_NOT_EXIST', 'Ошибка: Директория не существует: %s');
+define('ERROR_DIRECTORY_NOT_WRITEABLE', '<b>Ошибка:</b> Неверные права доступа к директории. Пожалуйста, установите права доступа правильно в: %s');
+define('ERROR_DIRECTORY_DOES_NOT_EXIST', '<b>Ошибка:</b> Директория не существует: %s');
 
 define('TEXT_MANUFACTURERS_DESCRIPTION', 'Описание производителя:<br><small>показать на странице производителя</small>');
 define('TEXT_EDIT_MANUFACTURERS_DESCRIPTION', 'Редактировать описание производителя:');
@@ -52,3 +52,5 @@ const TEXT_MANUFACTURERS_SEO_TITLE = 'Производитель SEO Title:<br><
 const TEXT_EDIT_MANUFACTURERS_SEO_TITLE = 'Редактировать заголовок SEO Производителя:<br><small>Опционально заменяет название производителя в &lt;title&gt; Meta Element и Breadcrumb.<br>Пустое значение по умолчанию отображает наименование производителя</small>';
 
 define('BUTTON_INSERT_NEW_MANUFACTURER', 'Новый производитель');
+
+define('TEXT_MANUFACTURERS_IMAGE_LABEL', 'Выбрать производителя');

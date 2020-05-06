@@ -5,19 +5,21 @@
   osCommerce, Open Source E-Commerce Solutions
   http://www.oscommerce.com
 
-  Copyright (c) 2002 osCommerce
-  Translation to RU from Fredi. Updated 7/01/2020
+  Copyright (c) 2020 osCommerce
+  Translation to RU from Fredi. Updated 2/05/2020
   Released under the GNU General Public License
 */
 
 define('HEADING_TITLE', 'Список заказов');
 define('HEADING_TITLE_SEARCH', 'Поиск по ID заказа');
-define('HEADING_TITLE_STATUS', 'Состояние:');
+define('HEADING_TITLE_STATUS', 'Статус');
+define('HEADING_TITLE_ORDER', 'Заказ #%s');
 
-define('TAB_TITLE_SUMMARY','Резюме');
-define('TAB_TITLE_PRODUCTS','Товары');
-define('TAB_TITLE_STATUS_HISTORY','Статус истории');
+define('TAB_TITLE_SUMMARY','<i class="fas fa-info-circle fa-fw mr-1"></i>Резюме');
+define('TAB_TITLE_PRODUCTS','<i class="fas fa-box-open fa-fw mr-1"></i>Товары');
+define('TAB_TITLE_STATUS_HISTORY','<i class="fas fa-history fa-fw mr-1"></i>Статус истории');
 
+define('TABLE_HEADING_OID', 'Заказ');
 define('TABLE_HEADING_COMMENTS', 'Комментарий');
 define('TABLE_HEADING_CUSTOMERS', 'Покупатели');
 define('TABLE_HEADING_ORDER_TOTAL', 'Заказ итого');
@@ -62,9 +64,9 @@ define('ENTRY_PRINTABLE', 'Напечатать счёт');
 define('TEXT_INFO_HEADING_DELETE_ORDER', 'Удалить Заказ');
 define('TEXT_INFO_DELETE_INTRO', 'Вы действительно хотите удалить этот заказ?');
 define('TEXT_INFO_RESTOCK_PRODUCT_QUANTITY', 'Пересчитать количество товара на складе');
-define('TEXT_DATE_ORDER_CREATED', 'Дата Создания:');
-define('TEXT_DATE_ORDER_LAST_MODIFIED', 'Последние Изменения:');
-define('TEXT_INFO_PAYMENT_METHOD', 'Способ Оплаты:');
+define('TEXT_DATE_ORDER_CREATED', 'Дата Создания: %s');
+define('TEXT_DATE_ORDER_LAST_MODIFIED', 'Последние Изменения: %s');
+define('TEXT_INFO_PAYMENT_METHOD', 'Способ Оплаты: %s');
 
 define('TEXT_ALL_ORDERS', 'Все Заказы');
 define('TEXT_NO_ORDER_HISTORY', 'История заказа отсутствует');
@@ -77,8 +79,14 @@ define('EMAIL_TEXT_DATE_ORDERED', 'Дата заказа:');
 define('EMAIL_TEXT_STATUS_UPDATE', 'Статус Вашего заказа изменён.' . "\n\n" . 'Новый статус: %s' . "\n\n" . 'Если у Вас возникли вопросы, просто задайте нам их в ответном письме.' . "\n");
 define('EMAIL_TEXT_COMMENTS_UPDATE', 'Комментарии к Вашему заказу' . "\n\n%s\n\n");
 
-define('ERROR_ORDER_DOES_NOT_EXIST', 'Ошибка: Заказ не существует.');
-define('SUCCESS_ORDER_UPDATED', 'Выполнено: Заказ успешно обновлён.');
-define('WARNING_ORDER_NOT_UPDATED', 'Внимание: Относительно изменений. Заказ не обновлен.');
+define('ERROR_ORDER_DOES_NOT_EXIST', '<b>Ошибка:</b> Заказ <b>%s</b> не существует.');
+define('SUCCESS_ORDER_UPDATED', '<b>Выполнено:</b> Заказ успешно обновлён.');
+define('WARNING_ORDER_NOT_UPDATED', '<b>Внимание:</b> Относительно изменений. Заказ не обновлен.');
 
 define('ENTRY_ADD_COMMENT', 'Добавить комментарий:');
+
+define('ENTRY_NOTIFY_CUSTOMER_TEXT', 'Это уведомит клиента, что его заказ был обновлен.');
+define('ENTRY_NOTIFY_COMMENTS_TEXT', 'Это добавит ваши комментарии к заказу и электронной почте.');
+
+define('TEXT_ORDER_STATUS', '<b>%s</b> [%s]');
+define('TEXT_ORDER_PAYMENT', '<b>%s</b> [%s]');

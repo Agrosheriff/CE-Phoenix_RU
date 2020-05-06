@@ -5,7 +5,7 @@
   osCommerce, Open Source E-Commerce Solutions
   http://www.oscommerce.com
 
-  Copyright (c) 2002 osCommerce
+  Copyright (c) 2020 osCommerce
   Translation to RU from Fredi. Updated 31/01/2020
   Released under the GNU General Public License
 */

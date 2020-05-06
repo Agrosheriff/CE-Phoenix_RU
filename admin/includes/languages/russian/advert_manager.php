@@ -6,75 +6,75 @@
   http://www.oscommerce.com
 
   Copyright (c) 2020 osCommerce
-
+Translation to RU from Fredi. Updated 2/05/2020
   Released under the GNU General Public License
 */
 
-define('HEADING_TITLE', 'Advert Manager');
+define('HEADING_TITLE', 'Менеджер рекламы');
 
-define('TABLE_HEADING_ADVERT', 'Advert');
-define('TABLE_HEADING_GROUP', 'Group');
-define('TABLE_HEADING_SORT_ORDER', 'Sort Order');
-define('TABLE_HEADING_STATUS', 'Status');
-define('TABLE_HEADING_ACTION', 'Action');
+define('TABLE_HEADING_ADVERT', 'Реклама');
+define('TABLE_HEADING_GROUP', 'Группа');
+define('TABLE_HEADING_SORT_ORDER', 'Сортировать');
+define('TABLE_HEADING_STATUS', 'Статус');
+define('TABLE_HEADING_ACTION', 'Действия');
 
-define('TEXT_ADVERT_TITLE', 'Title');
+define('TEXT_ADVERT_TITLE', 'Название');
 define('TEXT_ADVERT_URL', 'URL');
-define('TEXT_ADVERT_FRAGMENT', 'Fragment');
-define('TEXT_ADVERT_GROUP', 'Group');
-define('TEXT_ADVERT_SORT_ORDER', 'Sort Order');
-define('TEXT_ADVERT_NEW_GROUP', 'OR make a New Group');
-define('TEXT_ADVERT_IMAGE', 'Image');
-define('TEXT_ADVERT_IMAGE_LOCAL', 'OR enter local file name');
-define('TEXT_ADVERT_IMAGE_TARGET', 'Save To Directory');
-define('TEXT_ADVERT_HTML_TEXT', 'HTML Text');
+define('TEXT_ADVERT_FRAGMENT', 'Фрагмент');
+define('TEXT_ADVERT_GROUP', 'Группа');
+define('TEXT_ADVERT_SORT_ORDER', 'Сортировать');
+define('TEXT_ADVERT_NEW_GROUP', 'ИЛИ создать новую группу');
+define('TEXT_ADVERT_IMAGE', 'Картинка');
+define('TEXT_ADVERT_IMAGE_LOCAL', 'ИЛИ ввести имя файла');
+define('TEXT_ADVERT_IMAGE_TARGET', 'Сохранить в папке');
+define('TEXT_ADVERT_HTML_TEXT', 'HTML текст');
 
-define('TEXT_ADVERT_TITLE_HELP', 'This is only used in the Listing of Adverts as a reminder for you.');
-define('TEXT_ADVERT_URL_HELP', 'Include https:// for external links or just a page name for internal links (eg product_info.php or advanced_search_result.php)');
-define('TEXT_ADVERT_FRAGMENT_HELP', 'Only used in conjunction with internal links in your Shop!  Fragment URL is (for example) products_id=3 or keywords=xyz');
-define('TEXT_ADVERT_SORT_HELP', 'This determines the Advert Sort Order *inside* it\'s group.');
+define('TEXT_ADVERT_TITLE_HELP', 'Это используется только в списке объявлений в качестве напоминания для вас.');
+define('TEXT_ADVERT_URL_HELP', 'Включая https:// для внешних ссылок или просто имя страницы для внутренних ссылок (например, product_info.php или advanced_search_result.php)');
+define('TEXT_ADVERT_FRAGMENT_HELP', 'Используется только в сочетании с внутренними ссылками в вашем магазине! URL-адрес фрагмента (например) products_id=3 или ключевые слова=xyz');
+define('TEXT_ADVERT_SORT_HELP', 'Это определяет порядок сортировки рекламы внутри группы.');
 
 define('TEXT_ADVERT_NOTE', '
-<strong>Advert Notes:</strong>
+<strong>Рекламные заметки:</strong>
 <ul>
-  <li>You can use an image and/or HTML (usually text!).</li>
-  <li>Output of the image/html will depend on the shop-side addon.</li>
+  <li>Вы можете использовать изображение и/или HTML (обычно текст!).</li>
+  <li>Вывод изображения или html будет зависеть от модуля на стороне магазина.</li>
 </ul>');
 define('TEXT_INSERT_NOTE', '
-<strong>Important Image Notes:</strong>
+<strong>Важные примечания к изображению:</strong>
 <ul>
-  <li>Upload directories must have user (write) permissions setup!</li>
-  <li>Do not fill out the "Save To Directory" field if you are not uploading an image to the webserver (ie, you are using a local (serverside) image).</li>
-  <li>The "Save To Directory" field must be an existing directory with an ending slash (eg, adverts/ or carousels/).</li>
+  <li>Загружаемые каталоги должны иметь пользовательские настройки записи!</li>
+  <li>Не заполняйте поле «Сохранить в каталог», если вы не загружаете изображение на веб-сервер (то есть вы используете локальный (serverside) image).</li>
+  <li>Поле «Сохранить в каталог» должно быть существующим каталогом с конечной косой чертой (например, реклама/ или карусели/).</li>
 </ul>');
 
-define('TEXT_IMAGE_NONEXISTENT', 'Image MISSING!');
+define('TEXT_IMAGE_NONEXISTENT', 'Изображение ОТСУТСТВУЕТ!');
 
-define('TEXT_ADVERT_DATE_ADDED', 'Date Added: %s');
-define('TEXT_ADVERT_STATUS_CHANGE', 'Status Change: %s');
+define('TEXT_ADVERT_DATE_ADDED', 'Добавлено: %s');
+define('TEXT_ADVERT_STATUS_CHANGE', 'Изменение статуса: %s');
 
-define('TEXT_INFO_DELETE_INTRO', 'Are you sure you want to delete this Advert?');
-define('TEXT_INFO_DELETE_IMAGE', 'Delete Image');
+define('TEXT_INFO_DELETE_INTRO', 'Вы уверены, что хотите удалить эту рекламу?');
+define('TEXT_INFO_DELETE_IMAGE', 'Удалить картинку');
 
-define('SUCCESS_IMAGE_INSERTED', '<b>Success:</b> New Advert inserted.');
-define('SUCCESS_IMAGE_UPDATED', '<b>Success:</b> This Advert has been updated.');
-define('SUCCESS_IMAGE_REMOVED', '<b>Success:</b> This Advert has been removed.');
-define('SUCCESS_ADVERT_STATUS_UPDATED', '<b>Success:</b> The status of this Advert has been updated.');
+define('SUCCESS_IMAGE_INSERTED', '<b>Сделано:</b> новая реклама добавлена.');
+define('SUCCESS_IMAGE_UPDATED', '<b>Сделано:</b> эта реклама обновлена.');
+define('SUCCESS_IMAGE_REMOVED', '<b>Сделано:</b> эта реклама удалена.');
+define('SUCCESS_ADVERT_STATUS_UPDATED', '<b>Сделано:</b> Статус обновлен.');
 
-define('ERROR_ADVERT_TITLE_REQUIRED', '<b>Error:</b> Advert TITLE required.');
-define('ERROR_ADVERT_GROUP_REQUIRED', '<b>Error:</b> Advert GROUP required.');
-define('ERROR_IMAGE_DIRECTORY_DOES_NOT_EXIST', '<b>Error:</b> Target directory does not exist: %s');
-define('ERROR_IMAGE_DIRECTORY_NOT_WRITEABLE', '<b>Error:</b> Target directory is not writeable: %s');
-define('ERROR_IMAGE_DOES_NOT_EXIST', '<b>Error:</b> Image does not exist.');
-define('ERROR_IMAGE_IS_NOT_WRITEABLE', '<b>Error:</b> Image can not be removed.');
-define('ERROR_ADVERT_IMAGE_OR_TEXT_REQUIRED', '<b>Error:</b> You have not inserted Image or Text.  Adverts need Image/Text/Both to display.');
+define('ERROR_ADVERT_TITLE_REQUIRED', '<b>Ошибка:</b> Advert TITLE required.');
+define('ERROR_ADVERT_GROUP_REQUIRED', '<b>Ошибка:</b> Advert GROUP required.');
+define('ERROR_IMAGE_DIRECTORY_DOES_NOT_EXIST', '<b>Ошибка: Целевой каталог не существует: %s');
+define('ERROR_IMAGE_DIRECTORY_NOT_WRITEABLE', '<b>Ошибка: Целевой каталог недоступен для записи: %s');
+define('ERROR_IMAGE_DOES_NOT_EXIST', '<b>Ошибка:</b> Изображение не существует.');
+define('ERROR_IMAGE_IS_NOT_WRITEABLE', '<b>Ошибка:</b> Изображение не может быть удалено.');
+define('ERROR_ADVERT_IMAGE_OR_TEXT_REQUIRED', '<b>Ошибка</b>: Вы не вставили изображение или текст. Для показа рекламы требуется изображение и текст. Оба.');
 
-define('TEXT_DISPLAY_NUMBER_OF_ADVERTS', 'Displaying <b>%s</b> to <b>%s</b> of <b>%s</b> Adverts');
-define('IMAGE_NEW_ADVERT', 'New Advert');
+define('TEXT_DISPLAY_NUMBER_OF_ADVERTS', 'Показать <b>%s</b> до <b>%s</b> от <b>%s</b> реклам');
+define('IMAGE_NEW_ADVERT', 'Новая реклама');
 
-define('TEXT_ADVERT_EXTERNAL_URL', '<i class="fas fa-external-link-alt mr-1"></i> external link:<br>%s');
-define('TEXT_ADVERT_INTERNAL_URL', '<i class="fas fa-link mr-1"></i> internal link:<br>%s');
+define('TEXT_ADVERT_EXTERNAL_URL', '<i class="fas fa-external-link-alt mr-1"></i> внешняя ссылка:<br>%s');
+define('TEXT_ADVERT_INTERNAL_URL', '<i class="fas fa-link mr-1"></i> внутеняя ссылка::<br>%s');
 
-define('IMAGE_IMPORT_ADVERT', 'Attempt Banner Import');
-define('IMAGE_IMPORT_ADVERT_EXPLANATION', 'This will import data from the "banners" database table.  You may need to delete some of the data after import as "banners" was never meant for Carousel use...');
-define('SUCCESS_BANNERS_IMPORTED', '<b>Success:</b>  Banners Table Imported!');
+define('IMAGE_IMPORT_ADVERT', 'Попытка импорта баннера');
+define('IMAGE_IMPORT_ADVERT_EXPLANATION', 'Это позволит импортировать данные из таблицы базы данных «баннеры». Возможно, вам придется удалить некоторые данные после импорта, так как «баннеры» никогда не предназначались для использования в карусели ...');
+define('SUCCESS_BANNERS_IMPORTED', '<b>Сделано:</b>  баннеры импортированы!');

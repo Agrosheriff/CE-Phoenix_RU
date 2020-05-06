@@ -6,7 +6,7 @@
   http://www.oscommerce.com
 
   Copyright (c) 2020 osCommerce
-  Translation to RU from Fredi. Updated 17/01/2020
+  Translation to RU from Fredi. Updated 1/05/2020
   Released under the GNU General Public License
 */
 
@@ -38,13 +38,13 @@ define('TEXT_BACKUP_DIRECTORY', 'Резервная Директория:<br>%s'
 define('TEXT_LAST_RESTORATION', 'Последнее Восстановление:<br>%s');
 define('TEXT_FORGET', 'Забыть');
 
-define('ERROR_BACKUP_DIRECTORY_DOES_NOT_EXIST', 'Ошибка: Директория для резервного копирования не существует Установите ее в файле configure.php.');
-define('ERROR_BACKUP_DIRECTORY_NOT_WRITEABLE', 'Ошибка: Директория для резервного копирования защищена от записи, установите верные права доступа.');
-define('ERROR_DOWNLOAD_LINK_NOT_ACCEPTABLE', 'Ошибка: Ссылка для загрузки не приемлема.');
+define('ERROR_BACKUP_DIRECTORY_DOES_NOT_EXIST', '<b>Ошибка:</b> Директория для резервного копирования не существует Установите ее в файле configure.php.');
+define('ERROR_BACKUP_DIRECTORY_NOT_WRITEABLE', '<b>Ошибка:</b> Директория для резервного копирования защищена от записи, установите верные права доступа.');
+define('ERROR_DOWNLOAD_LINK_NOT_ACCEPTABLE', '<b>Ошибка:</b> Ссылка для загрузки не приемлема.');
 
-define('SUCCESS_LAST_RESTORE_CLEARED', 'Выполнено: Последняя дата восстановления очищена.');
-define('SUCCESS_DATABASE_SAVED', 'Выполнено: База данных сохранена.');
-define('SUCCESS_DATABASE_RESTORED', 'Выполнено: База данных восстановлена.');
-define('SUCCESS_BACKUP_DELETED', 'Выполнено: Копия удалена.');
+define('SUCCESS_LAST_RESTORE_CLEARED', '<b>Выполнено:</b> Последняя дата восстановления очищена.');
+define('SUCCESS_DATABASE_SAVED', '<b>Выполнено:</b> База данных сохранена.');
+define('SUCCESS_DATABASE_RESTORED', '<b>Выполнено:</b> База данных восстановлена.');
+define('SUCCESS_BACKUP_DELETED', '<b>Выполнено:</b> Копия удалена.');
 
 define('TEXT_INFO_BACKUP_SIZE', '%s MB');

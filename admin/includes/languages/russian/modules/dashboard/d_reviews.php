@@ -16,5 +16,5 @@ define('MODULE_ADMIN_DASHBOARD_REVIEWS_REVIEWER', 'Кем отзыв напис�
 define('MODULE_ADMIN_DASHBOARD_REVIEWS_DATE', 'Дата');
 define('MODULE_ADMIN_DASHBOARD_REVIEWS_RATING', 'Рейтинг');
 define('MODULE_ADMIN_DASHBOARD_REVIEWS_REVIEW_STATUS', 'Статус');
-define('MODULE_ADMIN_DASHBOARD_TOTAL_REVENUE_STEP', 'Шаг доходов');
+//// define('MODULE_ADMIN_DASHBOARD_TOTAL_REVENUE_STEP', 'Шаг доходов');
 ?>

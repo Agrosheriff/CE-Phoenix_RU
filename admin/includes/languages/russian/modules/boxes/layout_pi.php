@@ -1,14 +1,13 @@
 <?php
 /*
-  $Id$
+$Id$
 
-  osCommerce, Open Source E-Commerce Solutions
-  http://www.oscommerce.com
+osCommerce, Open Source E-Commerce Solutions
+http://www.oscommerce.com
 
-  Copyright (c) 2020 osCommerce
-
-  Released under the GNU General Public License
+Copyright (c) 2020 osCommerce
+Translation to RU from Fredi. Updated 13/02/2020
+Released under the GNU General Public License
 */
 
-  define('MODULES_ADMIN_MENU_LAYOUT_PI', 'Product Info');
-  
+define('MODULES_ADMIN_MENU_LAYOUT_PI', 'Инфо о Товарах');

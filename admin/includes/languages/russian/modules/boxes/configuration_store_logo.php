@@ -6,8 +6,8 @@
   http://www.oscommerce.com
 
   Copyright (c) 2019 osCommerce
-  Translation to RU from Fredi. Updated 7/01/2020
+Translation to RU from Fredi. Updated 7/01/2020
   Released under the GNU General Public License
 */
 
-  define('MODULES_ADMIN_MENU_CONFIGURATION_STORE_LOGO', 'Логотип магазина');
+define('MODULES_ADMIN_MENU_CONFIGURATION_STORE_LOGO', 'Логотип магазина');

@@ -10,4 +10,4 @@
   Released under the GNU General Public License
 */
 
-const MODULE_CFG_MODULE_NOTIFICATIONS_TITLE = 'Notifications';
+const MODULE_CFG_MODULE_NOTIFICATIONS_TITLE = 'Уведомления';

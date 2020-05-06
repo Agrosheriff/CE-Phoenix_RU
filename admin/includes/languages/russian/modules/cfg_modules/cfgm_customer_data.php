@@ -6,8 +6,8 @@
   http://www.oscommerce.com
 
   Copyright (c) 2020 osCommerce
-
+  Translation to RU from Fredi. Updated 17/02/2020
   Released under the GNU General Public License
 */
 
-const MODULE_CFG_MODULE_CUSTOMER_DATA_TITLE = 'Customer Data';
+const MODULE_CFG_MODULE_CUSTOMER_DATA_TITLE = 'Данные клиентов';

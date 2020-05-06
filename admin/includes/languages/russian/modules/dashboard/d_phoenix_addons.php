@@ -10,8 +10,8 @@
   Released under the GNU General Public License
 */
 
-define('MODULE_ADMIN_DASHBOARD_PHOENIX_ADDONS_TITLE', 'Последние сертифицированные модули');
-define('MODULE_ADMIN_DASHBOARD_PHOENIX_ADDONS_DESCRIPTION', 'Последние сертифицированные модули для членов Клуба Феникс');
+define('MODULE_ADMIN_DASHBOARD_PHOENIX_ADDONS_TITLE', 'Сертифицированные модули и сервисы');
+define('MODULE_ADMIN_DASHBOARD_PHOENIX_ADDONS_DESCRIPTION', 'Последние сертифицированные модули для членов Клуба Феникс. Не для всех членов клуба.) ');
 
 define('MODULE_ADMIN_DASHBOARD_PHOENIX_ADDONS_OWNER', 'От');
 define('MODULE_ADMIN_DASHBOARD_PHOENIX_ADDONS_RATING', 'Рейтинг');

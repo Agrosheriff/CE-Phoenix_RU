@@ -5,9 +5,9 @@
   osCommerce, Open Source E-Commerce Solutions
   http://www.oscommerce.com
 
-  Copyright (c) 2019 osCommerce FFR
+  Copyright (c) 2020 osCommerce FFR
 Translate to russian from Fredi (FFR)  www.oscomm.biz 25.11.2019
-    Updated 7/01/2020
+    Updated 25/04/2020
   Released under the GNU General Public License
 */
 
@@ -17,7 +17,7 @@ Translate to russian from Fredi (FFR)  www.oscomm.biz 25.11.2019
 // 'en_GB.UTF-8', 'en_GB.UTF8', 'eng_gb'
 // 'en_AU.UTF-8', 'en_AU.UTF8', 'ena_au'
 
-setlocale(LC_ALL, array('ru_RU.UTF-8', 'ru_RU.UTF8', 'rur_ru'));
+setlocale(LC_ALL, array('ru_RU.UTF-8', 'ru_RU.UTF8', 'ru_ru'));
 define('DATE_FORMAT_SHORT', '%d/%m/%Y');  // this is used for strftime()
 define('DATE_FORMAT_LONG', '%A %d %B, %Y'); // this is used for strftime()
 define('DATE_FORMAT', 'd/m/Y'); // this is used for date()
@@ -26,18 +26,6 @@ define('DATE_TIME_FORMAT', DATE_FORMAT_SHORT . ' %H:%M:%S');
 define('JQUERY_DATEPICKER_I18N_CODE', ''); // leave empty for en_US; see http://jqueryui.com/demos/datepicker/#localization
 define('JQUERY_DATEPICKER_FORMAT', 'dd/mm/yy'); // see http://docs.jquery.com/UI/Datepicker/formatDate
 
-////
-// Return date in raw format
-// $date should be in format mm/dd/yyyy
-// raw date is in format YYYYMMDD, or DDMMYYYY
-function tep_date_raw($date, $reverse = false) {
-  if ($reverse) {
-    return substr($date, 6, 4) . substr($date, 0, 2) . substr($date, 3, 2);
-  } else {
-    return substr($date, 3, 2) . substr($date, 0, 2) . substr($date, 6, 4);
-  }
-}
-
 // Global entries for the <html> tag
 define('HTML_PARAMS', 'dir="ltr" lang="ru"');
 
@@ -45,7 +33,7 @@ define('HTML_PARAMS', 'dir="ltr" lang="ru"');
 define('CHARSET', 'utf-8');
 
 // page title
-define('TITLE', 'OSCOM CE Феникс Администрация');
+define('TITLE', 'AGROSHERIFF Администрация');
 
 // header text in includes/header.php
 define('HEADER_TITLE_TOP', 'Администратор');
@@ -55,82 +43,8 @@ define('HEADER_TITLE_PHOENIX_CLUB', '<span class="border-bottom border-primary">
 define('HEADER_TITLE_CERTIFIED_ADDONS', '<span class="border-bottom border-primary">Сертифицированные дополнения</span>');
 define('HEADER_TITLE_LOGOFF', '<i class="fas fa-lock"></i> <span class="border-bottom border-danger"> %s, безопасный выход</span>');
 
-// text for gender
-define('MALE', 'Мужчина');
-define('FEMALE', 'Женщина');
-
-// text for date of birth example
-define('DOB_FORMAT_STRING', 'dd/mm/yyyy');
-
 // javascript messages
-define('JS_ERROR', 'При заполнении формы Вы допустили ошибку!\nСделайте, пожалуйста, следующие исправления:\n\n');
-
-define('JS_OPTIONS_VALUE_PRICE', '* Новый атрибут товара должен иметь цену\n');
-define('JS_OPTIONS_VALUE_PRICE_PREFIX', '* Новый атрибут товара должен иметь ценовой префикс\n');
-
-define('JS_PRODUCTS_NAME', '* Для нового товара должно быть указано наименование\n');
-define('JS_PRODUCTS_DESCRIPTION', '* Для нового товара должно быть указано описание\n');
-define('JS_PRODUCTS_PRICE', '* Для нового товара должна быть указана цена\n');
-define('JS_PRODUCTS_WEIGHT', '* Для нового товара должен быть указан вес\n');
-define('JS_PRODUCTS_QUANTITY', '* Для нового товара должно быть указано количество\n');
-define('JS_PRODUCTS_MODEL', '* Для нового товара должен быть указан код товара\n');
-define('JS_PRODUCTS_IMAGE', '* Для нового товара должна быть картинка\n');
-
-define('JS_SPECIALS_PRODUCTS_PRICE', '* Для этого товара должна быть установлена новая цена\n');
-
-define('JS_GENDER', '* \'Пол\' должен быть выбран.\n');
-define('JS_FIRST_NAME', '* \'Имя\' должно содержать не менее ' . ENTRY_FIRST_NAME_MIN_LENGTH . ' символов.\n');
-define('JS_LAST_NAME', '*  \'Фамилия\' должна содержать не менее ' . ENTRY_LAST_NAME_MIN_LENGTH . ' символов.\n');
-define('JS_DOB', '* \'День рождения\' должен иметь формат: xx/xx/xxxx (день/месяц/год).\n');
-define('JS_EMAIL_ADDRESS', '* \'E-Mail адрес\' должен содержать не менее ' . ENTRY_EMAIL_ADDRESS_MIN_LENGTH . ' символов.\n');
-define('JS_ADDRESS', '* \'Адрес\' должен содержать не менее ' . ENTRY_STREET_ADDRESS_MIN_LENGTH . ' символов.\n');
-define('JS_POST_CODE', '* \'Индекс\' должен содержать не менее ' . ENTRY_POSTCODE_MIN_LENGTH . ' символов.\n');
-define('JS_CITY', '* \'Город\' должен содержать не менее ' . ENTRY_CITY_MIN_LENGTH . ' символов.\n');
-define('JS_STATE', '* \'Регион\' необходимо выбрать.\n');
 define('JS_STATE_SELECT', '-- Выберите выше --');
-define('JS_ZONE', '* \'Регион\' должен соответствовать выбранной стране.');
-define('JS_COUNTRY', '* \'Страна\' должна быть выбрана.\n');
-define('JS_TELEPHONE', '* \'Телефон\' должен содержать не менее ' . ENTRY_TELEPHONE_MIN_LENGTH . ' символов.\n');
-define('JS_PASSWORD', '* \'Пароль\' и \'Подтверждение\' должны совпадать и содержать не менее ' . ENTRY_PASSWORD_MIN_LENGTH . ' символов.\n');
-
-define('JS_ORDER_DOES_NOT_EXIST', 'Заказ номер %s не найден!');
-
-define('CATEGORY_PERSONAL', 'Персональный');
-define('CATEGORY_ADDRESS', 'Адрес');
-define('CATEGORY_CONTACT', 'Для контакта');
-define('CATEGORY_COMPANY', 'Компания');
-define('CATEGORY_OPTIONS', 'Опции');
-
-define('ENTRY_GENDER', 'Пол:');
-define('ENTRY_GENDER_ERROR', '&nbsp;<span class="errorText">обязательно</span>');
-define('ENTRY_FIRST_NAME', 'Имя:');
-define('ENTRY_FIRST_NAME_ERROR', '&nbsp;<span class="errorText">минимум ' . ENTRY_FIRST_NAME_MIN_LENGTH . ' символов</span>');
-define('ENTRY_LAST_NAME', 'Фамилия:');
-define('ENTRY_LAST_NAME_ERROR', '&nbsp;<span class="errorText">минимум ' . ENTRY_LAST_NAME_MIN_LENGTH . ' символов</span>');
-define('ENTRY_DATE_OF_BIRTH', 'Дата рождения:');
-define('ENTRY_DATE_OF_BIRTH_ERROR', '&nbsp;<span class="errorText">(пример 21/05/1970)</span>');
-define('ENTRY_EMAIL_ADDRESS', 'E-Mail Адрес:');
-define('ENTRY_EMAIL_ADDRESS_ERROR', '&nbsp;<span class="errorText">минимум ' . ENTRY_EMAIL_ADDRESS_MIN_LENGTH . ' символов</span>');
-define('ENTRY_EMAIL_ADDRESS_CHECK_ERROR', '&nbsp;<span class="errorText">Вы ввели неверный email адрес!</span>');
-define('ENTRY_EMAIL_ADDRESS_ERROR_EXISTS', '&nbsp;<span class="errorText">Данный email адрес уже зарегистрирован!</span>');
-define('ENTRY_COMPANY', 'Название компании:');
-define('ENTRY_STREET_ADDRESS', 'Адрес (улица, № дома и квартиры):');
-define('ENTRY_STREET_ADDRESS_ERROR', '&nbsp;<span class="errorText">минимум ' . ENTRY_STREET_ADDRESS_MIN_LENGTH . ' символов</span>');
-define('ENTRY_SUBURB', 'Район:');
-define('ENTRY_POST_CODE', 'Индекс:');
-define('ENTRY_POST_CODE_ERROR', '&nbsp;<span class="errorText">минимум ' . ENTRY_POSTCODE_MIN_LENGTH . ' символов</span>');
-define('ENTRY_CITY', 'Город:');
-define('ENTRY_CITY_ERROR', '&nbsp;<span class="errorText">минимум ' . ENTRY_CITY_MIN_LENGTH . ' символов</span>');
-define('ENTRY_STATE', 'Регион:');
-define('ENTRY_STATE_ERROR', '&nbsp;<span class="errorText">обязательно</span>');
-define('ENTRY_COUNTRY', 'Страна:');
-define('ENTRY_COUNTRY_ERROR', 'Вы должны выбрать страну из списка.');
-define('ENTRY_TELEPHONE_NUMBER', 'Номер телефона:');
-define('ENTRY_TELEPHONE_NUMBER_ERROR', '&nbsp;<span class="errorText">минимум ' . ENTRY_TELEPHONE_MIN_LENGTH . ' цифр</span>');
-define('ENTRY_FAX_NUMBER', 'Факс:');
-define('ENTRY_NEWSLETTER', 'Получать рассылку:');
-define('ENTRY_NEWSLETTER_YES', 'Подписан');
-define('ENTRY_NEWSLETTER_NO', 'Не подписан');
 
 // images
 define('IMAGE_ANI_SEND_EMAIL', 'Отправить E-Mail');
@@ -158,6 +72,7 @@ define('IMAGE_MOVE', 'Переместить');
 define('IMAGE_NEW_CATEGORY', 'Новая категория');
 define('IMAGE_NEW_COUNTRY', 'Новая страна');
 define('IMAGE_NEW_CURRENCY', 'Новая валюта'); 
+const IMAGE_NEW_CUSTOMER_DATA_GROUP = 'Новая группа данных клиентов';
 define('IMAGE_NEW_FILE', 'Новый файл');
 define('IMAGE_NEW_FOLDER', 'Новая папка');
 define('IMAGE_NEW_LANGUAGE', 'Новый язык');
@@ -190,6 +105,7 @@ define('ICON_ERROR', 'Ошибка:');
 define('ICON_FILE', 'Файл');
 define('ICON_FILE_DOWNLOAD', 'Загрузка');
 define('ICON_FOLDER', 'Папка');
+define('ICON_TOPICS', 'Папка');
 define('ICON_LOCKED', 'Заблокировано');
 define('ICON_PREVIOUS_LEVEL', 'Предыдущий уровень');
 define('ICON_PREVIEW', 'Редактировать');
@@ -202,6 +118,7 @@ define('ICON_WARNING', 'ВНИМАНИЕ');
 // constants for use in tep_prev_next_display function
 define('TEXT_RESULT_PAGE', 'Страница с %s по %d');
 define('TEXT_DISPLAY_NUMBER_OF_COUNTRIES', 'Показано <b>%d</b> - <b>%d</b> (всего <b>%d</b> стран)');
+const TEXT_DISPLAY_NUMBER_OF_CUSTOMER_DATA_GROUPS = 'Показано <b>%d</b> до <b>%d</b> (от <b>%d</b> группы данных клиентов)';
 define('TEXT_DISPLAY_NUMBER_OF_CUSTOMERS', 'Показано <b>%d</b> - <b>%d</b> (всего <b>%d</b> клиентов)');
 define('TEXT_DISPLAY_NUMBER_OF_CURRENCIES', 'Показано <b>%d</b> - <b>%d</b> (всего <b>%d</b> валют)');
 define('TEXT_DISPLAY_NUMBER_OF_ENTRIES', 'Показано <b>%d</b> - <b>%d</b> (всего <b>%d</b> заходов)');
@@ -224,17 +141,17 @@ define('PREVNEXT_BUTTON_NEXT', '&gt;&gt;');
 
 define('TEXT_DEFAULT', 'по умолчанию');
 define('TEXT_SET_DEFAULT', 'Установить по умолчанию');
-define('TEXT_FIELD_REQUIRED', '&nbsp;<span class="fieldRequired">* Обязательно</span>');
 
 define('TEXT_NONE', '--нет--');
 define('TEXT_TOP', 'Начало');
+const TEXT_ALL = 'Полностью';
 
-define('ERROR_DESTINATION_DOES_NOT_EXIST', 'Ошибка: Каталог не существует.');
-define('ERROR_DESTINATION_NOT_WRITEABLE', 'Ошибка: Каталог защищён от записи, установите необходимые права доступа.');
-define('ERROR_FILE_NOT_SAVED', 'Ошибка: Файл не был загружен.');
-define('ERROR_FILETYPE_NOT_ALLOWED', 'Ошибка: Нельзя загружать файлы этого типа.');
-define('SUCCESS_FILE_SAVED_SUCCESSFULLY', 'Выполнено: Файл успешно загружен.');
-define('WARNING_NO_FILE_UPLOADED', 'Предупреждение: Ни одного файла не загружено.');
+define('ERROR_DESTINATION_DOES_NOT_EXIST', '<b>Ошибка:</b> Каталог не существует.');
+define('ERROR_DESTINATION_NOT_WRITEABLE', '<b>Ошибка:</b> Каталог защищён от записи, установите необходимые права доступа.');
+define('ERROR_FILE_NOT_SAVED', '<b>Ошибка:</b> Файл не был загружен.');
+define('ERROR_FILETYPE_NOT_ALLOWED', '<b>Ошибка:</b> Нельзя загружать файлы этого типа.');
+define('SUCCESS_FILE_SAVED_SUCCESSFULLY', '<b>Выполнено:</b> Файл успешно загружен.');
+define('WARNING_NO_FILE_UPLOADED', '<b>Предупреждение:</b> Ни одного файла не загружено.');
 
 // bootstrap helper
 define('MODULE_CONTENT_BOOTSTRAP_ROW_DESCRIPTION', '<p>Ширина содержимого в ряду может составлять до 12 колонок.</p><p>12/12 = 100% ширины, 6/12 = 50% ширины, 4/12 = 33% ширины.</p><p>Общее количество всех столбцов в любом ряду должно равняться 12 (например: 3 поля по 4 столбца в каждом, 1 поле из 12 столбцов и т.д.).</p>');
@@ -242,7 +159,13 @@ define('MODULE_CONTENT_BOOTSTRAP_ROW_DESCRIPTION', '<p>Ширина содерж
 // seo helper
 define('PLACEHOLDER_COMMA_SEPARATION', 'Должны быть разделены запятыми');
 
+// message for required inputs
+const FORM_REQUIRED_INPUT = '<span class="form-control-feedback text-danger"><i class="fas fa-asterisk"></i></span>';
+
 // polls box text in includes/boxes/polls.php 
 define('BOX_HEADING_POLLS', 'Опросы'); 
 define('BOX_POLLS_POLLS', 'Менеджер Опросов'); 
 define('BOX_POLLS_CONFIG','Конфигурация опросов');
+
+define('TEXT_DISPLAY_NUMBER_OF_ADMIN_GROUPSS', 'Показать <b>%d</b> до <b>%d</b> (от <b>%d</b> группы администраторов)');
+define('BOX_CONFIGURATION_ADMINISTRATOR_GROUP', 'Группы администраторов');

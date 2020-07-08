@@ -1,13 +1,13 @@
 <?php
 /*
-  $Id$
+$Id$
 
-  osCommerce, Open Source E-Commerce Solutions
-  http://www.oscommerce.com
+osCommerce, Open Source E-Commerce Solutions
+http://www.oscommerce.com
 
-  Copyright (c) 2019 osCommerce
-  Translation to RU from Fredi. Updated 7/01/2020
-  Released under the GNU General Public License
+Copyright (c) 2020 osCommerce
+Translation to RU from Fredi. Updated 3/07/2020
+Released under the GNU General Public License
 */
 
 define('NAVBAR_TITLE', 'Доставка товаров');
@@ -19,4 +19,3 @@ define('TEXT_INFORMATION', 'Для выполнения вашего заказ�
 <font color="red">ДАЛЕЕ ВВЕДИТЕ СВОЙ ТЕКСТ И СВОИ УСЛОВИЯ ДОСТАВКИ. ДОПОЛНИТЕЛЬНО МОЖНО ИЗМЕНИТЬ ТЕКСТ РАЗМЕЩЕННЫЙ ВЫШЕ в файле includes\languages\russian\shipping.php</font>
 <br>Если у вас есть любые вопросы, пожалуйста, свяжитесь с отделом обслуживания 
 интернет-магазина ' . STORE_NAME . '.');
-?>

@@ -10,5 +10,6 @@ Translation to RU from Fredi. Updated 3/07/2020
 Released under the GNU General Public License
 */
 
-define('NAVBAR_TITLE_1', 'Создать Ваш Профиль'); 
-define('NAVBAR_TITLE_2', 'Регистрация успешно завершена');
+define('NAVBAR_TITLE', 'Конфиденциальность данных');
+define('HEADING_TITLE', 'Что мы знаем о Вас ...');
+

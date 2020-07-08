@@ -1,9 +1,13 @@
 <?php
 /*
-  Copyright (c) 2019, G Burton
-  All rights reserved. 
+$Id$
 
-  Translation to RU from Fredi. Updated 7/01/2020
+osCommerce, Open Source E-Commerce Solutions
+http://www.oscommerce.com
+
+Copyright (c) 2020 osCommerce
+Translation to RU from Fredi. Updated 3/07/2020
+Released under the GNU General Public License
 */
 
 define('MODULE_SECURITY_CHECK_GITHUB_TITLE', 'Директория Github');

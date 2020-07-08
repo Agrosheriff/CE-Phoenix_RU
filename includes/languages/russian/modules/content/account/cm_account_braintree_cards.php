@@ -12,9 +12,7 @@
 
   define('MODULE_CONTENT_ACCOUNT_BRAINTREE_CARDS_TITLE', 'Страница управления Braintree Cards');
   define('MODULE_CONTENT_ACCOUNT_BRAINTREE_CARDS_DESCRIPTION', 'Добавить страницу управления Braintree Cards в Мой аккаунт');
-
   define('MODULE_CONTENT_ACCOUNT_BRAINTREE_CARDS_ERROR_MAIN_MODULE', 'Этот модуль не будет загружен до тех пор, пока не будет установлен, сконфигрурирован и разрешён платёжный модуль Braintree. Установите и сконфигурируйте модуль оплаты Braintree.');
-
   define('MODULE_CONTENT_ACCOUNT_BRAINTREE_CARDS_LINK_TITLE', 'Управление сохранёнными платёжными картами.');
 
   define('MODULE_CONTENT_ACCOUNT_BRAINTREE_CARDS_NAVBAR_TITLE_1', 'Мой аккаунт');

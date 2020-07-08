@@ -12,7 +12,6 @@
 
 define('MODULE_CONTENT_ACCOUNT_SET_PASSWORD_TITLE', 'Установить пароль личного Кабинета');
 define('MODULE_CONTENT_ACCOUNT_SET_PASSWORD_DESCRIPTION', 'Установить пароль если пароль не был задан ранее.');
-
 define('MODULE_CONTENT_ACCOUNT_SET_PASSWORD_SET_PASSWORD_LINK_TITLE', 'Установить пароль для личного Кабинета.');
 
 define('MODULE_CONTENT_ACCOUNT_SET_PASSWORD_NAVBAR_TITLE_1', 'Мой Кабинет');

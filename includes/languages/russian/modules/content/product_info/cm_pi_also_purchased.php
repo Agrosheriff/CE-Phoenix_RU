@@ -11,5 +11,5 @@ Released under the GNU General Public License
 const MODULE_CONTENT_PRODUCT_INFO_ALSO_PURCHASED_TITLE        = 'С этим товаром также покупают:';
 const MODULE_CONTENT_PRODUCT_INFO_ALSO_PURCHASED_DESCRIPTION  = 'Показать -С этим товаром также покупают:- блок на странице товара.';
 
-const MODULE_CONTENT_PRODUCT_INFO_ALSO_PURCHASED_PUBLIC_TITLE = '<div class="p-3 mb-2 bg-primary text-white">РЕКОМЕНДАЦИЯ: Эти товары будут Вам полезны.</div>';
+const MODULE_CONTENT_PRODUCT_INFO_ALSO_PURCHASED_PUBLIC_TITLE = 'РЕКОМЕНДАЦИЯ: Эти товары будут Вам полезны.';
 

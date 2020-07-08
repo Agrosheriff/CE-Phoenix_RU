@@ -7,7 +7,7 @@
 
   Copyright (c) 2019 osCommerce
 Translate to russian from Fred (FFR)  www.oscomm.biz 10.08.2019 
-Update to Phoenix 1.0.4.1   07.01.2020
+Update to Phoenix  3.07.2020
   Released under the GNU General Public License
 */
 
@@ -24,13 +24,13 @@ define('DATE_FORMAT_SHORT', '%d/%m/%Y');  // this is used for strftime()
 define('DATE_FORMAT_LONG', '%A %d %B, %Y'); // this is used for strftime()
 define('DATE_FORMAT', 'd/m/Y'); // this is used for date()
 define('DATE_TIME_FORMAT', DATE_FORMAT_SHORT . ' %H:%M:%S');
-define('JQUERY_DATEPICKER_I18N_CODE', 'ru'); // leave empty for en_US; see http://jqueryui.com/demos/datepicker/#localization
 define('JQUERY_DATEPICKER_FORMAT', 'dd/mm/yy'); // see http://docs.jquery.com/UI/Datepicker/formatDate
 
 ////
 // Return date in raw format
 // $date should be in format dd/mm/yyyy
 // raw date is in format YYYYMMDD, or DDMMYYYY
+/*
 function tep_date_raw($date, $reverse = false) {
   if ($reverse) {
     return substr($date, 0, 2) . substr($date, 3, 2) . substr($date, 6, 4);
@@ -38,7 +38,7 @@ function tep_date_raw($date, $reverse = false) {
     return substr($date, 6, 4) . substr($date, 3, 2) . substr($date, 0, 2);
   }
 }
-
+*/
 // if USE_DEFAULT_LANGUAGE_CURRENCY is true, use the following currency, instead of the applications default currency (used when changing language)
 define('LANGUAGE_CURRENCY', 'USD');
 
@@ -55,9 +55,10 @@ define('TITLE', STORE_NAME);
 define('HEADER_TITLE_MY_ACCOUNT', 'Мой Кабинет');
 
 // text in includes/application_top.php
+/*
 define('HEADER_TITLE_TOP', '<i class="fas fa-home"></i><span class="sr-only"> Главная</span>');
 define('HEADER_TITLE_CATALOG', 'Каталог');
-
+*/
 // checkout procedure text
 define('CHECKOUT_BAR_DELIVERY', 'Адрес доставки');
 define('CHECKOUT_BAR_PAYMENT', 'Способ оплаты');
@@ -68,9 +69,7 @@ define('PULL_DOWN_DEFAULT', 'Выберите');
 
 // javascript messages
 define('JS_ERROR', 'Ошибки при заполнении формы.\n\nИсправьте пожалуйста ошибки:\n\n');
-
 define('JS_ERROR_NO_PAYMENT_MODULE_SELECTED', '* Выберите метод оплаты для Вашего заказа.\n');
-
 define('ERROR_NO_PAYMENT_MODULE_SELECTED', 'Выберите пожалуйста метод оплаты для Вашего заказа.');
 
 // constants for use in tep_prev_next_display function
@@ -105,7 +104,7 @@ define('IMAGE_BUTTON_UPDATE_PREFERENCES', 'Обновить настройки')
 
 define('SMALL_IMAGE_BUTTON_DELETE', 'Удалить');
 define('SMALL_IMAGE_BUTTON_EDIT', 'Изменить');
-define('SMALL_IMAGE_BUTTON_VIEW', '<i class="fas fa-eye"></i>Смотреть');
+define('SMALL_IMAGE_BUTTON_VIEW', 'Смотреть');
 define('SMALL_IMAGE_BUTTON_BUY', 'Купить');
 
 define('ICON_ARROW_RIGHT', 'подробнее');
@@ -136,7 +135,7 @@ define('FORM_REQUIRED_INPUT', '<span class="form-control-feedback text-danger"><
 // grid/list
 define('TEXT_SORT_BY', 'Сортировать по ');
 // moved from index
-define('TABLE_HEADING_IMAGE', 'Фото');
+define('TABLE_HEADING_IMAGE', '');
 define('TABLE_HEADING_MODEL', 'Модель');
 define('TABLE_HEADING_PRODUCTS', 'Наименование');
 define('TABLE_HEADING_MANUFACTURER', 'Производитель');
@@ -163,7 +162,7 @@ const TEXT_NOSCRIPT = <<<'EOT'
 <a class="alert-link" href="https://www.enable-javascript.com/" target="_blank" rel="nofollow">Нажмите здесь для получения инструкций по включению JavaScript в вашем браузере</a>.</p>
 EOT;
 
-// sitewide is-product 
+// sitewide is-product
 define('IS_PRODUCT_SHOW_PRICE', '%s');
 define('IS_PRODUCT_SHOW_PRICE_SPECIAL', '<del>%s</del> <span class="text-danger">сейчас %s</span>');
 define('IS_PRODUCT_BUTTON_BUY', '<i class="fas fa-shopping-cart"></i>');
@@ -181,12 +180,3 @@ define('PAYMENT_FA_ICON', '<i class="fas fa-file-invoice-dollar fa-fw fa-3x floa
 define('ENTRY_COMMENTS', 'Вы хотите сообщить свое мнение?');
 define('ENTRY_COMMENTS_PLACEHOLDER', 'Напишите комментарий здесь...');
 define('TABLE_HEADING_OR', '-или-');
-
-// Poll Box Text 
-define('_RESULTS', 'Результаты'); 
-define('_POLLS','Опросы'); 
-define('_VOTE', 'VOTE'); 
-define('_VOTES', 'Голоса'); 
-define('_NOPOLLS','Нет подходящих опросов'); 
-define('_NOPOLLSCONTENT','Нет опросов в которых Вы можете голосовать, однако вы все равно можете просмотреть результаты других опросов<br><br><a href="pollbooth.php">['._POLLS.']');  
-

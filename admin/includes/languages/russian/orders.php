@@ -1,13 +1,13 @@
 <?php
 /*
-  $Id$
+$Id$
 
-  osCommerce, Open Source E-Commerce Solutions
-  http://www.oscommerce.com
+osCommerce, Open Source E-Commerce Solutions
+http://www.oscommerce.com
 
-  Copyright (c) 2020 osCommerce
-  Translation to RU from Fredi. Updated 2/05/2020
-  Released under the GNU General Public License
+Copyright (c) 2020 osCommerce
+Translation to RU from Fredi. Updated 3/07/2020
+Released under the GNU General Public License
 */
 
 define('HEADING_TITLE', 'Список заказов');
@@ -78,13 +78,10 @@ define('EMAIL_TEXT_INVOICE_URL', 'Подробная информация о з�
 define('EMAIL_TEXT_DATE_ORDERED', 'Дата заказа:');
 define('EMAIL_TEXT_STATUS_UPDATE', 'Статус Вашего заказа изменён.' . "\n\n" . 'Новый статус: %s' . "\n\n" . 'Если у Вас возникли вопросы, просто задайте нам их в ответном письме.' . "\n");
 define('EMAIL_TEXT_COMMENTS_UPDATE', 'Комментарии к Вашему заказу' . "\n\n%s\n\n");
-
 define('ERROR_ORDER_DOES_NOT_EXIST', '<b>Ошибка:</b> Заказ <b>%s</b> не существует.');
 define('SUCCESS_ORDER_UPDATED', '<b>Выполнено:</b> Заказ успешно обновлён.');
 define('WARNING_ORDER_NOT_UPDATED', '<b>Внимание:</b> Относительно изменений. Заказ не обновлен.');
-
 define('ENTRY_ADD_COMMENT', 'Добавить комментарий:');
-
 define('ENTRY_NOTIFY_CUSTOMER_TEXT', 'Это уведомит клиента, что его заказ был обновлен.');
 define('ENTRY_NOTIFY_COMMENTS_TEXT', 'Это добавит ваши комментарии к заказу и электронной почте.');
 

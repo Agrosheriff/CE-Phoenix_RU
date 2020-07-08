@@ -1,13 +1,13 @@
 <?php
 /*
-  $Id$
+$Id$
 
-  osCommerce, Open Source E-Commerce Solutions
-  http://www.oscommerce.com
+osCommerce, Open Source E-Commerce Solutions
+http://www.oscommerce.com
 
-  Copyright (c) 2020 osCommerce
-
-  Released under the GNU General Public License
+Copyright (c) 2020 osCommerce
+Translation to RU from Fredi. Updated 3/07/2020
+Released under the GNU General Public License
 */
 
 define('HEADING_TITLE', 'Налоговые зоны');
@@ -44,4 +44,4 @@ define('TEXT_INFO_COUNTRY', 'Страна:');
 define('TEXT_INFO_COUNTRY_ZONE', 'Регион:');
 define('TYPE_BELOW', 'Все зоны');
 define('PLEASE_SELECT', 'Выберите зону');
-define('TEXT_ALL_COUNTRIES', 'Все страны');    
+define('TEXT_ALL_COUNTRIES', 'Все страны');

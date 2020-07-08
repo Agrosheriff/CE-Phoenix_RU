@@ -1,13 +1,13 @@
 <?php
 /*
-  $Id$
+$Id$
 
-  osCommerce, Open Source E-Commerce Solutions
-  http://www.oscommerce.com
+osCommerce, Open Source E-Commerce Solutions
+http://www.oscommerce.com
 
-  Copyright (c) 2020 osCommerce
-  Translation to RU from Fredi. Updated 1/05/2020
-  Released under the GNU General Public License
+Copyright (c) 2020 osCommerce
+Translation to RU from Fredi. Updated 3/07/2020
+Released under the GNU General Public License
 */
 
 define('HEADING_TITLE', 'Статусы Заказов');
@@ -28,7 +28,7 @@ define('TEXT_INFO_HEADING_DELETE_ORDERS_STATUS', 'Удалить статус з
 define('TEXT_SET_PUBLIC_STATUS', 'Показать заказ товаров покупателю на этом уровне статуса заказа');
 define('TEXT_SET_DOWNLOADS_STATUS', 'Разрешить загрузку виртуальных (дигитальных) продуктов на этом уровне статуса заказа');
 
-define('ERROR_REMOVE_DEFAULT_ORDER_STATUS', '<bОшибка:</b> Статус заказа по умолчанию не может быть удален, измените статус и попробуйте снова.');
-define('ERROR_STATUS_USED_IN_ORDERS', '<bОшибка:</b> Есть заказы с данным статусом, удалить данный статус нельзя, сначала удалите заказы с данным статусом.');
-define('ERROR_STATUS_USED_IN_HISTORY', '<bОшибка:</b> Есть заказы с данным статусом, удалить данный статус нельзя, сначала удалите заказы с данным статусом.');
+define('ERROR_REMOVE_DEFAULT_ORDER_STATUS', '<b>Ошибка:</b> Статус заказа по умолчанию не может быть удален, измените статус и попробуйте снова.');
+define('ERROR_STATUS_USED_IN_ORDERS', '<b>Ошибка:</b> Есть заказы с данным статусом, удалить данный статус нельзя, сначала удалите заказы с данным статусом.');
+define('ERROR_STATUS_USED_IN_HISTORY', '<b>Ошибка:</b> Есть заказы с данным статусом, удалить данный статус нельзя, сначала удалите заказы с данным статусом.');
 ?>

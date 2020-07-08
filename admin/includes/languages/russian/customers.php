@@ -1,13 +1,13 @@
 <?php
 /*
-  $Id$
+$Id$
 
-  osCommerce, Open Source E-Commerce Solutions
-  http://www.oscommerce.com
+osCommerce, Open Source E-Commerce Solutions
+http://www.oscommerce.com
 
-  Copyright (c) 2020 osCommerce
-  Translation to RU from Fredi. Updated 27/02/2020
-  Released under the GNU General Public License
+Copyright (c) 2020 osCommerce
+Translation to RU from Fredi. Updated 3/07/2020
+Released under the GNU General Public License
 */
 
 define('HEADING_TITLE', 'Покупатели');
@@ -16,7 +16,6 @@ define('HEADING_TITLE_SEARCH', 'Поиск:');
 define('TABLE_HEADING_NAME', 'Имя');
 define('TABLE_HEADING_ACCOUNT_CREATED', 'Запись Создана');
 define('TABLE_HEADING_ACTION', 'Действие');
-
 define('TEXT_DATE_ACCOUNT_CREATED', 'Запись Создана: %s');
 define('TEXT_DATE_ACCOUNT_LAST_MODIFIED', 'Последнее Изменение: %s');
 define('TEXT_INFO_DATE_LAST_LOGON', 'Последний Вход: %s');

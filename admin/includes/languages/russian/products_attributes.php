@@ -1,13 +1,13 @@
 <?php
 /*
-  $Id$
+$Id$
 
-  osCommerce, Open Source E-Commerce Solutions
-  http://www.oscommerce.com
+osCommerce, Open Source E-Commerce Solutions
+http://www.oscommerce.com
 
-  Copyright (c) 2020 osCommerce
-  Translation to RU from Fredi. Updated 7/01/2020
-  Released under the GNU General Public License
+Copyright (c) 2020 osCommerce
+Translation to RU from Fredi. Updated 3/07/2020
+Released under the GNU General Public License
 */
 
 define('HEADING_TITLE_OPT', 'Атрибуты товаров');
@@ -32,4 +32,4 @@ define('TEXT_WARNING_OF_DELETE', 'С этой опцией связаны про
 define('TEXT_OK_TO_DELETE', 'Эта опция не связана с товарами - ее можно безопасно удалить.');
 define('TEXT_OPTION_ID', 'ID опции');
 define('TEXT_OPTION_NAME', 'Название атрибута');
-?>
+const PLEASE_SELECT_OPTION = '--- Выберите пожалуйста ---';

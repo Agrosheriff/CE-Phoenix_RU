@@ -1,13 +1,13 @@
 <?php
 /*
-  $Id$
+$Id$
 
-  osCommerce, Open Source E-Commerce Solutions
-  http://www.oscommerce.com
+osCommerce, Open Source E-Commerce Solutions
+http://www.oscommerce.com
 
-  Copyright (c) 2020 osCommerce
-Translation to RU from Fredi. Updated 2/05/2020
-  Released under the GNU General Public License
+Copyright (c) 2020 osCommerce
+Translation to RU from Fredi. Updated 3/07/2020
+Released under the GNU General Public License
 */
 
 define('HEADING_TITLE', 'Менеджер рекламы');
@@ -41,7 +41,7 @@ define('TEXT_ADVERT_NOTE', '
   <li>Вывод изображения или html будет зависеть от модуля на стороне магазина.</li>
 </ul>');
 define('TEXT_INSERT_NOTE', '
-<strong>Важные примечания к изображению:</strong>
+<b>Важные примечания к изображению:</b>
 <ul>
   <li>Загружаемые каталоги должны иметь пользовательские настройки записи!</li>
   <li>Не заполняйте поле «Сохранить в каталог», если вы не загружаете изображение на веб-сервер (то есть вы используете локальный (serverside) image).</li>
@@ -55,7 +55,6 @@ define('TEXT_ADVERT_STATUS_CHANGE', 'Изменение статуса: %s');
 
 define('TEXT_INFO_DELETE_INTRO', 'Вы уверены, что хотите удалить эту рекламу?');
 define('TEXT_INFO_DELETE_IMAGE', 'Удалить картинку');
-
 define('SUCCESS_IMAGE_INSERTED', '<b>Сделано:</b> новая реклама добавлена.');
 define('SUCCESS_IMAGE_UPDATED', '<b>Сделано:</b> эта реклама обновлена.');
 define('SUCCESS_IMAGE_REMOVED', '<b>Сделано:</b> эта реклама удалена.');

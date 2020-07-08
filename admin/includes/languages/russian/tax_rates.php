@@ -1,13 +1,13 @@
 <?php
 /*
-  $Id$
+$Id$
 
-  osCommerce, Open Source E-Commerce Solutions
-  http://www.oscommerce.com
+osCommerce, Open Source E-Commerce Solutions
+http://www.oscommerce.com
 
-  Copyright (c) 2020 osCommerce
-  Translation to RU from Fredi. Updated 20/4/2020
-  Released under the GNU General Public License
+Copyright (c) 2020 osCommerce
+Translation to RU from Fredi. Updated 3/07/2020
+Released under the GNU General Public License
 */
 
 define('HEADING_TITLE', 'Ставки Налогов');
@@ -26,7 +26,7 @@ define('TEXT_INFO_CLASS_TITLE', 'Тип налога:');
 define('TEXT_INFO_COUNTRY_NAME', 'Страна:');
 define('TEXT_INFO_ZONE_NAME', 'Налоговая зона:');
 define('TEXT_INFO_TAX_RATE', 'Процентная ставка (%):');
-define('TEXT_INFO_TAX_RATE_PRIORITY', 'Налоговые ставки с одинаковым приоритетом добавляются, другие могут суммироваться.<br /><br /> Приоритет:');
+define('TEXT_INFO_TAX_RATE_PRIORITY', 'Налоговые ставки с одинаковым приоритетом добавляются, другие могут суммироваться.<br><br> Приоритет:');
 define('TEXT_INFO_RATE_DESCRIPTION', 'Описание:<br>%s');
 define('TEXT_INFO_INSERT_INTRO', 'Введите требуемую информацию для новой ставки налога');
 define('TEXT_INFO_DELETE_INTRO', 'Вы действительно хотите удалить ставку налога?');

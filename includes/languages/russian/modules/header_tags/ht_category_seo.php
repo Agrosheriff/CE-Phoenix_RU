@@ -1,15 +1,15 @@
 <?php
 /*
-  $Id$
+$Id$
 
-  osCommerce, Open Source E-Commerce Solutions
-  http://www.oscommerce.com
+osCommerce, Open Source E-Commerce Solutions
+http://www.oscommerce.com
 
-  Copyright (c) 2016 osCommerce
-  Translation to RU from Fredi. Updated 7/01/2020
-  Released under the GNU General Public License
+Copyright (c) 2016 osCommerce
+Translation to RU from Fredi. Updated 7/01/2020
+Released under the GNU General Public License
 */
 
-  define('MODULE_HEADER_TAGS_CATEGORY_SEO_TITLE', 'Категории SEO');
-  define('MODULE_HEADER_TAGS_CATEGORY_SEO_DESCRIPTION', 'Добавьте элементы SEO, которые вы определили для категории, к базовому коду страницы категории (так называемые мета-описания и мета ключевые слова). Хорошо для SEO.');
+define('MODULE_HEADER_TAGS_CATEGORY_SEO_TITLE', 'Категории SEO');
+define('MODULE_HEADER_TAGS_CATEGORY_SEO_DESCRIPTION', 'Добавьте элементы SEO, которые вы определили для категории, к базовому коду страницы категории (так называемые мета-описания и мета ключевые слова). Хорошо для SEO.');
 

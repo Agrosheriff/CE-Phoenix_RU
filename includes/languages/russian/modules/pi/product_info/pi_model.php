@@ -1,13 +1,13 @@
 <?php
 /*
-  $Id$
+$Id$
 
-  osCommerce, Open Source E-Commerce Solutions
-  http://www.oscommerce.com
+osCommerce, Open Source E-Commerce Solutions
+http://www.oscommerce.com
 
-  Copyright (c) 2020 osCommerce
+Copyright (c) 2020 osCommerce
 Translation to RU from Fredi. Updated 2/5/2020
-  Released under the GNU General Public License
+Released under the GNU General Public License
 */
 
 const PI_MODEL_TITLE         = 'Модель';

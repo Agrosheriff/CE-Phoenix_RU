@@ -1,13 +1,13 @@
 <?php
 /*
-  $Id$
+$Id$
 
-  osCommerce, Open Source E-Commerce Solutions
-  http://www.oscommerce.com
+osCommerce, Open Source E-Commerce Solutions
+http://www.oscommerce.com
 
-  Copyright (c) 2020 osCommerce
-Перевод на русский от Fredi. 08.03.20.
-  Released under the GNU General Public License
+Copyright (c) 2020 osCommerce
+Translation to RU from Fredi. Updated 3/07/2020
+Released under the GNU General Public License
 */
 
 const MODULE_NOTIFICATIONS_CHECKOUT_TEXT_TITLE = 'Подтверждение';

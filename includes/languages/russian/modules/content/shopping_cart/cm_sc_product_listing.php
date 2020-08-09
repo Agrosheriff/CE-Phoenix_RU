@@ -20,6 +20,7 @@ Translation to RU from Fredi. Updated 7/01/2020
 
 define('MODULE_CONTENT_SC_PRODUCT_LISTING_TITLE', 'Список товаров');
 define('MODULE_CONTENT_SC_PRODUCT_LISTING_DESCRIPTION', 'Показать список товаров на странице корзины');
+
 define('MODULE_CONTENT_SC_PRODUCT_LISTING_HEADING_PRODUCT', 'Товары');
 define('MODULE_CONTENT_SC_PRODUCT_LISTING_HEADING_AVAILABILITY', 'В наличии');
 define('MODULE_CONTENT_SC_PRODUCT_LISTING_HEADING_QUANTITY', 'Кол-во');

@@ -6,8 +6,8 @@ osCommerce, Open Source E-Commerce Solutions
 http://www.oscommerce.com
 
 Copyright (c) 2020 osCommerce
-Translation to RU from Fredi. Updated 3/07/2020
+Translation to RU from Fredi. Updated 7/08/2020
 Released under the GNU General Public License
 */
 
-define('MODULES_ADMIN_MENU_TAXES_ZONES', 'Список регионов');
+  define('MODULES_ADMIN_MENU_TOOLS_DEFINE_PAGES', 'Инфо Страницы');

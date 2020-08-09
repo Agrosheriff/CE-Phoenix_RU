@@ -15,6 +15,5 @@ define('HEADING_TITLE', 'Новые товары');
 
 define('TEXT_MANUFACTURER', 'Производитель:');
 define('TEXT_PRICE', 'Стоимость товара ');
-
 define('TEXT_NO_PRODUCTS', 'Нет новинок для показа.');
 

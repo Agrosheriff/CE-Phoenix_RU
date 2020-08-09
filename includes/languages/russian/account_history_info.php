@@ -9,10 +9,10 @@ Copyright (c) 2020 osCommerce
 Translation to RU from Fredi. Updated 3/07/2020
 Released under the GNU General Public License
 */
+
 define('NAVBAR_TITLE_1', 'Мои данные');
 define('NAVBAR_TITLE_2', 'История Заказов');
 define('NAVBAR_TITLE_3', 'Информация о заказах № %s');
-
 define('HEADING_TITLE', 'Информация о заказах');
 
 define('HEADING_ORDER_NUMBER', 'Заказ № %s');
@@ -33,7 +33,6 @@ define('HEADING_PAYMENT_METHOD', 'Способ оплаты');
 define('HEADING_ORDER_HISTORY', 'История Заказа');
 define('HEADING_COMMENT', 'Комментарии');
 define('TEXT_NO_COMMENTS_AVAILABLE', 'Нет комментариев');
-
 define('TABLE_HEADING_DOWNLOAD_DATE', 'Ссылка действительна до: ');
 define('TABLE_HEADING_DOWNLOAD_COUNT', ' раз загружен');
 define('HEADING_DOWNLOAD', 'Ссылки для скачивания');

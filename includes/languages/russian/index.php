@@ -6,7 +6,7 @@ osCommerce, Open Source E-Commerce Solutions
 http://www.oscommerce.com
 
 Copyright (c) 2020 osCommerce
-Translation to RU from Fredi. Updated 3/07/2020
+Translation to RU from Fredi. Updated 7/08/2020
 Released under the GNU General Public License
 */
 
@@ -23,6 +23,6 @@ define('TEXT_ALL_MANUFACTURERS', 'Все производители');
 if ( ($category_depth == 'top') && (!isset($_GET['manufacturers_id'])) ) {
 define('META_SEO_TITLE', 'Название главной страницы');
 define('META_SEO_DESCRIPTION', 'Это описание вашего сайта для использования описания в META элементе');
-define('META_SEO_KEYWORDS', 'это ключевые слова разделенные запятыми, используемые в элементе META ключевых слов');
+//// define('META_SEO_KEYWORDS', 'это ключевые слова разделенные запятыми, используемые в элементе META ключевых слов');
 }
 

@@ -6,7 +6,7 @@ osCommerce, Open Source E-Commerce Solutions
 http://www.oscommerce.com
 
 Copyright (c) 2020 osCommerce
-Translation to RU from Fredi. Updated 3/07/2020
+Translation to RU from Fredi. Updated 7/08/2020
 Released under the GNU General Public License
 */
 
@@ -24,6 +24,5 @@ define('TEXT_INFORMATION', ' <b>Конфиденциальность (Секре
 <br>
 Безопасность обеспеченная сервером SSL.
 <br><br>
-<font color="red">ДАЛЕЕ ВВЕДИТЕ СВОЙ ТЕКСТ И СВОИ УСЛОВИЯ КОНФИДЕНЦИАЛЬНОСТИ. ДОПОЛНИТЕЛЬНО МОЖНО ИЗМЕНИТЬ ТЕКСТ РАЗМЕЩЕННЫЙ ВЫШЕ в файле includes\languages\russian\privacy.php</font>
-');
+<font color="red">ДАЛЕЕ ВВЕДИТЕ СВОЙ ТЕКСТ И СВОИ УСЛОВИЯ КОНФИДЕНЦИАЛЬНОСТИ. ДОПОЛНИТЕЛЬНО МОЖНО ИЗМЕНИТЬ ТЕКСТ РАЗМЕЩЕННЫЙ ВЫШЕ в файле includes\languages\russian\privacy.php</font>');
 ?>

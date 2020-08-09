@@ -1,13 +1,13 @@
 <?php
 /*
-  $Id$
+$Id$
 
-  osCommerce, Open Source E-Commerce Solutions
-  http://www.oscommerce.com
+osCommerce, Open Source E-Commerce Solutions
+http://www.oscommerce.com
 
-  Copyright (c) 2014 osCommerce
-  Translation to RU from Fredi. Updated 7/01/2020
-  Released under the GNU General Public License
+Copyright (c) 2020 osCommerce
+Translation to RU from Fredi. Updated 7/08/2020
+Released under the GNU General Public License
 */
 
 define('MODULE_CONTENT_ACCOUNT_SET_PASSWORD_TITLE', 'Установить пароль личного Кабинета');
@@ -21,5 +21,5 @@ define('MODULE_CONTENT_ACCOUNT_SET_PASSWORD_HEADING_TITLE', 'Установит�
 
 define('MODULE_CONTENT_ACCOUNT_SET_PASSWORD_SET_PASSWORD_TITLE', 'Установить пароль');
 
-define('MODULE_CONTENT_ACCOUNT_SET_PASSWORD_SUCCESS_PASSWORD_SET', 'Ваш пароль сохранен.');
+define('MODULE_CONTENT_ACCOUNT_SET_PASSWORD_SUCCESS_PASSWORD_SET', 'Ваш пароль успешно сохранен.');
 ?>

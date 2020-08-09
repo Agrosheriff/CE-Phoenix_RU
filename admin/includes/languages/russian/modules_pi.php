@@ -6,7 +6,7 @@ osCommerce, Open Source E-Commerce Solutions
 http://www.oscommerce.com
 
 Copyright (c) 2020 osCommerce
-Translation to RU from Fredi. Updated 3/07/2020
+Translation to RU from Fredi. Updated 9/08/2020
 Released under the GNU General Public License
 */
 
@@ -24,4 +24,4 @@ define('TEXT_INFO_ONLINE_STATUS', 'онлайн статус');
 define('TEXT_INFO_API_VERSION', 'API Версия:');
 
 define('TEXT_MODULE_DIRECTORY', 'Директория модулей:');
-define('SORT_ORDER_WARNING', 'Сортировка всех номеров заказов <u>Должно быть уникальным</u>.<br>Любая группа без активных модулей не будет отображаться</u>.');
+define('SORT_ORDER_WARNING', 'Сортировка всех номеров заказов <u>Должно быть уникальным</u>.<br>Любая группа без активных модулей <u>не будет отображаться</u>.');

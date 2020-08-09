@@ -6,7 +6,7 @@ osCommerce, Open Source E-Commerce Solutions
 http://www.oscommerce.com
 
 Copyright (c) 2020 osCommerce
-Translation to RU from Fredi. Updated 3/07/2020
+Translation to RU from Fredi. Updated 7/08/2020
 Released under the GNU General Public License
 */
 
@@ -40,5 +40,3 @@ const TEXT_MANUFACTURERS_SEO_TITLE = 'Производитель SEO Title:<br>�
 const TEXT_EDIT_MANUFACTURERS_SEO_TITLE = 'Редактировать заголовок SEO Производителя:<br>Опционально заменяет название производителя в &lt;title&gt; Meta Element и Breadcrumb.<br>Пустое значение по умолчанию отображает наименование производителя';
 define('BUTTON_INSERT_NEW_MANUFACTURER', 'Новый производитель');
 define('TEXT_MANUFACTURERS_IMAGE_LABEL', 'Выбрать производителя');
-define('TEXT_MANUFACTURERS_SEO_KEYWORDS', 'Произволитель - ключевые слова для SEO:<br><small>Добавить &lt;ключевые слова&gt; Meta элемент.<br>Через запятую.</small>');
-define('TEXT_EDIT_MANUFACTURERS_SEO_KEYWORDS', 'Произволитель - ключевые слова для SEO:<br><small>Добавить &lt;ключевые слова&gt; Meta элемент.<br>Через запятую.</small>');

@@ -6,7 +6,7 @@ osCommerce, Open Source E-Commerce Solutions
 http://www.oscommerce.com
 
 Copyright (c) 2020 osCommerce
-Translation to RU from Fredi. Updated 3/07/2020
+Translation to RU from Fredi. Updated 3/08/2020
 Released under the GNU General Public License
 */
 
@@ -19,8 +19,8 @@ define('TABLE_HEADING_ACTION', 'Действие');
 
 define('TEXT_INFO_EDIT_INTRO', 'Внесите необходимые изменения');
 define('TEXT_INFO_COMMON_CURRENCIES', '-- Общие валюты --');
-define('TEXT_INFO_CURRENCY_TITLE', 'Название:');
-define('TEXT_INFO_CURRENCY_CODE', 'Код:');
+define('TEXT_INFO_CURRENCY_TITLE', 'Название: %s');
+define('TEXT_INFO_CURRENCY_CODE', 'Код: %s');
 define('TEXT_INFO_CURRENCY_SYMBOL_LEFT', 'Символ слева: %s');
 define('TEXT_INFO_CURRENCY_SYMBOL_RIGHT', 'Символ справа: %s');
 define('TEXT_INFO_CURRENCY_DECIMAL_POINT', 'Десятичный знак: %s');

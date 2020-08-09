@@ -6,13 +6,13 @@ osCommerce, Open Source E-Commerce Solutions
 http://www.oscommerce.com
 
 Copyright (c) 2020 osCommerce
-Translation to RU from Fredi. Updated 3/07/2020
+Translation to RU from Fredi. Updated 9/08/2020
 Released under the GNU General Public License
 */
 
 define('HEADING_TITLE', 'Менеджер почтовых рассылок');
 
-define('TABLE_HEADING_NEWSLETTERS', 'Письма');
+define('TABLE_HEADING_NEWSLETTERS', 'Название');
 define('TABLE_HEADING_DATE_ADDED', 'Дата добавления');
 define('TABLE_HEADING_SIZE', 'Размер');
 define('TABLE_HEADING_MODULE', 'Модуль');

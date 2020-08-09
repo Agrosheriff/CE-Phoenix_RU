@@ -6,18 +6,16 @@ osCommerce, Open Source E-Commerce Solutions
 http://www.oscommerce.com
 
 Copyright (c) 2020 osCommerce
-Translation to RU from Fredi. Updated 3/07/2020
+Translation to RU from Fredi. Updated 3/08/2020
 Released under the GNU General Public License
 */
 
 const HEADING_TITLE = 'Группы данных клиентов';
-
 const TABLE_HEADING_CUSTOMER_DATA_GROUP_NAME = 'Группы данных клиентов';
 const TABLE_HEADING_SORT_ORDER_V = 'Вертикальная сортировка';
 const TABLE_HEADING_SORT_ORDER_H = 'Горизонтальная сортировка';
 const TABLE_HEADING_WIDTH = 'Ширина';
 const TABLE_HEADING_ACTION = 'Действие';
-
 const TEXT_INFO_EDIT_INTRO = 'Внесите необходимые изменения';
 const TEXT_INFO_USE_FIRST_FOR_ALL = 'Проверьте, хотите ли вы использовать первый порядок сортировки и значения ширины для всех языков.';
 const TEXT_INFO_CUSTOMER_DATA_GROUP_NAME = 'Имя:';

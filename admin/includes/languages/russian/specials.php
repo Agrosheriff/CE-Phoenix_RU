@@ -33,5 +33,4 @@ define('TEXT_INFO_STATUS_CHANGE', 'Изменить статус:');
 
 define('TEXT_INFO_HEADING_DELETE_SPECIALS', 'Удалить спец. предложение');
 define('TEXT_INFO_DELETE_INTRO', 'Вы действительно хотите удалить специальную цену для товара?');
-
 define('BUTTON_INSERT_SPECIAL', 'Добавить новое Специальное предложение');

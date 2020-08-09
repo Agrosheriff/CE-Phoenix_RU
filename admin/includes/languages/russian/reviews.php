@@ -29,7 +29,6 @@ define('TEXT_INFO_DELETE_REVIEW_INTRO', 'Вы действительно хот�
 
 define('TEXT_INFO_DATE_ADDED', 'Дата Добавления: %s');
 define('TEXT_INFO_LAST_MODIFIED', 'Последние Изменения: %s');
-define('TEXT_INFO_IMAGE_NONEXISTENT', 'КАРТИНКА ОТСУТСТВУЕТ');
 define('TEXT_INFO_REVIEW_AUTHOR', 'Автор: %s');
 define('TEXT_INFO_REVIEW_RATING', 'Рейтинг: %s');
 define('TEXT_INFO_REVIEW_READ', 'Прочитано: %s');

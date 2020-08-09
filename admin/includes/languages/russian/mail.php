@@ -6,7 +6,7 @@ osCommerce, Open Source E-Commerce Solutions
 http://www.oscommerce.com
 
 Copyright (c) 2020 osCommerce
-Translation to RU from Fredi. Updated 3/07/2020
+Translation to RU from Fredi. Updated 8/08/2020
 Released under the GNU General Public License
 */
 
@@ -21,3 +21,4 @@ define('TEXT_ALL_CUSTOMERS', 'Все Покупатели');
 define('TEXT_NEWSLETTER_CUSTOMERS', 'Для Всех Подписчиков Новостей');
 define('NOTICE_EMAIL_SENT_TO', '<b>Уведомление:</b> письмо успешно отправлено по адресу: %s');
 define('ERROR_NO_CUSTOMER_SELECTED', '<b>Ошибка:</b> Вы должны выбрать покупателя, которому отправляете письмо!');
+const ERROR_INVALID_EMAIL = '<b>Ошибка:</b> "%s" это неправильный адрес e-mail.';

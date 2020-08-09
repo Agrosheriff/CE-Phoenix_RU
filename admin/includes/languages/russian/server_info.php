@@ -6,7 +6,7 @@ osCommerce, Open Source E-Commerce Solutions
 http://www.oscommerce.com
 
 Copyright (c) 2020 osCommerce
-Translation to RU from Fredi. Updated 3/07/2020
+Translation to RU from Fredi. Updated 9/08/2020
 Released under the GNU General Public License
 */
 
@@ -24,7 +24,7 @@ define('TITLE_PHP_VERSION', 'Версия PHP:');
 define('TITLE_ZEND_VERSION', 'Zend:');
 define('TITLE_DATABASE_HOST', 'Хост Базы Данных:');
 define('TITLE_DATABASE', 'БД:');
-define('TITLE_DATABASE_DATE', 'Дата БД:');
+define('TITLE_DATABASE_DATE', 'Данные БД:');
 define('TEXT_EXPORT_INTRO', 'Следующая информация может быть предоставлена ​​osCommerce, нажав на кнопку Отправить. Вы также можете сохранить информацию в файл, нажав кнопку Сохранить. Эта информация является полностью анонимным и не может быть использована для идентификации отдельной системы. Она будет использоваться для целей поддержки и развития.');
 define('TEXT_EXPORT_INFO', 'Экспорт информации о сервере');
 define('SUCCESS_INFO_SUBMIT', 'Ваша информация была ​​успешно представлена.');

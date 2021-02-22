@@ -1,31 +1,27 @@
 <?php
 /*
 $Id$
-
 osCommerce, Open Source E-Commerce Solutions
 http://www.oscommerce.com
-
 Copyright (c) 2020 osCommerce
-Translation to RU from Fredi. Updated 3/07/2020
+Translation to RU from Fredi. Updated 3/12/2020
 Released under the GNU General Public License
 */
 
 define('HEADING_TITLE', 'Категории/Товары');
 define('HEADING_TITLE_SEARCH', 'Поиск:');
 define('HEADING_TITLE_GOTO', 'Перейти в:');
-
-define('SECTION_HEADING_GENERAL', '<i class="fas fa-language fa-fw mr-1"></i>Языки');
-define('SECTION_HEADING_DATA', '<i class="fas fa-box-open fa-fw mr-1"></i>Спецификация товара');
-define('SECTION_HEADING_IMAGES', '<i class="fas fa-images fa-fw mr-1"></i>Картинки товара');
+const SECTION_HEADING_GENERAL = '<i class="fas fa-language fa-fw mr-1"></i>Языки';
+const SECTION_HEADING_DATA = '<i class="fas fa-box-open fa-fw mr-1"></i>Спецификация товара';
+const SECTION_HEADING_IMAGES = '<i class="fas fa-images fa-fw mr-1"></i>Картинки товара';
 
 define('TABLE_HEADING_ID', 'ID');
 define('TABLE_HEADING_CATEGORIES_PRODUCTS', 'Категории/Товары');
 define('TABLE_HEADING_ACTION', 'Действие');
 define('TABLE_HEADING_STATUS', 'Статус');
 define('TEXT_NEW_PRODUCT', 'Новые Товары в %s');
-define('TEXT_EXISTING_PRODUCT', 'Редактировать товар в категории %s');
+define('TEXT_EXISTING_PRODUCT', 'Редактировать %s <small> в категории %s</small>');
 define('TEXT_CATEGORIES', 'Категории:');
-define('TEXT_SUBCATEGORIES', 'Субкатегории:');
 define('TEXT_PRODUCTS', 'Товаров на странице:');
 define('TEXT_PRODUCTS_PRICE_INFO', 'Стоимость товара:');
 define('TEXT_PRODUCTS_TAX_CLASS', 'Класс Налогов:');
@@ -53,9 +49,7 @@ define('TEXT_INFO_HEADING_MOVE_PRODUCT', 'Перенести Товар');
 define('TEXT_INFO_HEADING_COPY_TO', 'Копировать в');
 define('TEXT_DELETE_CATEGORY_INTRO', 'Вы действительно хотите удалить эту категорию?');
 define('TEXT_DELETE_PRODUCT_INTRO', 'Вы действительно хотите удалить этот товар?');
-define('TEXT_DELETE_WARNING', '<b>ВНИМАНИЕ:</b> Есть подкатегории и / или продукты, все еще связанные с этой категорией!');
-define('TEXT_DELETE_WARNING_CHILDS', '<b>ВНИМАНИЕ:</b> Есть еще %s субкатегорий, связанных с этой категорией!');
-define('TEXT_DELETE_WARNING_PRODUCTS', '<b>ВНИМАНИЕ:</b> Есть еще %s наименований товара, связанных с этой категорией!');
+define('TEXT_DELETE_WARNING', '<b>ВНИМАНИЕ:</b> Есть подкатегории и/или продукты, все еще связанные с этой категорией!');
 define('TEXT_MOVE_PRODUCTS_INTRO', 'Пожалуйста, выберите категорию для перемещения <b>%s</b> в');
 define('TEXT_MOVE_CATEGORIES_INTRO', 'Пожалуйста, выберите категорию для перемещения <b>%s</b> в');
 define('TEXT_MOVE', 'Переместить <b>%s</b> в:');
@@ -88,12 +82,11 @@ define('TEXT_HOW_TO_COPY', 'Метод Копирования:');
 define('TEXT_COPY_AS_LINK', 'Ссылка на товар');
 define('TEXT_COPY_AS_DUPLICATE', 'Дублировать товар');
 define('ERROR_CANNOT_LINK_TO_SAME_CATEGORY', 'Ошибка: Нельзя делать ссылку на товар в той же категории.');
-define('ERROR_CATALOG_IMAGE_DIRECTORY_NOT_WRITEABLE', 'Ошибка: Каталог с картинками имеет неверные права доступа: ' . DIR_FS_CATALOG_IMAGES);
-define('ERROR_CATALOG_IMAGE_DIRECTORY_DOES_NOT_EXIST', 'Ошибка: Каталог с картинками отсутствует: ' . DIR_FS_CATALOG_IMAGES);
+define('ERROR_CATALOG_IMAGE_DIRECTORY_NOT_WRITEABLE', 'Ошибка: Каталог с картинками имеет неверные права доступа:  %s');
+define('ERROR_CATALOG_IMAGE_DIRECTORY_DOES_NOT_EXIST', 'Ошибка: Каталог с картинками отсутствует:  %s');
 define('ERROR_CANNOT_MOVE_CATEGORY_TO_PARENT', 'Ошибка: Категория не может быть перенесена в подкатегорию.');
 define('TEXT_CATEGORIES_DESCRIPTION', 'Описание категории:<br>показано на странице категории');
 define('TEXT_EDIT_CATEGORIES_DESCRIPTION', 'Редактировать описание категории:');
-
 define('TEXT_CATEGORIES_SEO_DESCRIPTION', 'Категории. Meta Description для SEO:<br>Добавить &lt;описание&gt; Meta Element.');
 define('TEXT_EDIT_CATEGORIES_SEO_DESCRIPTION', 'Редактировать Категории Meta Description для SEO:<br>Изменить &lt;description&gt; Meta Element.');
 define('TEXT_CATEGORIES_SEO_KEYWORDS', 'Категории.  Meta Keywords for SEO:<br>Add a &lt;keyword&gt; Meta Element.<br>Слова ввести через запятую.');
@@ -111,3 +104,6 @@ const TEXT_PRODUCTS_SEO_TITLE_HELP = 'Заменяет название прод
 const TEXT_CATEGORIES_SEO_TITLE = 'Название категории для SEO:<br>Измените название категории в &lt;title&gt; Meta Element.<br>Пустое значение по умолчанию отображает название категории.';
 const TEXT_EDIT_CATEGORIES_SEO_TITLE = 'Редактировать Название категории для SEO:<br>Измените название категории в &lt;title&gt; Meta Element<br>и опционально в Breadcrumb Trail.<br>Оставьте пустым для сохранения названия категории по умолчанию.';
 const TEXT_PRODUCTS_OTHER_IMAGES = 'Галерея картинок';
+define('TEXT_SUBCATEGORIES', 'Субкатегории:');
+define('TEXT_DELETE_WARNING_CHILDS', '<b>ВНИМАНИЕ:</b> Есть еще %s субкатегорий, связанных с этой категорией!');
+define('TEXT_DELETE_WARNING_PRODUCTS', '<b>ВНИМАНИЕ:</b> Есть еще %s наименований товара, связанных с этой категорией!');

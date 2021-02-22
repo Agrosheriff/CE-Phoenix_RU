@@ -11,6 +11,6 @@
 */
 
   define('NAVBAR_TITLE', 'Прайс-лист');
-  define('HEADING_TITLE', 'Прайс-лист');
+//  define('HEADING_TITLE', 'Прайс-лист');
   define('TABLE_HEADING_CATEGORY', 'Категория: ');
   define('IMAGE_BUTTON_PRINT', '  Распечатать Прайс-лист');

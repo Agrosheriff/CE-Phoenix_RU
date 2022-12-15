@@ -2,12 +2,12 @@
 /*
   $Id$
 
-  osCommerce, Open Source E-Commerce Solutions
-  http://www.oscommerce.com
+  CE Phoenix, E-Commerce made Easy
+  https://phoenixcart.org
 
-  Copyright (c) 2010 osCommerce
-
-  Released under the GNU General Public License
+  Copyright (c) 2022 Phoenix Cart
+Translation to RU from Fredi. Updated 3/12/22
+Released under the GNU General Public License
 */
 
 define('MODULE_CFG_MODULE_SOCIAL_BOOKMARKS_TITLE', 'Соц. закладки');

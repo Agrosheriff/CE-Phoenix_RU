@@ -1,10 +1,12 @@
 <?php
 /*
 $Id$
-osCommerce, Open Source E-Commerce Solutions
-http://www.oscommerce.com
-Copyright (c) 2020 osCommerce
-Translation to RU from Fredi. Updated 2/05/2020
+
+  CE Phoenix, E-Commerce made Easy
+  https://phoenixcart.org
+
+  Copyright (c) 2021 Phoenix Cart
+Translation to RU from Fredi. Updated 7/12/22
 Released under the GNU General Public License
 */
 
@@ -13,4 +15,3 @@ define('MODULE_NAVBAR_HAMBURGER_BUTTON_DESCRIPTION', 'Показать Кноп�
 
 define('MODULE_NAVBAR_HAMBURGER_BUTTON_PUBLIC_SCREENREADER_TEXT', 'Переключатель навигации');
 define('MODULE_NAVBAR_HAMBURGER_BUTTON_PUBLIC_BUTTON_TEXT', '<span class="navbar-toggler-icon"></span>');
-

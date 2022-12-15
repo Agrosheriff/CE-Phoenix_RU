@@ -2,10 +2,10 @@
 /*
   $Id$
 
-  osCommerce, Open Source E-Commerce Solutions
-  http://www.oscommerce.com
+  CE Phoenix, E-Commerce made Easy
+  https://phoenixcart.org
 
-  Copyright (c) 2019 osCommerce
+  Copyright (c) 2022 Phoenix Cart
   Translation to RU from Fredi. Updated 7/01/2020
   Released under the GNU General Public License
 */
@@ -15,5 +15,5 @@
   
   define('MODULE_CONTENT_CHECKOUT_SUCCESS_PRODUCT_NOTIFICATIONS_TEXT_NOTIFY_PRODUCTS_TITLE', 'Уведомления о товаре');
 
-  define('MODULE_CONTENT_CHECKOUT_SUCCESS_PRODUCT_NOTIFICATIONS_TEXT_NOTIFY_PRODUCTS', 'Подписаться на уведомления о ...');
+  define('MODULE_CONTENT_CHECKOUT_SUCCESS_PRODUCT_NOTIFICATIONS_TEXT_NOTIFY_PRODUCTS', 'Подписаться на уведомления о...');
   

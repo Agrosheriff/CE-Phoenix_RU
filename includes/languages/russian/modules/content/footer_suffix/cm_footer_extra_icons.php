@@ -1,15 +1,18 @@
 <?php
 /*
 $Id$
-osCommerce, Open Source E-Commerce Solutions
-http://www.oscommerce.com
-Copyright (c) 2020 osCommerce
-Translation to RU from Fredi. Updated 2/05/2020
+
+  CE Phoenix, E-Commerce made Easy
+  https://phoenixcart.org
+
+  Copyright (c) 2021 Phoenix Cart
+Translation to RU from Fredi. Updated 2/12/22
 Released under the GNU General Public License
 */
 
-define('MODULE_CONTENT_FOOTER_EXTRA_ICONS_TITLE', 'Иконки платежных систем');
-define('MODULE_CONTENT_FOOTER_EXTRA_ICONS_DESCRIPTION', 'Добавляет значки торговых марок в область дополнительных нижних колонтитулов вашего сайта. <div class = "alert alert-info"> Доступные значки торговых марок отображаются здесь: https://fontawesome.com/icons?d=gallery&s=brands&c=payments-shopping </ div>');
+  const MODULE_CONTENT_FOOTER_EXTRA_ICONS_TITLE = 'Иконки платежных систем';
+  const MODULE_CONTENT_FOOTER_EXTRA_ICONS_DESCRIPTION = <<<'EOT'
+Добавить фирменные Иконеи в футер вашего сайта.<div class="alert alert-info">имеющиеся иконки показаны здесь: https://fontawesome.com/icons?d=gallery&s=brands&c=payments-shopping</div>
+EOT;
 
-define('MODULE_CONTENT_FOOTER_EXTRA_ICONS_TEXT', '');
-
+  const MODULE_CONTENT_FOOTER_EXTRA_ICONS_TEXT = '';

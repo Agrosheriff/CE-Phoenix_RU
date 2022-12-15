@@ -1,13 +1,13 @@
 <?php
 /*
-  $Id$
+$Id$
 
-  osCommerce, Open Source E-Commerce Solutions
-  http://www.oscommerce.com
+  CE Phoenix, E-Commerce made Easy
+  https://phoenixcart.org
 
-  Copyright (c) 2019 osCommerce
-  Translation to RU from Fredi. Updated 17/01/2020
-  Released under the GNU General Public License
+  Copyright (c) 2021 Phoenix Cart
+Translation to RU from Fredi. Updated 7/12/22
+Released under the GNU General Public License
 */
 
 define('MODULE_CONTENT_PI_REVIEW_STARS_TITLE', 'Отображение Звезд и ссылки');

@@ -1,10 +1,12 @@
 <?php
 /*
 $Id$
-osCommerce, Open Source E-Commerce Solutions
-http://www.oscommerce.com
-Copyright (c) 2020 osCommerce
-Translation to RU from Fredi. Updated 7/01/2020
+
+  CE Phoenix, E-Commerce made Easy
+  https://phoenixcart.org
+
+  Copyright (c) 2021 Phoenix Cart
+Translation to RU from Fredi. Updated 7/12/22
 Released under the GNU General Public License
 */
 
@@ -14,8 +16,10 @@ define('MODULE_CONTENT_FOOTER_INFORMATION_DESCRIPTION', 'Добавить бло
 define('MODULE_CONTENT_FOOTER_INFORMATION_HEADING_TITLE', 'Информация');
   define('MODULE_CONTENT_FOOTER_INFORMATION_FAQ', 'FAQ Вопросы и ответы');
 
-const MODULE_CONTENT_FOOTER_INFORMATION_DATA = array(
+  const MODULE_CONTENT_FOOTER_INFORMATION_DATA = [
   'privacy.php' => 'Безопасность и использование Cookie',
   'conditions.php' => 'Условия использования',
   'shipping.php' => 'Доставка и возврат',
-  'contact_us.php' => 'Связаться с нами');
+  'contact_us.php' => 'Связаться с нами',
+  ];
+

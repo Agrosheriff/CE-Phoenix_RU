@@ -10,4 +10,4 @@ Translation to RU from Fredi. Updated 3/12/22
 Released under the GNU General Public License
 */
 
-define('MODULES_ADMIN_MENU_CONFIGURATION_ADMINISTRATORS', 'Администраторы');
+define('MODULES_ADMIN_MENU_CATALOG_PRODUCTS', 'Категории/Товары');

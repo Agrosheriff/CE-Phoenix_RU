@@ -2,22 +2,20 @@
 /*
 $Id$
 
-osCommerce, Open Source E-Commerce Solutions
-http://www.oscommerce.com
+  CE Phoenix, E-Commerce made Easy
+  https://phoenixcart.org
 
-Copyright (c) 2020 osCommerce
-Translation to RU from Fredi. Updated 3/07/2020
+  Copyright (c) 2021 Phoenix Cart
+Translation to RU from Fredi. Updated 3/12/22
 Released under the GNU General Public License
 */
 
 define('HEADING_TITLE', 'Менеджер рекламы');
-
 define('TABLE_HEADING_ADVERT', 'Реклама');
 define('TABLE_HEADING_GROUP', 'Группа');
 define('TABLE_HEADING_SORT_ORDER', 'Сортировать');
 define('TABLE_HEADING_STATUS', 'Статус');
 define('TABLE_HEADING_ACTION', 'Действия');
-
 define('TEXT_ADVERT_TITLE', 'Название');
 define('TEXT_ADVERT_URL', 'URL');
 define('TEXT_ADVERT_FRAGMENT', 'Фрагмент');
@@ -49,10 +47,8 @@ define('TEXT_INSERT_NOTE', '
 </ul>');
 
 define('TEXT_IMAGE_NONEXISTENT', 'Изображение ОТСУТСТВУЕТ!');
-
 define('TEXT_ADVERT_DATE_ADDED', 'Добавлено: %s');
 define('TEXT_ADVERT_STATUS_CHANGE', 'Изменение статуса: %s');
-
 define('TEXT_INFO_DELETE_INTRO', 'Вы уверены, что хотите удалить эту рекламу?');
 define('TEXT_INFO_DELETE_IMAGE', 'Удалить картинку');
 define('SUCCESS_IMAGE_INSERTED', '<b>Сделано:</b> новая реклама добавлена.');
@@ -70,7 +66,6 @@ define('ERROR_ADVERT_IMAGE_OR_TEXT_REQUIRED', '<b>Ошибка</b>: Вы не в
 
 define('TEXT_DISPLAY_NUMBER_OF_ADVERTS', 'Показать <b>%s</b> до <b>%s</b> от <b>%s</b> реклам');
 define('IMAGE_NEW_ADVERT', 'Новая реклама');
-
 define('TEXT_ADVERT_EXTERNAL_URL', '<i class="fas fa-external-link-alt mr-1"></i> внешняя ссылка:<br>%s');
 define('TEXT_ADVERT_INTERNAL_URL', '<i class="fas fa-link mr-1"></i> внутеняя ссылка::<br>%s');
 

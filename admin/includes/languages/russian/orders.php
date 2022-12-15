@@ -1,12 +1,12 @@
 <?php
 /*
-$Id$
+  $Id$
 
-osCommerce, Open Source E-Commerce Solutions
-http://www.oscommerce.com
+  CE Phoenix, E-Commerce made Easy
+  https://phoenixcart.org
 
-Copyright (c) 2020 osCommerce
-Translation to RU from Fredi. Updated 3/07/2020
+  Copyright (c) 2022 Phoenix Cart
+Translation to RU from Fredi. Updated 3/12/22
 Released under the GNU General Public License
 */
 
@@ -35,10 +35,8 @@ define('TABLE_HEADING_PRICE_EXCLUDING_TAX', 'Цена (не включая на�
 define('TABLE_HEADING_PRICE_INCLUDING_TAX', 'Цена');
 define('TABLE_HEADING_TOTAL_EXCLUDING_TAX', 'Общая (не включая налог)');
 define('TABLE_HEADING_TOTAL_INCLUDING_TAX', 'Всего');
-
 define('TABLE_HEADING_CUSTOMER_NOTIFIED', 'Покупатель уведомлён');
 define('TABLE_HEADING_DATE_ADDED', 'Дата добавления');
-
 define('ENTRY_CUSTOMER', 'Покупатель:');
 define('ENTRY_SOLD_TO', 'ПРОДАНО ПОКУПАТЕЛЮ:');
 define('ENTRY_DELIVERY_TO', 'Доставка для:');
@@ -60,17 +58,20 @@ define('ENTRY_DATE_LAST_UPDATED', 'Последнее изменение:');
 define('ENTRY_NOTIFY_CUSTOMER', 'Уведомить покупателя:'); 
 define('ENTRY_NOTIFY_COMMENTS', 'Добавить комментарии:');
 define('ENTRY_PRINTABLE', 'Напечатать счёт');
-
 define('TEXT_INFO_HEADING_DELETE_ORDER', 'Удалить Заказ');
 define('TEXT_INFO_DELETE_INTRO', 'Вы действительно хотите удалить этот заказ?');
 define('TEXT_INFO_RESTOCK_PRODUCT_QUANTITY', 'Пересчитать количество товара на складе');
 define('TEXT_DATE_ORDER_CREATED', 'Дата Создания: %s');
 define('TEXT_DATE_ORDER_LAST_MODIFIED', 'Последние Изменения: %s');
 define('TEXT_INFO_PAYMENT_METHOD', 'Способ Оплаты: %s');
-
 define('TEXT_ALL_ORDERS', 'Все Заказы');
 define('TEXT_NO_ORDER_HISTORY', 'История заказа отсутствует');
-
+define('ERROR_ORDER_DOES_NOT_EXIST', '<b>Ошибка:</b> Заказ <b>%s</b> не существует.');
+define('SUCCESS_ORDER_UPDATED', '<b>Выполнено:</b> Заказ успешно обновлён.');
+define('WARNING_ORDER_NOT_UPDATED', '<b>Внимание:</b> Относительно изменений. Заказ не обновлен.');
+define('ENTRY_ADD_COMMENT', 'Добавить комментарий:');
+define('ENTRY_NOTIFY_CUSTOMER_TEXT', 'Это уведомит клиента, что его заказ был обновлен.');
+define('ENTRY_NOTIFY_COMMENTS_TEXT', 'Это добавит ваши комментарии к заказу и электронной почте.');
 define('EMAIL_SEPARATOR', '------------------------------------------------------');
 define('EMAIL_TEXT_SUBJECT', 'Статус Вашего заказа изменён');
 define('EMAIL_TEXT_ORDER_NUMBER', 'Номер заказа:');
@@ -78,12 +79,6 @@ define('EMAIL_TEXT_INVOICE_URL', 'Подробная информация о з�
 define('EMAIL_TEXT_DATE_ORDERED', 'Дата заказа:');
 define('EMAIL_TEXT_STATUS_UPDATE', 'Статус Вашего заказа изменён.' . "\n\n" . 'Новый статус: %s' . "\n\n" . 'Если у Вас возникли вопросы, просто задайте нам их в ответном письме.' . "\n");
 define('EMAIL_TEXT_COMMENTS_UPDATE', 'Комментарии к Вашему заказу' . "\n\n%s\n\n");
-define('ERROR_ORDER_DOES_NOT_EXIST', '<b>Ошибка:</b> Заказ <b>%s</b> не существует.');
-define('SUCCESS_ORDER_UPDATED', '<b>Выполнено:</b> Заказ успешно обновлён.');
-define('WARNING_ORDER_NOT_UPDATED', '<b>Внимание:</b> Относительно изменений. Заказ не обновлен.');
-define('ENTRY_ADD_COMMENT', 'Добавить комментарий:');
-define('ENTRY_NOTIFY_CUSTOMER_TEXT', 'Это уведомит клиента, что его заказ был обновлен.');
-define('ENTRY_NOTIFY_COMMENTS_TEXT', 'Это добавит ваши комментарии к заказу и электронной почте.');
 
 define('TEXT_ORDER_STATUS', '<b>%s</b> [%s]');
 define('TEXT_ORDER_PAYMENT', '<b>%s</b> [%s]');

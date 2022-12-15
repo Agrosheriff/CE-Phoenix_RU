@@ -1,20 +1,18 @@
 <?php
 /*
-$Id$
+  $Id$
 
-osCommerce, Open Source E-Commerce Solutions
-http://www.oscommerce.com
+  CE Phoenix, E-Commerce made Easy
+  https://phoenixcart.org
 
-Copyright (c) 2020 osCommerce
-Translation to RU from Fredi. Updated 3/07/2020
+  Copyright (c) 2022 Phoenix Cart
+Translation to RU from Fredi. Updated 3/12/22
 Released under the GNU General Public License
 */
 
 define('HEADING_TITLE', 'Список налогов');
-
 define('TABLE_HEADING_TAX_CLASSES', 'Тип налога');
 define('TABLE_HEADING_ACTION', 'Действие');
-
 define('TEXT_INFO_EDIT_INTRO', 'Внесите необходимые изменения');
 define('TEXT_INFO_CLASS_TITLE', 'Название налога:');
 define('TEXT_INFO_CLASS_DESCRIPTION', 'Описание:<br>%s');

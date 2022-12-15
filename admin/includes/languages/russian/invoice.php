@@ -2,11 +2,11 @@
 /*
 $Id$
 
-osCommerce, Open Source E-Commerce Solutions
-http://www.oscommerce.com
+  CE Phoenix, E-Commerce made Easy
+  https://phoenixcart.org
 
-Copyright (c) 2020 osCommerce
-Translation to RU from Fredi. Updated 3/07/2020
+  Copyright (c) 2021 Phoenix Cart
+Translation to RU from Fredi. Updated 3/12/22
 Released under the GNU General Public License
 */
 
@@ -20,7 +20,6 @@ define('TABLE_HEADING_PRICE_EXCLUDING_TAX', 'Цена (без налога)');
 define('TABLE_HEADING_PRICE_INCLUDING_TAX', 'Цена (включая налог)');
 define('TABLE_HEADING_TOTAL_EXCLUDING_TAX', 'Общая (не включая налог)');
 define('TABLE_HEADING_TOTAL_INCLUDING_TAX', 'Общая (включая налог)');
-
 define('ENTRY_SOLD_TO', 'Инвойс. Адрес:');
 define('ENTRY_SHIP_TO', 'Адрес доставки:');
 define('ENTRY_PAYMENT_METHOD', 'Способ оплаты: %s');

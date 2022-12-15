@@ -1,23 +1,25 @@
 <?php
 /*
-$Id$
+  $Id$
 
-osCommerce, Open Source E-Commerce Solutions
-http://www.oscommerce.com
+  CE Phoenix, E-Commerce made Easy
+  https://phoenixcart.org
 
-Copyright (c) 2020 osCommerce
-Translation to RU from Fredi. Updated 3/07/2020
+  Copyright (c) 2022 Phoenix Cart
+Translation to RU from Fredi. Updated 3/12/22
 Released under the GNU General Public License
 */
 
 define('HEADING_TITLE', 'Проверка версий');
-
 define('TABLE_HEADING_VERSION', 'Версии');
 define('TABLE_HEADING_RELEASED', 'Дата релиза');
 define('TABLE_HEADING_ACTION', 'Действие');
-
-define('TEXT_RELEASE_LINK', 'Просмотр анонса релиза');
 define('TITLE_INSTALLED_VERSION', 'Установленная версия:');
-define('VERSION_RUNNING_LATEST', 'Вы работаете с последней версией OSCOM CE Phoenix.');
-define('VERSION_UPGRADES_AVAILABLE', 'Новая версия доступна для скачивания! (OSCOM CE Phoenix v%s)<hr><a class="alert-link" target="_blank" href="https://forums.oscommerce.com/topic/494774-certified-service-providers-development-hosting-themes-and-more/">Certified Developers</a> and detailed "<a class="alert-link" target="_blank" href="https://forums.oscommerce.com/tags/phoenix%%20update/">Do It Yourself</a>" instructions are available in the Phoenix Club.');
-define('ERROR_COULD_NOT_CONNECT', 'Не удалось подключиться к веб-сайту osCommerce для проверки новых версий.');
+const VERSION_SERVER_FAILURE = 'Не удалось загрузить доступные версии с сервера. Пожалуйста, проверьте свой интернет или повторите попытку позже.';
+define('VERSION_RUNNING_LATEST', 'Вы работаете с последней версией CE Phoenix.');
+const VERSION_UPGRADES_AVAILABLE = <<<'EOT'
+<strong>CE Phoenix %s</strong> — это последняя доступная вам версия!<hr>
+<a class="alert-link" target="_blank" href="https://phoenixcart.org/forum/viewtopic.php?f=26&t=309">Сертифицированные разработчики</a>
+  и подробное описание "<a class="alert-link" target="_blank" href="https://phoenixcart.org/forum/app.php/tag/phoenix-update">Сделай сам</a>"
+  инструкции доступны в Phoenix Club.
+EOT;

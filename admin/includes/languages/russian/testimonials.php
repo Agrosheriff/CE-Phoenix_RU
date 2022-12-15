@@ -1,23 +1,21 @@
 <?php
 /*
-$Id$
+  $Id$
 
-osCommerce, Open Source E-Commerce Solutions
-http://www.oscommerce.com
+  CE Phoenix, E-Commerce made Easy
+  https://phoenixcart.org
 
-Copyright (c) 2020 osCommerce
-Translation to RU from Fredi. Updated 3/07/2020
+  Copyright (c) 2022 Phoenix Cart
+Translation to RU from Fredi. Updated 3/12/22
 Released under the GNU General Public License
 */
 
 define('HEADING_TITLE', 'Отзывы и рекомендации покупателей.');
-
 define('TABLE_HEADING_CUSTOMER_ID', 'ID Покупателя');
 define('TABLE_HEADING_CUSTOMER_NAME', 'Покупатель');
 define('TABLE_HEADING_DATE_ADDED', 'Дата добавления');
 define('TABLE_HEADING_ACTION', 'Действие');
 define('TABLE_HEADING_STATUS', 'Статус');
-
 define('ENTRY_FROM_NICKNAME', 'Имя/Ник:');
 define('ENTRY_FROM', 'От:');
 define('ENTRY_DATE', 'Дата:');
@@ -34,3 +32,4 @@ define('TEXT_TESTIMONIAL_NOT_PUBLISHED', 'Неопубликовано');
 define('TEXT_INFO_HEADING_DELETE_TESTIMONIAL', 'Удалить рекомендацию');
 define('TEXT_DISPLAY_NUMBER_OF_TESTIMONIALS', 'Показать <b>%s</b> в <b>%s</b> (в <b>%s</b> рекомендациях)');
 define('IMAGE_BUTTON_ADD_TESTIMONIAL', 'Добавить рекомендацию');
+const ENTRY_TESTIMONIAL_HTML_DISPLAYED = 'HTML отображается как часть отзыва.';

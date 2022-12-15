@@ -2,11 +2,11 @@
 /*
 $Id$
 
-osCommerce, Open Source E-Commerce Solutions
-http://www.oscommerce.com
+  CE Phoenix, E-Commerce made Easy
+  https://phoenixcart.org
 
-Copyright (c) 2020 osCommerce
-Translation to RU from Fredi. Updated 3/07/2020
+  Copyright (c) 2021 Phoenix Cart
+Translation to RU from Fredi. Updated 3/12/22
 Released under the GNU General Public License
 */
 
@@ -16,5 +16,4 @@ define('TABLE_HEADING_ACTION', 'Действие');
 define('TEXT_INFO_EDIT_INTRO', 'Внесите необходимые изменения');
 define('TEXT_INFO_DATE_ADDED', 'Дата добавления:');
 define('TEXT_INFO_LAST_MODIFIED', 'Последнее изменение:');
-
 const WARNING_INVALID_USE_FUNCTION = 'Использование Функци (%s) для "%s" недопустимо';

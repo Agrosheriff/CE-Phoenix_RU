@@ -2,11 +2,11 @@
 /*
 $Id$
 
-osCommerce, Open Source E-Commerce Solutions
-http://www.oscommerce.com
+  CE Phoenix, E-Commerce made Easy
+  https://phoenixcart.org
 
-Copyright (c) 2020 osCommerce
-Translation to RU from Fredi. Updated 3/07/2020
+  Copyright (c) 2021 Phoenix Cart
+Translation to RU from Fredi. Updated 3/12/22
 Released under the GNU General Public License
 */
 
@@ -31,5 +31,5 @@ define('PLEASE_SELECT', 'Выберите что-то одно');
 const PULL_DOWN_DEFAULT = PLEASE_SELECT;
 
 const ERROR_PAGE_HAS_UNMET_REQUIREMENT = <<<'EOT'
-Страница клиентов требует 'sortable_name', 'name', 'email_address', 'country_id', и 'id' модули данных клиента будут установлены. Отсутствует:
+Страница клиентов требует 'sortable_name', 'name', 'email_address', 'country_id', и 'id' модули данных клиента должны быть установлены. Отсутствует:
 EOT;

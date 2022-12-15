@@ -1,12 +1,12 @@
 <?php
 /*
-$Id$
+  $Id$
 
-osCommerce, Open Source E-Commerce Solutions
-http://www.oscommerce.com
+  CE Phoenix, E-Commerce made Easy
+  https://phoenixcart.org
 
-Copyright (c) 2020 osCommerce
-Translation to RU from Fredi. Updated 3/07/2020
+  Copyright (c) 2022 Phoenix Cart
+Translation to RU from Fredi. Updated 3/12/22
 Released under the GNU General Public License
 */
 
@@ -23,10 +23,8 @@ define('TABLE_HEADING_ACTION', 'Действие');
 define('TEXT_NEWSLETTER_MODULE', 'Модуль:');
 define('TEXT_NEWSLETTER_TITLE', 'Тема:');
 define('TEXT_NEWSLETTER_CONTENT', 'Содержание:');
-
 define('TEXT_NEWSLETTER_DATE_ADDED', 'Дата Добавления: %s');
 define('TEXT_NEWSLETTER_DATE_SENT', 'Дата Отправки: %s');
-
 define('TEXT_INFO_DELETE_INTRO', 'Вы действительно хотите удалить это письмо?');
 define('TEXT_PLEASE_WAIT', 'Пожалуйста, подождите .. письма отправляются  ..<br><br>Не прерывайте этот процесс пожалуйста!');
 define('TEXT_FINISHED_SENDING_EMAILS', 'Отправка писем успешно завершена!');

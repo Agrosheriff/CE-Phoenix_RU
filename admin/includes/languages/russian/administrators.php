@@ -53,7 +53,7 @@ EOT;
 
 const IMAGE_INSERT_NEW_ADMIN = 'Новый Админ';
 
-define('HTPASSWD_PERMISSIONS', '');
+
 define('IMAGE_INSERT_NEW_ADMIN', 'Добавить менеджера');
 define('BOX_HEADING_ADMINISTRATORS', 'Администраторы');
 define('TEXT_ADMINISTRATOR_GROUP', 'Группа Администраторов');
